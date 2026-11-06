@@ -6,6 +6,7 @@ source('scripts/preprocessing.R')
 
 # load raw data
 load('data/claims-raw.RData')
+# Modifying so that it loads the first 1234 rows (due to error)
 
 # preprocess (will take a minute or two)
 claims_clean <- claims_raw %>%
@@ -75,3 +76,4 @@ history <- model %>%
 
 # save the entire model as a SavedModel
 save_model_tf(model, "results/example-model")
+
