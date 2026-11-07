@@ -184,7 +184,7 @@ streams_common <- lapply(streams, function(s) filter(s, .id %in% ids_common))
 ##############################################################################
 ## TASK 1: DO HEADERS HELP LOGISTIC PCR?
 ##   Same word-level logistic PCR on 'p' vs 'ph' text, same train/test splits.
-##   Outputs: results/task1-*.csv
+##   Outputs: results/prelim-task1-*.csv
 ##############################################################################
 
 # Task 1, step 1: word-level tf-idf matrix for each text version
@@ -211,7 +211,7 @@ task1 <- map_dfr(seq_along(splits), function(r){
               metrics_fn(y[sp$test], fit$p_test))
   })
 })
-write_csv(task1, 'results/task1-by-split.csv')
+write_csv(task1, 'results/prelim-task1-by-split.csv')
 
 # Task 1, step 4: summarize across splits (mean/sd per version, then paired
 # differences ph minus p)
@@ -238,15 +238,15 @@ print(task1_summary, width = Inf)
 cat('\npaired difference (ph minus p); for logloss, negative favors ph.\n',
     'SEs treat splits as independent but they share pages, so they are optimistic.\n', sep = '')
 print(task1_paired)
-write_csv(task1_summary, 'results/task1-summary.csv')
-write_csv(task1_paired, 'results/task1-paired-differences.csv')
+write_csv(task1_summary, 'results/prelim-task1-summary.csv')
+write_csv(task1_paired, 'results/prelim-task1-paired-differences.csv')
 
 ##############################################################################
 ## TASK 2: DO BIGRAMS ADD INFORMATION?
 ##   Stage 1: word-level logistic PCR -> predicted log-odds.
 ##   Stage 2: logistic regression on [log-odds, first m bigram PCs].
 ##   Reuses `dtm_words` and `splits` from Task 1.
-##   Outputs: results/task2-*.csv
+##   Outputs: results/prelim-task2-*.csv
 ##############################################################################
 
 # Task 2, step 1: choose the text version, then build the bigram tf-idf matrix
@@ -331,7 +331,7 @@ for(r in seq_len(n_splits)){
 # Task 2, step 4: summarize across splits (mean/sd per model, paired
 # differences of the stacked model vs the baselines, bigram PCs chosen)
 task2_test <- map_dfr(seq_len(n_splits), ~ mutate(task2[[.x]]$test, split = .x, .before = 1))
-write_csv(task2_test, 'results/task2-by-split.csv')
+write_csv(task2_test, 'results/prelim-task2-by-split.csv')
 
 task2_summary <- task2_test %>%
   group_by(model) %>%
@@ -374,7 +374,7 @@ print(task2[[1]]$cv, n = Inf, width = Inf)
 cat('\nFirst split, stacked model coefficients (first rows):\n')
 print(head(summary(task2[[1]]$stacked_fit)$coefficients, 8))
 
-write_csv(task2_summary, 'results/task2-summary.csv')
-write_csv(task2_paired, 'results/task2-paired-differences.csv')
-write_csv(task2_m, 'results/task2-bigram-pcs-chosen.csv')
-write_csv(task2[[1]]$cv, 'results/task2-first-split-cv-lrt.csv')
+write_csv(task2_summary, 'results/prelim-task2-summary.csv')
+write_csv(task2_paired, 'results/prelim-task2-paired-differences.csv')
+write_csv(task2_m, 'results/prelim-task2-bigram-pcs-chosen.csv')
+write_csv(task2[[1]]$cv, 'results/prelim-task2-first-split-cv-lrt.csv')
