@@ -6,7 +6,7 @@ source('scripts/preprocessing.R')
 # For prelim tasks 1 + 2
 seed            <- 110122
 n_splits        <- 10      
-train_prop      <- 0.8
+train_prop      <- 0.7
 n_folds         <- 5       
 k_max_word      <- 150     
 k_grid_word     <- c(2, 5, 10, 20, 35, 50, 75, 100, 150)
