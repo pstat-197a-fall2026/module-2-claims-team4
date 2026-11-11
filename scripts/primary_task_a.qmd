@@ -11,15 +11,25 @@ load('data/claims-test.RData')
 load('data/claims-raw.RData')
 ```
 ```{r}
-str(claims_raw)
-str(claims_test)
+glimpse(claims_raw)
+glimpse(claims_test)
 
 head(claims_raw)
 head(claims_test)
 ```
+```{r}
+# Check binary class distribution
+table(claims_raw$bclass, useNA = "ifany")
+
+# Check multiclass class distribution
+table(claims_raw$mclass, useNA = "ifany")
+
+# Check missing values
+colSums(is.na(claims_raw))
+```
 
 ```{r}
-source('scripts/primary_task_a.qmd')
+source('module-2-claims-team4/scripts/preprocessing.R')
 tf_model <- load_model_tf('results/example-model')
 
 # apply preprocessing pipeline

@@ -1,10 +1,9 @@
-require(tidyverse)
-require(keras)
+require(keras3)
 require(tensorflow)
 load('data/claims-test.RData')
 load('data/claims-raw.RData')
 source('scripts/preprocessing.R')
-tf_model <- load_model_tf('results/example-model')
+tf_model <- load_model('results/example-model.keras')
 
 # apply preprocessing pipeline
 clean_df <- claims_test %>%
