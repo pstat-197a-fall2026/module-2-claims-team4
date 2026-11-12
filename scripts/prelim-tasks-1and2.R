@@ -5,9 +5,18 @@ source('scripts/preprocessing.R')
 ## Setup
 # For prelim tasks 1 + 2
 seed            <- 110122
-n_splits        <- 10      
-train_prop      <- 0.7
-n_folds         <- 5       
+# Split 1 is the SHARED split in data/split-ids.csv (made by scripts/make-split.R),
+# the same one the neural net and primary-task models use; it gives the headline
+# numbers. Splits 2..n_splits are extra random 70/10/20 splits (same proportions,
+# stratified by mclass) used only to show how much results vary across splits.
+# In every split the logistic models train on the 70% train pages only: the 10%
+# validation pages are held out (never trained on), so these models see exactly
+# as much training data as the neural nets. The number of PCs is tuned by CV
+# within the train pages, and accuracy is reported on the 20% test pages.
+split_file      <- 'data/split-ids.csv'
+split_props     <- c(train = 0.7, val = 0.1, test = 0.2)
+n_splits        <- 10
+n_folds         <- 5
 k_max_word      <- 150     
 k_grid_word     <- c(2, 5, 10, 20, 35, 50, 75, 100, 150)
 # For task 2 only (bigrams)
@@ -38,13 +47,18 @@ project_pca <- function(pca, X, prefix = 'PC'){
   Z
 }
 
-# stratified random train/test split of row indices
-split_idx <- function(y, prop){
-  train <- unlist(lapply(levels(y), function(l){
-    idx <- which(y == l)
-    sample(idx, round(prop * length(idx)))
-  }))
-  list(train = sort(train), test = setdiff(seq_along(y), train))
+# stratified random train/val/test split of row indices (same proportions as
+# the shared split); used only for the extra robustness splits
+split_idx <- function(strata, props){
+  lab <- character(length(strata))
+  for(l in unique(strata)){
+    idx <- which(strata == l)
+    n <- length(idx)
+    n_tr <- round(props[['train']] * n); n_va <- round(props[['val']] * n)
+    lab[idx] <- sample(rep(c('train', 'val', 'test'), c(n_tr, n_va, n - n_tr - n_va)))
+  }
+  list(train = which(lab == 'train'), val = which(lab == 'val'),
+       test = which(lab == 'test'))
 }
 
 # stratified fold labels
@@ -170,11 +184,20 @@ coverage <- tibble(
   pages_compared = length(ids_common))
 print(coverage)
 
-labels <- claims_raw %>% 
-  distinct(.id, bclass) %>% 
+labels <- claims_raw %>%
+  distinct(.id, bclass, mclass) %>%
   mutate(.id = as.character(.id))
 y <- labels$bclass[match(ids_common, labels$.id)]
 if(!is.factor(y)) y <- factor(y)
+mclass_common <- labels$mclass[match(ids_common, labels$.id)]
+
+# shared split assignment for the pages being compared
+if(!file.exists(split_file)) stop(split_file, ' not found: run scripts/make-split.R first')
+split_ids <- read_csv(split_file, col_types = cols(.default = 'c'))
+split_common <- split_ids$split[match(ids_common, split_ids$.id)]
+stopifnot(!anyNA(split_common))
+cat('\nshared split, pages with text under both strategies:\n')
+print(table(split_common))
 cat('\nclass levels (2nd level is the one modeled, i.e. log-odds are for):', 
     levels(y), '\n')
 print(table(y))
@@ -194,9 +217,17 @@ dtm_words <- lapply(streams_common, function(s){
 cat('\nword tf-idf matrices (pages x terms):\n')
 print(map(dtm_words, dim))
 
-# Task 1, step 2: random stratified train/test splits (also reused in Task 2)
+# Task 1, step 2: train/val/test splits (also reused in Task 2).
+# Split 1 = shared split from data/split-ids.csv; the rest are random repeats.
+# Only $train is used for fitting/tuning and only $test for scoring; $val is
+# deliberately left unused here (it is reserved for the neural nets' early stopping).
+shared_split <- list(train = which(split_common == 'train'),
+                     val   = which(split_common == 'val'),
+                     test  = which(split_common == 'test'))
 set.seed(seed)
-splits <- replicate(n_splits, split_idx(y, train_prop), simplify = FALSE)
+splits <- c(list(shared_split),
+            replicate(n_splits - 1, split_idx(mclass_common, split_props), simplify = FALSE))
+split_type <- c('shared', rep('repeat', n_splits - 1))
 
 # Task 1, step 3: fit logistic PCR on each version using the same split and
 # record held-out accuracy, AUC and log-loss
@@ -207,11 +238,18 @@ task1 <- map_dfr(seq_along(splits), function(r){
   map_dfr(names(dtm_words), function(v){
     fit <- fit_pcr(dtm_words[[v]], y, sp$train, sp$test, 
                    k_max_word, k_grid_word, folds)
-    bind_cols(tibble(split = r, version = v, n_pcs = fit$k),
+    bind_cols(tibble(split = r, split_type = split_type[r], version = v,
+                     n_train = length(sp$train), n_test = length(sp$test),
+                     n_pcs = fit$k),
               metrics_fn(y[sp$test], fit$p_test))
   })
 })
 write_csv(task1, 'results/prelim-task1-by-split.csv')
+# headline numbers: the shared split (same test pages as the neural net)
+task1_shared <- filter(task1, split_type == 'shared')
+write_csv(task1_shared, 'results/prelim-task1-shared-split.csv')
+cat('\n== TASK 1, shared split (headline) ==\n')
+print(task1_shared, width = Inf)
 
 # Task 1, step 4: summarize across splits (mean/sd per version, then paired
 # differences ph minus p)
@@ -330,8 +368,13 @@ for(r in seq_len(n_splits)){
 
 # Task 2, step 4: summarize across splits (mean/sd per model, paired
 # differences of the stacked model vs the baselines, bigram PCs chosen)
-task2_test <- map_dfr(seq_len(n_splits), ~ mutate(task2[[.x]]$test, split = .x, .before = 1))
+task2_test <- map_dfr(seq_len(n_splits), ~ mutate(task2[[.x]]$test, split = .x,
+                                                   split_type = split_type[.x], .before = 1))
 write_csv(task2_test, 'results/prelim-task2-by-split.csv')
+task2_shared <- filter(task2_test, split_type == 'shared')
+write_csv(task2_shared, 'results/prelim-task2-shared-split.csv')
+cat('\n== TASK 2, shared split (headline) ==\n')
+print(task2_shared, width = Inf)
 
 task2_summary <- task2_test %>%
   group_by(model) %>%
