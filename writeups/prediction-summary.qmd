@@ -1,6 +1,6 @@
 ---
 title: "Predictive modeling of claims status"
-author: 'YOUR NAMES HERE'
+author: 'Alison Gu, Jocelyn Lee, Clark Enge, Elijah Gabriel Ret, Nic Chan'
 date: today
 ---
 
