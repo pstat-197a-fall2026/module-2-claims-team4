@@ -9,14 +9,14 @@ tf$random$set_seed(seed)
 
 dir.create('results', showWarnings = FALSE)
 
-## 1. Load the exact same cleaned data & common IDs as Tasks 1 & 2
+# Load the cleaned data & common IDs from Tasks 1 & 2
 load('data/claims-raw.RData')
 load('data/claims-clean-p.RData')
 clean_p <- claims_clean
 load('data/claims-clean-ph.RData')
 clean_ph <- claims_clean
 
-# Match Task 1's exact page universe (ids_common)
+# Match Task 1's page universe (ids_common)
 streams_p  <- token_stream_fn(clean_p)
 streams_ph <- token_stream_fn(clean_ph)
 ids_common <- sort(intersect(unique(streams_p$.id), unique(streams_ph$.id)))
@@ -36,7 +36,7 @@ df <- tibble(.id = ids_common) %>%
   left_join(labels, by = ".id") %>%
   mutate(bclass = factor(bclass))
 
-## 2. Load the SHARED 70/10/20 split (data/split-ids.csv)
+# Load the 70/10/20 split
 split_ids <- read_csv('data/split-ids.csv', col_types = cols(.default = 'c'))
 df$split <- split_ids$split[match(df$.id, split_ids$.id)]
 stopifnot(!anyNA(df$split))
@@ -54,7 +54,7 @@ y_val   <- as.integer(val_df$bclass == levels(df$bclass)[2])
 x_test  <- test_df$text
 y_test  <- as.integer(test_df$bclass == levels(df$bclass)[2])
 
-## 3. Metric helper matching Task 1 & 2's metrics_fn()
+# Metric helper matching Task 1 & 2's metrics_fn()
 auc_fn <- function(y1, p){
   r <- rank(p)
   n1 <- sum(y1); n0 <- sum(1 - y1)
@@ -70,7 +70,7 @@ eval_metrics <- function(y1, p){
   )
 }
 
-## 4. Experiment Grid: Architectures, N-grams, and Regularization
+# Experiment Grid: Architectures, N-grams, and Regularization
 configs <- tribble(
   ~model_name,              ~ngrams, ~max_tokens, ~units1, ~units2, ~dropout, ~l2,    ~lr,
   "1_starter_linear_25",    0L,      0L,          25L,     0L,      0.2,      0,      0.001,
@@ -163,7 +163,7 @@ for (i in seq_len(nrow(configs))) {
     test_m
   )
   
-  # Select best model using validation log-loss (no test-set peeking!)
+  # Select best model using validation log-loss
   if (val_m$val_logloss < best_logloss) {
     best_logloss <- val_m$val_logloss
     best_model   <- nn
@@ -176,7 +176,7 @@ cat("\n== TASK 3: Neural Network Experiments (Shared Split) ==\n")
 print(task3_results, width = Inf)
 write_csv(task3_results, "results/prelim-task3-shared-split.csv")
 
-## 5. Direct Comparison Against Task 1 Headline Benchmark
+# Comparison Against Task 1 Benchmark
 if (file.exists("results/prelim-task1-shared-split.csv")) {
   task1_bench <- read_csv("results/prelim-task1-shared-split.csv", show_col_types = FALSE) %>%
     filter(version == "ph") %>%
