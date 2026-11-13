@@ -1,0 +1,2166 @@
+.id,bclass,mclass,split
+url1,N/A: No relevant content.,N/A: No relevant content.,train
+url10,N/A: No relevant content.,N/A: No relevant content.,train
+url100,Relevant claim content,Possible Fatality,train
+url1000,N/A: No relevant content.,N/A: No relevant content.,train
+url1001,N/A: No relevant content.,N/A: No relevant content.,train
+url1003,Relevant claim content,Potentially unlawful activity,test
+url1006,N/A: No relevant content.,N/A: No relevant content.,train
+url1007,Relevant claim content,Potentially unlawful activity,train
+url1008,Relevant claim content,Potentially unlawful activity,test
+url1009,N/A: No relevant content.,N/A: No relevant content.,train
+url101,Relevant claim content,Potentially unlawful activity,test
+url1010,N/A: No relevant content.,N/A: No relevant content.,train
+url1011,Relevant claim content,Potentially unlawful activity,train
+url1012,Relevant claim content,Physical Activity,train
+url1013,Relevant claim content,Physical Activity,train
+url1014,Relevant claim content,Potentially unlawful activity,train
+url1015,N/A: No relevant content.,N/A: No relevant content.,train
+url1016,N/A: No relevant content.,N/A: No relevant content.,train
+url1017,Relevant claim content,Possible Fatality,test
+url1018,Relevant claim content,Possible Fatality,train
+url102,N/A: No relevant content.,N/A: No relevant content.,train
+url1020,N/A: No relevant content.,N/A: No relevant content.,train
+url1021,Relevant claim content,Possible Fatality,train
+url1025,N/A: No relevant content.,N/A: No relevant content.,train
+url1027,Relevant claim content,Possible Fatality,val
+url1028,Relevant claim content,Possible Fatality,train
+url1029,Relevant claim content,Possible Fatality,train
+url103,N/A: No relevant content.,N/A: No relevant content.,train
+url1030,Relevant claim content,Possible Fatality,test
+url1031,Relevant claim content,Possible Fatality,test
+url1032,Relevant claim content,Possible Fatality,train
+url1033,N/A: No relevant content.,N/A: No relevant content.,train
+url1035,Relevant claim content,Possible Fatality,train
+url1036,N/A: No relevant content.,N/A: No relevant content.,train
+url1037,Relevant claim content,Physical Activity,val
+url1038,Relevant claim content,Potentially unlawful activity,train
+url104,Relevant claim content,Potentially unlawful activity,train
+url1040,Relevant claim content,Potentially unlawful activity,train
+url1042,Relevant claim content,Potentially unlawful activity,test
+url1044,Relevant claim content,Physical Activity,test
+url1045,Relevant claim content,Physical Activity,train
+url1046,Relevant claim content,Physical Activity,train
+url1047,Relevant claim content,Possible Fatality,val
+url1048,N/A: No relevant content.,N/A: No relevant content.,train
+url1049,Relevant claim content,Possible Fatality,test
+url1050,Relevant claim content,Potentially unlawful activity,val
+url1051,Relevant claim content,Physical Activity,test
+url1054,Relevant claim content,Physical Activity,test
+url1056,N/A: No relevant content.,N/A: No relevant content.,train
+url1057,Relevant claim content,Possible Fatality,train
+url1058,Relevant claim content,Potentially unlawful activity,train
+url1059,Relevant claim content,Possible Fatality,train
+url106,Relevant claim content,Potentially unlawful activity,train
+url1060,Relevant claim content,Potentially unlawful activity,test
+url1062,Relevant claim content,Physical Activity,test
+url1063,N/A: No relevant content.,N/A: No relevant content.,train
+url1064,Relevant claim content,Potentially unlawful activity,test
+url1065,Relevant claim content,Possible Fatality,val
+url1066,Relevant claim content,Possible Fatality,test
+url1067,N/A: No relevant content.,N/A: No relevant content.,train
+url1068,N/A: No relevant content.,N/A: No relevant content.,train
+url1069,Relevant claim content,Potentially unlawful activity,train
+url107,Relevant claim content,Potentially unlawful activity,val
+url1071,N/A: No relevant content.,N/A: No relevant content.,train
+url1073,Relevant claim content,Potentially unlawful activity,train
+url1076,Relevant claim content,Possible Fatality,test
+url1078,Relevant claim content,Possible Fatality,train
+url108,Relevant claim content,Other claim content,test
+url1080,N/A: No relevant content.,N/A: No relevant content.,train
+url1083,Relevant claim content,Possible Fatality,train
+url1084,Relevant claim content,Possible Fatality,test
+url1085,N/A: No relevant content.,N/A: No relevant content.,train
+url1086,Relevant claim content,Possible Fatality,test
+url1087,Relevant claim content,Potentially unlawful activity,train
+url1089,N/A: No relevant content.,N/A: No relevant content.,train
+url109,Relevant claim content,Other claim content,train
+url1090,Relevant claim content,Possible Fatality,train
+url1091,N/A: No relevant content.,N/A: No relevant content.,train
+url1092,Relevant claim content,Other claim content,train
+url1094,N/A: No relevant content.,N/A: No relevant content.,train
+url1095,Relevant claim content,Possible Fatality,train
+url1096,Relevant claim content,Potentially unlawful activity,train
+url1097,Relevant claim content,Potentially unlawful activity,train
+url1098,N/A: No relevant content.,N/A: No relevant content.,train
+url110,Relevant claim content,Potentially unlawful activity,train
+url1100,Relevant claim content,Possible Fatality,train
+url1101,N/A: No relevant content.,N/A: No relevant content.,train
+url1102,Relevant claim content,Possible Fatality,test
+url1103,Relevant claim content,Possible Fatality,train
+url1106,N/A: No relevant content.,N/A: No relevant content.,test
+url1108,Relevant claim content,Possible Fatality,test
+url1109,Relevant claim content,Potentially unlawful activity,train
+url1112,N/A: No relevant content.,N/A: No relevant content.,val
+url1114,Relevant claim content,Possible Fatality,train
+url1116,N/A: No relevant content.,N/A: No relevant content.,test
+url1117,Relevant claim content,Possible Fatality,val
+url1118,Relevant claim content,Possible Fatality,train
+url1119,N/A: No relevant content.,N/A: No relevant content.,val
+url112,Relevant claim content,Potentially unlawful activity,train
+url1121,N/A: No relevant content.,N/A: No relevant content.,train
+url1122,Relevant claim content,Physical Activity,train
+url1123,Relevant claim content,Possible Fatality,train
+url1124,N/A: No relevant content.,N/A: No relevant content.,train
+url1125,Relevant claim content,Possible Fatality,train
+url1126,N/A: No relevant content.,N/A: No relevant content.,train
+url1128,N/A: No relevant content.,N/A: No relevant content.,train
+url1129,Relevant claim content,Other claim content,train
+url113,Relevant claim content,Potentially unlawful activity,test
+url1130,N/A: No relevant content.,N/A: No relevant content.,train
+url1132,Relevant claim content,Other claim content,train
+url1133,N/A: No relevant content.,N/A: No relevant content.,train
+url1134,Relevant claim content,Physical Activity,train
+url1135,N/A: No relevant content.,N/A: No relevant content.,train
+url1136,N/A: No relevant content.,N/A: No relevant content.,train
+url1137,Relevant claim content,Possible Fatality,val
+url1138,N/A: No relevant content.,N/A: No relevant content.,test
+url1139,Relevant claim content,Other claim content,train
+url114,Relevant claim content,Potentially unlawful activity,train
+url1140,Relevant claim content,Possible Fatality,train
+url1141,N/A: No relevant content.,N/A: No relevant content.,train
+url1142,N/A: No relevant content.,N/A: No relevant content.,train
+url1144,Relevant claim content,Other claim content,train
+url1145,N/A: No relevant content.,N/A: No relevant content.,test
+url1148,Relevant claim content,Possible Fatality,train
+url1149,Relevant claim content,Physical Activity,test
+url115,N/A: No relevant content.,N/A: No relevant content.,train
+url1151,N/A: No relevant content.,N/A: No relevant content.,train
+url1153,N/A: No relevant content.,N/A: No relevant content.,test
+url1154,N/A: No relevant content.,N/A: No relevant content.,val
+url1155,Relevant claim content,Possible Fatality,val
+url1158,N/A: No relevant content.,N/A: No relevant content.,test
+url1160,N/A: No relevant content.,N/A: No relevant content.,test
+url1162,N/A: No relevant content.,N/A: No relevant content.,val
+url1163,N/A: No relevant content.,N/A: No relevant content.,train
+url1166,N/A: No relevant content.,N/A: No relevant content.,train
+url1168,N/A: No relevant content.,N/A: No relevant content.,test
+url1169,N/A: No relevant content.,N/A: No relevant content.,train
+url117,N/A: No relevant content.,N/A: No relevant content.,train
+url1170,Relevant claim content,Possible Fatality,train
+url1171,Relevant claim content,Possible Fatality,test
+url1172,N/A: No relevant content.,N/A: No relevant content.,train
+url1173,Relevant claim content,Possible Fatality,train
+url1175,N/A: No relevant content.,N/A: No relevant content.,test
+url1178,Relevant claim content,Physical Activity,train
+url1179,Relevant claim content,Possible Fatality,val
+url1180,N/A: No relevant content.,N/A: No relevant content.,test
+url1182,N/A: No relevant content.,N/A: No relevant content.,train
+url1184,N/A: No relevant content.,N/A: No relevant content.,train
+url1185,Relevant claim content,Physical Activity,train
+url1186,Relevant claim content,Physical Activity,train
+url1187,N/A: No relevant content.,N/A: No relevant content.,test
+url1188,N/A: No relevant content.,N/A: No relevant content.,train
+url1193,N/A: No relevant content.,N/A: No relevant content.,test
+url1194,N/A: No relevant content.,N/A: No relevant content.,test
+url1195,N/A: No relevant content.,N/A: No relevant content.,train
+url1198,N/A: No relevant content.,N/A: No relevant content.,train
+url1199,N/A: No relevant content.,N/A: No relevant content.,train
+url12,N/A: No relevant content.,N/A: No relevant content.,train
+url120,Relevant claim content,Physical Activity,test
+url1200,N/A: No relevant content.,N/A: No relevant content.,train
+url1201,N/A: No relevant content.,N/A: No relevant content.,train
+url1202,N/A: No relevant content.,N/A: No relevant content.,train
+url1203,N/A: No relevant content.,N/A: No relevant content.,train
+url1207,N/A: No relevant content.,N/A: No relevant content.,val
+url1208,N/A: No relevant content.,N/A: No relevant content.,train
+url121,N/A: No relevant content.,N/A: No relevant content.,train
+url1210,N/A: No relevant content.,N/A: No relevant content.,train
+url1212,Relevant claim content,Possible Fatality,train
+url1213,N/A: No relevant content.,N/A: No relevant content.,train
+url1214,N/A: No relevant content.,N/A: No relevant content.,train
+url1215,N/A: No relevant content.,N/A: No relevant content.,val
+url1217,N/A: No relevant content.,N/A: No relevant content.,val
+url122,N/A: No relevant content.,N/A: No relevant content.,train
+url1220,N/A: No relevant content.,N/A: No relevant content.,test
+url1221,N/A: No relevant content.,N/A: No relevant content.,test
+url1223,N/A: No relevant content.,N/A: No relevant content.,train
+url1225,N/A: No relevant content.,N/A: No relevant content.,test
+url1226,N/A: No relevant content.,N/A: No relevant content.,train
+url1227,N/A: No relevant content.,N/A: No relevant content.,train
+url1228,Relevant claim content,Other claim content,train
+url123,N/A: No relevant content.,N/A: No relevant content.,test
+url1230,N/A: No relevant content.,N/A: No relevant content.,train
+url1231,Relevant claim content,Other claim content,train
+url1232,Relevant claim content,Other claim content,train
+url1233,N/A: No relevant content.,N/A: No relevant content.,test
+url1234,N/A: No relevant content.,N/A: No relevant content.,train
+url1235,N/A: No relevant content.,N/A: No relevant content.,test
+url1236,N/A: No relevant content.,N/A: No relevant content.,train
+url1237,N/A: No relevant content.,N/A: No relevant content.,train
+url1238,Relevant claim content,Possible Fatality,train
+url1240,N/A: No relevant content.,N/A: No relevant content.,train
+url1242,N/A: No relevant content.,N/A: No relevant content.,train
+url1243,Relevant claim content,Possible Fatality,train
+url1244,N/A: No relevant content.,N/A: No relevant content.,test
+url1245,Relevant claim content,Physical Activity,train
+url1246,Relevant claim content,Physical Activity,train
+url1247,N/A: No relevant content.,N/A: No relevant content.,val
+url125,Relevant claim content,Possible Fatality,test
+url1250,N/A: No relevant content.,N/A: No relevant content.,train
+url1252,N/A: No relevant content.,N/A: No relevant content.,test
+url1253,Relevant claim content,Other claim content,train
+url1255,N/A: No relevant content.,N/A: No relevant content.,train
+url1257,Relevant claim content,Possible Fatality,train
+url1258,Relevant claim content,Other claim content,train
+url1259,N/A: No relevant content.,N/A: No relevant content.,train
+url126,N/A: No relevant content.,N/A: No relevant content.,train
+url1260,Relevant claim content,Potentially unlawful activity,train
+url1261,N/A: No relevant content.,N/A: No relevant content.,train
+url1266,N/A: No relevant content.,N/A: No relevant content.,train
+url1269,N/A: No relevant content.,N/A: No relevant content.,train
+url127,N/A: No relevant content.,N/A: No relevant content.,test
+url1271,Relevant claim content,Potentially unlawful activity,val
+url1272,N/A: No relevant content.,N/A: No relevant content.,train
+url1273,N/A: No relevant content.,N/A: No relevant content.,train
+url1274,N/A: No relevant content.,N/A: No relevant content.,train
+url1276,Relevant claim content,Possible Fatality,train
+url1277,N/A: No relevant content.,N/A: No relevant content.,train
+url1278,N/A: No relevant content.,N/A: No relevant content.,train
+url128,Relevant claim content,Potentially unlawful activity,val
+url1281,N/A: No relevant content.,N/A: No relevant content.,val
+url1283,Relevant claim content,Possible Fatality,val
+url1284,N/A: No relevant content.,N/A: No relevant content.,train
+url1285,N/A: No relevant content.,N/A: No relevant content.,train
+url1286,N/A: No relevant content.,N/A: No relevant content.,test
+url1287,N/A: No relevant content.,N/A: No relevant content.,train
+url1288,Relevant claim content,Possible Fatality,train
+url1289,Relevant claim content,Other claim content,train
+url1291,N/A: No relevant content.,N/A: No relevant content.,train
+url1293,N/A: No relevant content.,N/A: No relevant content.,train
+url1294,N/A: No relevant content.,N/A: No relevant content.,val
+url1295,N/A: No relevant content.,N/A: No relevant content.,train
+url1296,Relevant claim content,Potentially unlawful activity,train
+url1298,N/A: No relevant content.,N/A: No relevant content.,test
+url1299,Relevant claim content,Physical Activity,train
+url13,N/A: No relevant content.,N/A: No relevant content.,train
+url130,Relevant claim content,Possible Fatality,train
+url1300,Relevant claim content,Physical Activity,test
+url1303,N/A: No relevant content.,N/A: No relevant content.,train
+url1305,Relevant claim content,Possible Fatality,train
+url1307,Relevant claim content,Possible Fatality,train
+url1308,Relevant claim content,Potentially unlawful activity,train
+url1309,N/A: No relevant content.,N/A: No relevant content.,train
+url1311,N/A: No relevant content.,N/A: No relevant content.,test
+url1312,N/A: No relevant content.,N/A: No relevant content.,val
+url1313,Relevant claim content,Other claim content,train
+url1314,Relevant claim content,Other claim content,test
+url1316,Relevant claim content,Other claim content,test
+url1318,N/A: No relevant content.,N/A: No relevant content.,train
+url1319,N/A: No relevant content.,N/A: No relevant content.,test
+url132,Relevant claim content,Physical Activity,test
+url1321,Relevant claim content,Physical Activity,train
+url1322,N/A: No relevant content.,N/A: No relevant content.,train
+url1323,N/A: No relevant content.,N/A: No relevant content.,train
+url1325,N/A: No relevant content.,N/A: No relevant content.,val
+url1328,Relevant claim content,Possible Fatality,train
+url1330,N/A: No relevant content.,N/A: No relevant content.,train
+url1331,N/A: No relevant content.,N/A: No relevant content.,train
+url1332,Relevant claim content,Possible Fatality,train
+url1333,Relevant claim content,Possible Fatality,train
+url1334,Relevant claim content,Potentially unlawful activity,train
+url1335,N/A: No relevant content.,N/A: No relevant content.,val
+url1336,Relevant claim content,Potentially unlawful activity,train
+url1337,Relevant claim content,Physical Activity,train
+url1338,Relevant claim content,Physical Activity,train
+url1339,Relevant claim content,Physical Activity,train
+url1340,N/A: No relevant content.,N/A: No relevant content.,train
+url1342,Relevant claim content,Possible Fatality,train
+url1343,N/A: No relevant content.,N/A: No relevant content.,train
+url1345,N/A: No relevant content.,N/A: No relevant content.,train
+url1346,Relevant claim content,Possible Fatality,val
+url1347,N/A: No relevant content.,N/A: No relevant content.,val
+url1348,Relevant claim content,Physical Activity,train
+url135,N/A: No relevant content.,N/A: No relevant content.,train
+url1350,N/A: No relevant content.,N/A: No relevant content.,train
+url1353,N/A: No relevant content.,N/A: No relevant content.,train
+url1354,N/A: No relevant content.,N/A: No relevant content.,train
+url1355,N/A: No relevant content.,N/A: No relevant content.,train
+url1356,N/A: No relevant content.,N/A: No relevant content.,train
+url1357,N/A: No relevant content.,N/A: No relevant content.,test
+url1358,N/A: No relevant content.,N/A: No relevant content.,test
+url1359,N/A: No relevant content.,N/A: No relevant content.,train
+url1362,N/A: No relevant content.,N/A: No relevant content.,train
+url1363,N/A: No relevant content.,N/A: No relevant content.,test
+url1364,N/A: No relevant content.,N/A: No relevant content.,test
+url1365,N/A: No relevant content.,N/A: No relevant content.,train
+url1366,N/A: No relevant content.,N/A: No relevant content.,train
+url1367,N/A: No relevant content.,N/A: No relevant content.,train
+url1369,N/A: No relevant content.,N/A: No relevant content.,train
+url137,Relevant claim content,Potentially unlawful activity,train
+url1372,N/A: No relevant content.,N/A: No relevant content.,test
+url1374,N/A: No relevant content.,N/A: No relevant content.,train
+url1376,N/A: No relevant content.,N/A: No relevant content.,train
+url1378,N/A: No relevant content.,N/A: No relevant content.,train
+url1379,N/A: No relevant content.,N/A: No relevant content.,test
+url138,Relevant claim content,Potentially unlawful activity,val
+url1380,N/A: No relevant content.,N/A: No relevant content.,train
+url1381,N/A: No relevant content.,N/A: No relevant content.,train
+url1382,N/A: No relevant content.,N/A: No relevant content.,train
+url1383,N/A: No relevant content.,N/A: No relevant content.,train
+url1384,N/A: No relevant content.,N/A: No relevant content.,train
+url1385,N/A: No relevant content.,N/A: No relevant content.,val
+url1387,N/A: No relevant content.,N/A: No relevant content.,train
+url1388,N/A: No relevant content.,N/A: No relevant content.,train
+url1389,N/A: No relevant content.,N/A: No relevant content.,train
+url139,Relevant claim content,Potentially unlawful activity,train
+url1390,N/A: No relevant content.,N/A: No relevant content.,train
+url1391,Relevant claim content,Possible Fatality,train
+url1394,Relevant claim content,Physical Activity,test
+url1395,N/A: No relevant content.,N/A: No relevant content.,train
+url1397,N/A: No relevant content.,N/A: No relevant content.,train
+url1398,N/A: No relevant content.,N/A: No relevant content.,train
+url14,N/A: No relevant content.,N/A: No relevant content.,train
+url140,Relevant claim content,Potentially unlawful activity,val
+url1400,Relevant claim content,Other claim content,train
+url1401,Relevant claim content,Physical Activity,train
+url1402,N/A: No relevant content.,N/A: No relevant content.,train
+url1403,N/A: No relevant content.,N/A: No relevant content.,test
+url1405,N/A: No relevant content.,N/A: No relevant content.,train
+url1406,Relevant claim content,Physical Activity,train
+url1407,Relevant claim content,Other claim content,test
+url1408,Relevant claim content,Physical Activity,train
+url1409,N/A: No relevant content.,N/A: No relevant content.,train
+url141,Relevant claim content,Potentially unlawful activity,train
+url1410,N/A: No relevant content.,N/A: No relevant content.,val
+url1411,N/A: No relevant content.,N/A: No relevant content.,test
+url1412,Relevant claim content,Possible Fatality,train
+url1413,Relevant claim content,Possible Fatality,train
+url1414,N/A: No relevant content.,N/A: No relevant content.,train
+url1416,N/A: No relevant content.,N/A: No relevant content.,train
+url1418,N/A: No relevant content.,N/A: No relevant content.,test
+url1419,N/A: No relevant content.,N/A: No relevant content.,test
+url142,Relevant claim content,Potentially unlawful activity,train
+url1420,N/A: No relevant content.,N/A: No relevant content.,train
+url1421,Relevant claim content,Possible Fatality,train
+url1422,N/A: No relevant content.,N/A: No relevant content.,train
+url1423,N/A: No relevant content.,N/A: No relevant content.,train
+url1424,N/A: No relevant content.,N/A: No relevant content.,train
+url1425,N/A: No relevant content.,N/A: No relevant content.,test
+url1427,N/A: No relevant content.,N/A: No relevant content.,test
+url1428,N/A: No relevant content.,N/A: No relevant content.,train
+url1429,N/A: No relevant content.,N/A: No relevant content.,train
+url143,N/A: No relevant content.,N/A: No relevant content.,train
+url1431,N/A: No relevant content.,N/A: No relevant content.,train
+url1433,N/A: No relevant content.,N/A: No relevant content.,test
+url1434,Relevant claim content,Possible Fatality,train
+url1437,N/A: No relevant content.,N/A: No relevant content.,train
+url1438,N/A: No relevant content.,N/A: No relevant content.,train
+url1439,N/A: No relevant content.,N/A: No relevant content.,val
+url144,Relevant claim content,Possible Fatality,train
+url1441,N/A: No relevant content.,N/A: No relevant content.,test
+url1442,N/A: No relevant content.,N/A: No relevant content.,test
+url1447,Relevant claim content,Potentially unlawful activity,train
+url1448,N/A: No relevant content.,N/A: No relevant content.,train
+url1449,N/A: No relevant content.,N/A: No relevant content.,test
+url145,N/A: No relevant content.,N/A: No relevant content.,test
+url1450,N/A: No relevant content.,N/A: No relevant content.,train
+url1452,Relevant claim content,Potentially unlawful activity,test
+url1453,N/A: No relevant content.,N/A: No relevant content.,train
+url1454,N/A: No relevant content.,N/A: No relevant content.,val
+url1456,N/A: No relevant content.,N/A: No relevant content.,train
+url1458,N/A: No relevant content.,N/A: No relevant content.,train
+url1459,Relevant claim content,Physical Activity,val
+url146,Relevant claim content,Physical Activity,train
+url1460,Relevant claim content,Physical Activity,test
+url1461,N/A: No relevant content.,N/A: No relevant content.,train
+url1462,Relevant claim content,Potentially unlawful activity,test
+url1463,N/A: No relevant content.,N/A: No relevant content.,train
+url1466,Relevant claim content,Other claim content,train
+url1468,Relevant claim content,Potentially unlawful activity,train
+url1469,Relevant claim content,Potentially unlawful activity,test
+url147,Relevant claim content,Physical Activity,train
+url1470,N/A: No relevant content.,N/A: No relevant content.,train
+url1471,N/A: No relevant content.,N/A: No relevant content.,train
+url1473,N/A: No relevant content.,N/A: No relevant content.,val
+url1475,N/A: No relevant content.,N/A: No relevant content.,train
+url1477,N/A: No relevant content.,N/A: No relevant content.,val
+url1478,N/A: No relevant content.,N/A: No relevant content.,train
+url1479,Relevant claim content,Potentially unlawful activity,train
+url148,Relevant claim content,Physical Activity,test
+url1480,N/A: No relevant content.,N/A: No relevant content.,train
+url1481,N/A: No relevant content.,N/A: No relevant content.,train
+url1482,N/A: No relevant content.,N/A: No relevant content.,train
+url1483,N/A: No relevant content.,N/A: No relevant content.,train
+url1485,N/A: No relevant content.,N/A: No relevant content.,val
+url1486,Relevant claim content,Other claim content,train
+url1487,N/A: No relevant content.,N/A: No relevant content.,train
+url1489,Relevant claim content,Potentially unlawful activity,train
+url149,Relevant claim content,Possible Fatality,train
+url1491,N/A: No relevant content.,N/A: No relevant content.,train
+url1493,N/A: No relevant content.,N/A: No relevant content.,train
+url1495,Relevant claim content,Physical Activity,train
+url15,N/A: No relevant content.,N/A: No relevant content.,train
+url150,Relevant claim content,Possible Fatality,train
+url1500,Relevant claim content,Physical Activity,train
+url1501,Relevant claim content,Physical Activity,test
+url1502,Relevant claim content,Possible Fatality,train
+url1503,Relevant claim content,Possible Fatality,train
+url1504,N/A: No relevant content.,N/A: No relevant content.,train
+url1505,N/A: No relevant content.,N/A: No relevant content.,train
+url1506,Relevant claim content,Possible Fatality,train
+url1509,Relevant claim content,Possible Fatality,train
+url151,Relevant claim content,Possible Fatality,train
+url1511,Relevant claim content,Possible Fatality,train
+url1512,Relevant claim content,Possible Fatality,test
+url1514,Relevant claim content,Potentially unlawful activity,train
+url1516,Relevant claim content,Potentially unlawful activity,test
+url1517,Relevant claim content,Potentially unlawful activity,train
+url1518,Relevant claim content,Potentially unlawful activity,train
+url1519,Relevant claim content,Possible Fatality,test
+url1520,Relevant claim content,Physical Activity,test
+url1523,Relevant claim content,Potentially unlawful activity,train
+url1524,N/A: No relevant content.,N/A: No relevant content.,train
+url1526,N/A: No relevant content.,N/A: No relevant content.,train
+url1527,Relevant claim content,Other claim content,test
+url1529,Relevant claim content,Potentially unlawful activity,train
+url1530,N/A: No relevant content.,N/A: No relevant content.,train
+url1531,Relevant claim content,Physical Activity,train
+url1532,Relevant claim content,Potentially unlawful activity,train
+url1533,Relevant claim content,Potentially unlawful activity,val
+url1537,N/A: No relevant content.,N/A: No relevant content.,test
+url1538,N/A: No relevant content.,N/A: No relevant content.,train
+url1539,N/A: No relevant content.,N/A: No relevant content.,train
+url154,Relevant claim content,Physical Activity,train
+url1540,Relevant claim content,Potentially unlawful activity,test
+url1542,Relevant claim content,Potentially unlawful activity,train
+url1543,N/A: No relevant content.,N/A: No relevant content.,test
+url1544,Relevant claim content,Potentially unlawful activity,train
+url1545,N/A: No relevant content.,N/A: No relevant content.,train
+url1547,Relevant claim content,Potentially unlawful activity,train
+url1549,N/A: No relevant content.,N/A: No relevant content.,train
+url155,Relevant claim content,Physical Activity,train
+url1551,Relevant claim content,Possible Fatality,train
+url1553,Relevant claim content,Potentially unlawful activity,val
+url1554,Relevant claim content,Potentially unlawful activity,train
+url1555,Relevant claim content,Physical Activity,train
+url1556,N/A: No relevant content.,N/A: No relevant content.,test
+url1557,Relevant claim content,Possible Fatality,train
+url1558,Relevant claim content,Possible Fatality,train
+url156,Relevant claim content,Physical Activity,train
+url1560,N/A: No relevant content.,N/A: No relevant content.,train
+url1561,N/A: No relevant content.,N/A: No relevant content.,test
+url1566,N/A: No relevant content.,N/A: No relevant content.,train
+url1567,Relevant claim content,Possible Fatality,val
+url1568,Relevant claim content,Possible Fatality,test
+url1569,N/A: No relevant content.,N/A: No relevant content.,train
+url157,Relevant claim content,Physical Activity,train
+url1570,N/A: No relevant content.,N/A: No relevant content.,train
+url1572,Relevant claim content,Possible Fatality,train
+url1573,N/A: No relevant content.,N/A: No relevant content.,train
+url1574,Relevant claim content,Possible Fatality,train
+url1576,N/A: No relevant content.,N/A: No relevant content.,train
+url1577,N/A: No relevant content.,N/A: No relevant content.,train
+url1579,Relevant claim content,Potentially unlawful activity,test
+url1581,N/A: No relevant content.,N/A: No relevant content.,test
+url1582,Relevant claim content,Potentially unlawful activity,train
+url1585,N/A: No relevant content.,N/A: No relevant content.,train
+url1586,N/A: No relevant content.,N/A: No relevant content.,train
+url1587,Relevant claim content,Potentially unlawful activity,train
+url1588,Relevant claim content,Possible Fatality,test
+url1589,Relevant claim content,Possible Fatality,train
+url1590,Relevant claim content,Physical Activity,val
+url1591,Relevant claim content,Possible Fatality,test
+url1592,N/A: No relevant content.,N/A: No relevant content.,test
+url1597,N/A: No relevant content.,N/A: No relevant content.,val
+url1598,N/A: No relevant content.,N/A: No relevant content.,train
+url1599,Relevant claim content,Physical Activity,train
+url1600,Relevant claim content,Possible Fatality,train
+url1602,Relevant claim content,Possible Fatality,train
+url1603,Relevant claim content,Possible Fatality,train
+url1604,N/A: No relevant content.,N/A: No relevant content.,train
+url1605,Relevant claim content,Physical Activity,val
+url1606,Relevant claim content,Physical Activity,val
+url1607,N/A: No relevant content.,N/A: No relevant content.,test
+url1608,Relevant claim content,Other claim content,train
+url1610,N/A: No relevant content.,N/A: No relevant content.,train
+url1611,N/A: No relevant content.,N/A: No relevant content.,train
+url1613,N/A: No relevant content.,N/A: No relevant content.,train
+url1615,N/A: No relevant content.,N/A: No relevant content.,test
+url1616,N/A: No relevant content.,N/A: No relevant content.,train
+url1617,N/A: No relevant content.,N/A: No relevant content.,train
+url1618,N/A: No relevant content.,N/A: No relevant content.,test
+url1619,N/A: No relevant content.,N/A: No relevant content.,train
+url1621,N/A: No relevant content.,N/A: No relevant content.,train
+url1622,N/A: No relevant content.,N/A: No relevant content.,train
+url1623,Relevant claim content,Possible Fatality,train
+url1624,Relevant claim content,Physical Activity,train
+url1625,Relevant claim content,Possible Fatality,val
+url1626,Relevant claim content,Physical Activity,train
+url1627,Relevant claim content,Physical Activity,train
+url1630,Relevant claim content,Possible Fatality,test
+url1632,Relevant claim content,Possible Fatality,train
+url1634,Relevant claim content,Physical Activity,val
+url1636,N/A: No relevant content.,N/A: No relevant content.,train
+url1637,Relevant claim content,Possible Fatality,train
+url1638,Relevant claim content,Physical Activity,train
+url1639,Relevant claim content,Physical Activity,train
+url164,Relevant claim content,Potentially unlawful activity,test
+url1640,Relevant claim content,Possible Fatality,train
+url1644,Relevant claim content,Possible Fatality,train
+url1645,Relevant claim content,Possible Fatality,val
+url1646,Relevant claim content,Possible Fatality,train
+url1647,Relevant claim content,Potentially unlawful activity,train
+url1648,N/A: No relevant content.,N/A: No relevant content.,train
+url1649,N/A: No relevant content.,N/A: No relevant content.,train
+url165,Relevant claim content,Potentially unlawful activity,train
+url1650,N/A: No relevant content.,N/A: No relevant content.,train
+url1651,Relevant claim content,Physical Activity,test
+url1652,Relevant claim content,Physical Activity,test
+url1653,Relevant claim content,Physical Activity,train
+url1654,Relevant claim content,Potentially unlawful activity,train
+url1656,Relevant claim content,Physical Activity,train
+url1657,Relevant claim content,Physical Activity,val
+url1660,Relevant claim content,Possible Fatality,test
+url1661,Relevant claim content,Potentially unlawful activity,train
+url1662,N/A: No relevant content.,N/A: No relevant content.,train
+url1663,Relevant claim content,Potentially unlawful activity,val
+url1664,Relevant claim content,Potentially unlawful activity,test
+url1666,Relevant claim content,Potentially unlawful activity,val
+url1667,Relevant claim content,Possible Fatality,train
+url1668,Relevant claim content,Potentially unlawful activity,train
+url1669,Relevant claim content,Possible Fatality,train
+url1670,N/A: No relevant content.,N/A: No relevant content.,train
+url1671,Relevant claim content,Physical Activity,train
+url1672,Relevant claim content,Possible Fatality,val
+url1673,Relevant claim content,Potentially unlawful activity,test
+url1674,Relevant claim content,Possible Fatality,train
+url1676,Relevant claim content,Possible Fatality,train
+url1677,N/A: No relevant content.,N/A: No relevant content.,train
+url1678,Relevant claim content,Physical Activity,test
+url1679,Relevant claim content,Possible Fatality,train
+url168,Relevant claim content,Possible Fatality,train
+url1680,Relevant claim content,Possible Fatality,test
+url1681,Relevant claim content,Possible Fatality,test
+url1683,Relevant claim content,Potentially unlawful activity,test
+url1684,N/A: No relevant content.,N/A: No relevant content.,train
+url1685,N/A: No relevant content.,N/A: No relevant content.,train
+url1687,N/A: No relevant content.,N/A: No relevant content.,train
+url1688,Relevant claim content,Other claim content,test
+url1689,Relevant claim content,Physical Activity,train
+url1690,Relevant claim content,Other claim content,train
+url1692,Relevant claim content,Physical Activity,train
+url1693,N/A: No relevant content.,N/A: No relevant content.,train
+url1694,Relevant claim content,Possible Fatality,train
+url1695,Relevant claim content,Potentially unlawful activity,train
+url1696,N/A: No relevant content.,N/A: No relevant content.,train
+url1698,N/A: No relevant content.,N/A: No relevant content.,train
+url1699,N/A: No relevant content.,N/A: No relevant content.,test
+url17,N/A: No relevant content.,N/A: No relevant content.,test
+url170,N/A: No relevant content.,N/A: No relevant content.,val
+url1700,Relevant claim content,Possible Fatality,train
+url1701,Relevant claim content,Potentially unlawful activity,train
+url1704,Relevant claim content,Possible Fatality,train
+url1705,Relevant claim content,Potentially unlawful activity,val
+url1706,Relevant claim content,Possible Fatality,train
+url1708,Relevant claim content,Potentially unlawful activity,train
+url1709,Relevant claim content,Potentially unlawful activity,test
+url171,N/A: No relevant content.,N/A: No relevant content.,val
+url1710,Relevant claim content,Potentially unlawful activity,test
+url1711,Relevant claim content,Potentially unlawful activity,train
+url1712,Relevant claim content,Possible Fatality,train
+url1713,Relevant claim content,Physical Activity,train
+url1715,Relevant claim content,Potentially unlawful activity,test
+url1716,Relevant claim content,Potentially unlawful activity,train
+url1717,Relevant claim content,Potentially unlawful activity,train
+url1719,N/A: No relevant content.,N/A: No relevant content.,test
+url172,Relevant claim content,Potentially unlawful activity,train
+url1720,N/A: No relevant content.,N/A: No relevant content.,val
+url1721,Relevant claim content,Possible Fatality,test
+url1726,N/A: No relevant content.,N/A: No relevant content.,train
+url1727,N/A: No relevant content.,N/A: No relevant content.,train
+url1728,N/A: No relevant content.,N/A: No relevant content.,test
+url1729,N/A: No relevant content.,N/A: No relevant content.,val
+url1731,Relevant claim content,Other claim content,train
+url1732,Relevant claim content,Physical Activity,train
+url1733,Relevant claim content,Other claim content,train
+url1734,N/A: No relevant content.,N/A: No relevant content.,val
+url1737,N/A: No relevant content.,N/A: No relevant content.,train
+url1738,N/A: No relevant content.,N/A: No relevant content.,train
+url1739,Relevant claim content,Other claim content,train
+url174,Relevant claim content,Potentially unlawful activity,train
+url1740,Relevant claim content,Potentially unlawful activity,train
+url1741,Relevant claim content,Possible Fatality,test
+url1742,N/A: No relevant content.,N/A: No relevant content.,train
+url1743,Relevant claim content,Physical Activity,test
+url1747,Relevant claim content,Possible Fatality,train
+url1748,N/A: No relevant content.,N/A: No relevant content.,train
+url1749,Relevant claim content,Physical Activity,train
+url175,N/A: No relevant content.,N/A: No relevant content.,train
+url1750,Relevant claim content,Physical Activity,train
+url1753,Relevant claim content,Possible Fatality,train
+url1754,Relevant claim content,Possible Fatality,train
+url1758,Relevant claim content,Potentially unlawful activity,train
+url1759,Relevant claim content,Potentially unlawful activity,train
+url176,Relevant claim content,Physical Activity,val
+url1760,Relevant claim content,Potentially unlawful activity,train
+url1762,Relevant claim content,Possible Fatality,train
+url1763,N/A: No relevant content.,N/A: No relevant content.,val
+url1764,Relevant claim content,Potentially unlawful activity,test
+url1765,N/A: No relevant content.,N/A: No relevant content.,val
+url1767,Relevant claim content,Possible Fatality,test
+url1769,N/A: No relevant content.,N/A: No relevant content.,train
+url177,Relevant claim content,Physical Activity,train
+url1770,Relevant claim content,Possible Fatality,train
+url1771,N/A: No relevant content.,N/A: No relevant content.,train
+url1772,Relevant claim content,Physical Activity,test
+url1773,Relevant claim content,Physical Activity,test
+url1775,N/A: No relevant content.,N/A: No relevant content.,train
+url1777,Relevant claim content,Other claim content,train
+url1778,Relevant claim content,Other claim content,val
+url1779,Relevant claim content,Physical Activity,test
+url178,N/A: No relevant content.,N/A: No relevant content.,train
+url1780,N/A: No relevant content.,N/A: No relevant content.,train
+url1782,Relevant claim content,Physical Activity,train
+url1783,Relevant claim content,Possible Fatality,train
+url1785,Relevant claim content,Physical Activity,train
+url1787,Relevant claim content,Physical Activity,train
+url1788,Relevant claim content,Physical Activity,test
+url1789,Relevant claim content,Physical Activity,train
+url179,N/A: No relevant content.,N/A: No relevant content.,train
+url1790,Relevant claim content,Physical Activity,train
+url1794,Relevant claim content,Physical Activity,train
+url1795,Relevant claim content,Physical Activity,train
+url1797,Relevant claim content,Physical Activity,train
+url1798,Relevant claim content,Physical Activity,train
+url1799,N/A: No relevant content.,N/A: No relevant content.,train
+url18,N/A: No relevant content.,N/A: No relevant content.,test
+url180,N/A: No relevant content.,N/A: No relevant content.,train
+url1801,N/A: No relevant content.,N/A: No relevant content.,train
+url1802,N/A: No relevant content.,N/A: No relevant content.,train
+url1803,N/A: No relevant content.,N/A: No relevant content.,train
+url1804,N/A: No relevant content.,N/A: No relevant content.,train
+url1806,N/A: No relevant content.,N/A: No relevant content.,train
+url1808,N/A: No relevant content.,N/A: No relevant content.,train
+url1809,Relevant claim content,Physical Activity,test
+url1810,Relevant claim content,Potentially unlawful activity,train
+url1811,Relevant claim content,Physical Activity,train
+url1812,Relevant claim content,Potentially unlawful activity,train
+url1813,Relevant claim content,Possible Fatality,train
+url1815,N/A: No relevant content.,N/A: No relevant content.,test
+url1817,N/A: No relevant content.,N/A: No relevant content.,val
+url1818,Relevant claim content,Possible Fatality,train
+url1819,Relevant claim content,Possible Fatality,train
+url1820,Relevant claim content,Possible Fatality,train
+url1821,N/A: No relevant content.,N/A: No relevant content.,test
+url1823,Relevant claim content,Potentially unlawful activity,test
+url1824,N/A: No relevant content.,N/A: No relevant content.,train
+url1825,N/A: No relevant content.,N/A: No relevant content.,test
+url1826,Relevant claim content,Possible Fatality,test
+url1827,Relevant claim content,Other claim content,train
+url1828,N/A: No relevant content.,N/A: No relevant content.,val
+url1829,Relevant claim content,Possible Fatality,train
+url183,N/A: No relevant content.,N/A: No relevant content.,train
+url1830,Relevant claim content,Possible Fatality,val
+url1831,Relevant claim content,Possible Fatality,val
+url1832,N/A: No relevant content.,N/A: No relevant content.,train
+url1834,N/A: No relevant content.,N/A: No relevant content.,test
+url1835,Relevant claim content,Possible Fatality,train
+url1836,Relevant claim content,Possible Fatality,train
+url1838,Relevant claim content,Possible Fatality,train
+url1839,Relevant claim content,Possible Fatality,test
+url1843,N/A: No relevant content.,N/A: No relevant content.,train
+url1844,N/A: No relevant content.,N/A: No relevant content.,train
+url1845,Relevant claim content,Other claim content,train
+url1847,Relevant claim content,Other claim content,test
+url1848,Relevant claim content,Other claim content,train
+url1849,Relevant claim content,Physical Activity,train
+url185,Relevant claim content,Physical Activity,train
+url1850,N/A: No relevant content.,N/A: No relevant content.,train
+url1853,Relevant claim content,Other claim content,test
+url1854,N/A: No relevant content.,N/A: No relevant content.,train
+url1856,Relevant claim content,Potentially unlawful activity,val
+url1857,N/A: No relevant content.,N/A: No relevant content.,test
+url1858,Relevant claim content,Potentially unlawful activity,train
+url1859,Relevant claim content,Potentially unlawful activity,train
+url1860,Relevant claim content,Other claim content,val
+url1862,Relevant claim content,Potentially unlawful activity,train
+url1865,Relevant claim content,Potentially unlawful activity,test
+url1866,Relevant claim content,Potentially unlawful activity,train
+url1867,Relevant claim content,Physical Activity,val
+url1869,Relevant claim content,Possible Fatality,test
+url187,Relevant claim content,Potentially unlawful activity,test
+url1870,N/A: No relevant content.,N/A: No relevant content.,train
+url1875,N/A: No relevant content.,N/A: No relevant content.,train
+url1876,Relevant claim content,Physical Activity,test
+url1877,Relevant claim content,Physical Activity,train
+url1878,Relevant claim content,Physical Activity,train
+url188,Relevant claim content,Possible Fatality,train
+url1880,N/A: No relevant content.,N/A: No relevant content.,train
+url1881,N/A: No relevant content.,N/A: No relevant content.,val
+url1884,Relevant claim content,Physical Activity,train
+url1885,N/A: No relevant content.,N/A: No relevant content.,test
+url1886,Relevant claim content,Other claim content,train
+url1887,Relevant claim content,Possible Fatality,test
+url1889,N/A: No relevant content.,N/A: No relevant content.,test
+url1890,N/A: No relevant content.,N/A: No relevant content.,test
+url1891,N/A: No relevant content.,N/A: No relevant content.,train
+url1895,Relevant claim content,Possible Fatality,train
+url1896,N/A: No relevant content.,N/A: No relevant content.,test
+url19,N/A: No relevant content.,N/A: No relevant content.,train
+url1902,N/A: No relevant content.,N/A: No relevant content.,train
+url1903,N/A: No relevant content.,N/A: No relevant content.,train
+url1904,Relevant claim content,Possible Fatality,train
+url1907,N/A: No relevant content.,N/A: No relevant content.,test
+url1909,Relevant claim content,Possible Fatality,train
+url191,Relevant claim content,Possible Fatality,train
+url1910,Relevant claim content,Possible Fatality,train
+url1911,Relevant claim content,Potentially unlawful activity,val
+url1913,N/A: No relevant content.,N/A: No relevant content.,val
+url1914,N/A: No relevant content.,N/A: No relevant content.,train
+url1915,N/A: No relevant content.,N/A: No relevant content.,train
+url1919,Relevant claim content,Possible Fatality,train
+url192,Relevant claim content,Potentially unlawful activity,test
+url1920,Relevant claim content,Possible Fatality,train
+url1921,Relevant claim content,Possible Fatality,train
+url1923,Relevant claim content,Possible Fatality,test
+url1924,Relevant claim content,Potentially unlawful activity,train
+url1927,N/A: No relevant content.,N/A: No relevant content.,train
+url1929,Relevant claim content,Possible Fatality,train
+url193,N/A: No relevant content.,N/A: No relevant content.,train
+url1930,N/A: No relevant content.,N/A: No relevant content.,train
+url1931,Relevant claim content,Potentially unlawful activity,test
+url1932,N/A: No relevant content.,N/A: No relevant content.,train
+url1934,N/A: No relevant content.,N/A: No relevant content.,train
+url1935,N/A: No relevant content.,N/A: No relevant content.,test
+url1938,Relevant claim content,Physical Activity,train
+url1939,Relevant claim content,Physical Activity,train
+url194,Relevant claim content,Potentially unlawful activity,train
+url1942,Relevant claim content,Physical Activity,train
+url1944,Relevant claim content,Possible Fatality,train
+url1945,Relevant claim content,Possible Fatality,test
+url1946,Relevant claim content,Possible Fatality,test
+url1948,N/A: No relevant content.,N/A: No relevant content.,train
+url1950,N/A: No relevant content.,N/A: No relevant content.,train
+url1952,Relevant claim content,Potentially unlawful activity,train
+url1953,Relevant claim content,Possible Fatality,train
+url1954,N/A: No relevant content.,N/A: No relevant content.,val
+url1956,Relevant claim content,Potentially unlawful activity,val
+url1957,Relevant claim content,Physical Activity,train
+url1960,N/A: No relevant content.,N/A: No relevant content.,test
+url1961,Relevant claim content,Potentially unlawful activity,train
+url1962,N/A: No relevant content.,N/A: No relevant content.,train
+url1963,N/A: No relevant content.,N/A: No relevant content.,train
+url1964,N/A: No relevant content.,N/A: No relevant content.,train
+url1965,N/A: No relevant content.,N/A: No relevant content.,train
+url1966,N/A: No relevant content.,N/A: No relevant content.,train
+url1967,Relevant claim content,Physical Activity,train
+url1969,Relevant claim content,Physical Activity,train
+url1971,Relevant claim content,Possible Fatality,test
+url1973,Relevant claim content,Physical Activity,train
+url1975,Relevant claim content,Possible Fatality,train
+url1976,Relevant claim content,Potentially unlawful activity,train
+url1978,N/A: No relevant content.,N/A: No relevant content.,train
+url1980,Relevant claim content,Potentially unlawful activity,train
+url1981,Relevant claim content,Physical Activity,train
+url1982,Relevant claim content,Possible Fatality,train
+url1983,Relevant claim content,Possible Fatality,train
+url1984,N/A: No relevant content.,N/A: No relevant content.,val
+url1985,Relevant claim content,Possible Fatality,train
+url1986,Relevant claim content,Physical Activity,val
+url1988,N/A: No relevant content.,N/A: No relevant content.,train
+url1989,Relevant claim content,Possible Fatality,train
+url199,Relevant claim content,Potentially unlawful activity,train
+url1990,Relevant claim content,Possible Fatality,train
+url1991,Relevant claim content,Potentially unlawful activity,train
+url1992,Relevant claim content,Physical Activity,train
+url1994,Relevant claim content,Possible Fatality,train
+url1995,Relevant claim content,Potentially unlawful activity,train
+url1997,N/A: No relevant content.,N/A: No relevant content.,train
+url1998,N/A: No relevant content.,N/A: No relevant content.,val
+url1999,Relevant claim content,Potentially unlawful activity,train
+url2,N/A: No relevant content.,N/A: No relevant content.,train
+url200,Relevant claim content,Potentially unlawful activity,train
+url2000,Relevant claim content,Possible Fatality,test
+url2002,Relevant claim content,Possible Fatality,train
+url2004,N/A: No relevant content.,N/A: No relevant content.,train
+url2006,Relevant claim content,Possible Fatality,train
+url2007,Relevant claim content,Other claim content,train
+url2008,Relevant claim content,Possible Fatality,train
+url2009,Relevant claim content,Physical Activity,train
+url201,Relevant claim content,Physical Activity,train
+url2010,Relevant claim content,Possible Fatality,train
+url2011,Relevant claim content,Possible Fatality,train
+url2012,Relevant claim content,Physical Activity,train
+url2013,Relevant claim content,Other claim content,train
+url2014,N/A: No relevant content.,N/A: No relevant content.,test
+url2016,N/A: No relevant content.,N/A: No relevant content.,train
+url2017,Relevant claim content,Possible Fatality,train
+url2018,Relevant claim content,Potentially unlawful activity,train
+url2019,Relevant claim content,Potentially unlawful activity,train
+url202,Relevant claim content,Physical Activity,train
+url2021,Relevant claim content,Potentially unlawful activity,train
+url2023,N/A: No relevant content.,N/A: No relevant content.,train
+url2024,Relevant claim content,Possible Fatality,train
+url2025,N/A: No relevant content.,N/A: No relevant content.,val
+url2028,Relevant claim content,Possible Fatality,train
+url203,Relevant claim content,Physical Activity,train
+url2031,Relevant claim content,Potentially unlawful activity,train
+url2033,N/A: No relevant content.,N/A: No relevant content.,test
+url2034,Relevant claim content,Potentially unlawful activity,test
+url2035,Relevant claim content,Physical Activity,test
+url2036,Relevant claim content,Potentially unlawful activity,train
+url2037,N/A: No relevant content.,N/A: No relevant content.,val
+url2038,Relevant claim content,Other claim content,train
+url2040,Relevant claim content,Potentially unlawful activity,train
+url2041,Relevant claim content,Potentially unlawful activity,train
+url2044,Relevant claim content,Potentially unlawful activity,train
+url2045,N/A: No relevant content.,N/A: No relevant content.,val
+url2046,N/A: No relevant content.,N/A: No relevant content.,test
+url2047,N/A: No relevant content.,N/A: No relevant content.,train
+url2048,Relevant claim content,Possible Fatality,train
+url205,Relevant claim content,Physical Activity,test
+url2050,N/A: No relevant content.,N/A: No relevant content.,train
+url2051,Relevant claim content,Potentially unlawful activity,train
+url2052,Relevant claim content,Physical Activity,val
+url2053,Relevant claim content,Physical Activity,test
+url2054,N/A: No relevant content.,N/A: No relevant content.,train
+url2055,N/A: No relevant content.,N/A: No relevant content.,train
+url2056,Relevant claim content,Potentially unlawful activity,val
+url2057,Relevant claim content,Other claim content,test
+url2059,Relevant claim content,Physical Activity,train
+url206,Relevant claim content,Potentially unlawful activity,train
+url2061,N/A: No relevant content.,N/A: No relevant content.,train
+url2062,N/A: No relevant content.,N/A: No relevant content.,test
+url2065,N/A: No relevant content.,N/A: No relevant content.,train
+url2066,Relevant claim content,Possible Fatality,train
+url2067,N/A: No relevant content.,N/A: No relevant content.,train
+url207,Relevant claim content,Potentially unlawful activity,test
+url2070,N/A: No relevant content.,N/A: No relevant content.,train
+url2071,N/A: No relevant content.,N/A: No relevant content.,train
+url2072,Relevant claim content,Other claim content,train
+url2073,N/A: No relevant content.,N/A: No relevant content.,train
+url2074,N/A: No relevant content.,N/A: No relevant content.,train
+url2075,N/A: No relevant content.,N/A: No relevant content.,train
+url2077,Relevant claim content,Other claim content,train
+url2079,N/A: No relevant content.,N/A: No relevant content.,test
+url208,N/A: No relevant content.,N/A: No relevant content.,train
+url2080,N/A: No relevant content.,N/A: No relevant content.,train
+url2082,N/A: No relevant content.,N/A: No relevant content.,train
+url2083,N/A: No relevant content.,N/A: No relevant content.,val
+url2084,Relevant claim content,Physical Activity,val
+url2085,Relevant claim content,Potentially unlawful activity,test
+url2087,Relevant claim content,Possible Fatality,val
+url209,Relevant claim content,Potentially unlawful activity,train
+url2090,N/A: No relevant content.,N/A: No relevant content.,train
+url2091,Relevant claim content,Potentially unlawful activity,train
+url2092,N/A: No relevant content.,N/A: No relevant content.,test
+url2094,N/A: No relevant content.,N/A: No relevant content.,train
+url2095,Relevant claim content,Possible Fatality,train
+url2096,Relevant claim content,Possible Fatality,train
+url2098,N/A: No relevant content.,N/A: No relevant content.,test
+url21,N/A: No relevant content.,N/A: No relevant content.,test
+url210,Relevant claim content,Potentially unlawful activity,test
+url2100,N/A: No relevant content.,N/A: No relevant content.,test
+url2101,N/A: No relevant content.,N/A: No relevant content.,train
+url2104,N/A: No relevant content.,N/A: No relevant content.,test
+url2106,N/A: No relevant content.,N/A: No relevant content.,train
+url2107,Relevant claim content,Potentially unlawful activity,train
+url2109,N/A: No relevant content.,N/A: No relevant content.,train
+url211,N/A: No relevant content.,N/A: No relevant content.,val
+url2110,N/A: No relevant content.,N/A: No relevant content.,train
+url2111,Relevant claim content,Possible Fatality,train
+url2112,N/A: No relevant content.,N/A: No relevant content.,train
+url2115,N/A: No relevant content.,N/A: No relevant content.,test
+url2117,N/A: No relevant content.,N/A: No relevant content.,train
+url2119,N/A: No relevant content.,N/A: No relevant content.,val
+url212,Relevant claim content,Potentially unlawful activity,test
+url2120,Relevant claim content,Possible Fatality,train
+url2122,Relevant claim content,Potentially unlawful activity,train
+url2124,N/A: No relevant content.,N/A: No relevant content.,train
+url2125,N/A: No relevant content.,N/A: No relevant content.,test
+url2126,Relevant claim content,Potentially unlawful activity,train
+url2127,Relevant claim content,Physical Activity,train
+url2129,Relevant claim content,Potentially unlawful activity,train
+url213,N/A: No relevant content.,N/A: No relevant content.,train
+url2130,Relevant claim content,Potentially unlawful activity,train
+url2131,Relevant claim content,Possible Fatality,test
+url2133,Relevant claim content,Physical Activity,train
+url2135,N/A: No relevant content.,N/A: No relevant content.,test
+url2136,Relevant claim content,Potentially unlawful activity,train
+url2137,N/A: No relevant content.,N/A: No relevant content.,train
+url2138,Relevant claim content,Possible Fatality,train
+url2139,Relevant claim content,Physical Activity,train
+url214,Relevant claim content,Physical Activity,train
+url2140,Relevant claim content,Possible Fatality,train
+url2141,Relevant claim content,Other claim content,train
+url2142,Relevant claim content,Possible Fatality,test
+url2144,N/A: No relevant content.,N/A: No relevant content.,test
+url2146,Relevant claim content,Possible Fatality,train
+url2147,N/A: No relevant content.,N/A: No relevant content.,train
+url215,N/A: No relevant content.,N/A: No relevant content.,train
+url2150,Relevant claim content,Physical Activity,train
+url2151,N/A: No relevant content.,N/A: No relevant content.,train
+url2152,Relevant claim content,Potentially unlawful activity,train
+url2155,N/A: No relevant content.,N/A: No relevant content.,train
+url2156,Relevant claim content,Potentially unlawful activity,train
+url2157,N/A: No relevant content.,N/A: No relevant content.,val
+url2158,Relevant claim content,Physical Activity,train
+url2159,Relevant claim content,Physical Activity,train
+url2161,N/A: No relevant content.,N/A: No relevant content.,train
+url2162,Relevant claim content,Physical Activity,train
+url2165,Relevant claim content,Potentially unlawful activity,train
+url2166,N/A: No relevant content.,N/A: No relevant content.,train
+url2168,Relevant claim content,Potentially unlawful activity,train
+url2169,N/A: No relevant content.,N/A: No relevant content.,train
+url2172,N/A: No relevant content.,N/A: No relevant content.,val
+url2175,N/A: No relevant content.,N/A: No relevant content.,train
+url2177,Relevant claim content,Other claim content,test
+url2179,N/A: No relevant content.,N/A: No relevant content.,train
+url2180,N/A: No relevant content.,N/A: No relevant content.,train
+url2182,Relevant claim content,Potentially unlawful activity,train
+url2183,Relevant claim content,Possible Fatality,train
+url2185,Relevant claim content,Potentially unlawful activity,val
+url2186,Relevant claim content,Possible Fatality,train
+url2187,N/A: No relevant content.,N/A: No relevant content.,train
+url2188,N/A: No relevant content.,N/A: No relevant content.,train
+url2189,Relevant claim content,Physical Activity,test
+url2190,Relevant claim content,Possible Fatality,train
+url2191,Relevant claim content,Possible Fatality,train
+url2195,N/A: No relevant content.,N/A: No relevant content.,train
+url2199,Relevant claim content,Potentially unlawful activity,test
+url22,Relevant claim content,Possible Fatality,train
+url220,Relevant claim content,Potentially unlawful activity,train
+url2200,Relevant claim content,Potentially unlawful activity,train
+url2201,Relevant claim content,Potentially unlawful activity,val
+url2202,Relevant claim content,Potentially unlawful activity,val
+url2203,Relevant claim content,Potentially unlawful activity,train
+url2204,Relevant claim content,Potentially unlawful activity,train
+url2206,Relevant claim content,Potentially unlawful activity,val
+url2207,Relevant claim content,Potentially unlawful activity,train
+url2209,Relevant claim content,Physical Activity,train
+url221,N/A: No relevant content.,N/A: No relevant content.,train
+url2210,Relevant claim content,Potentially unlawful activity,train
+url2214,Relevant claim content,Potentially unlawful activity,train
+url2216,Relevant claim content,Potentially unlawful activity,train
+url2217,Relevant claim content,Potentially unlawful activity,train
+url2218,Relevant claim content,Possible Fatality,train
+url2219,Relevant claim content,Physical Activity,train
+url222,Relevant claim content,Potentially unlawful activity,train
+url2222,Relevant claim content,Physical Activity,train
+url2225,N/A: No relevant content.,N/A: No relevant content.,test
+url2227,Relevant claim content,Possible Fatality,val
+url223,N/A: No relevant content.,N/A: No relevant content.,train
+url2230,Relevant claim content,Potentially unlawful activity,train
+url2232,N/A: No relevant content.,N/A: No relevant content.,train
+url2233,N/A: No relevant content.,N/A: No relevant content.,val
+url2235,Relevant claim content,Possible Fatality,train
+url2236,Relevant claim content,Possible Fatality,test
+url2237,N/A: No relevant content.,N/A: No relevant content.,test
+url2238,Relevant claim content,Potentially unlawful activity,train
+url2239,Relevant claim content,Other claim content,train
+url2242,Relevant claim content,Potentially unlawful activity,train
+url2243,Relevant claim content,Possible Fatality,test
+url2244,Relevant claim content,Potentially unlawful activity,train
+url2245,N/A: No relevant content.,N/A: No relevant content.,train
+url2246,Relevant claim content,Potentially unlawful activity,test
+url2247,Relevant claim content,Potentially unlawful activity,test
+url2248,Relevant claim content,Physical Activity,train
+url2250,Relevant claim content,Possible Fatality,train
+url2251,Relevant claim content,Possible Fatality,train
+url2253,Relevant claim content,Possible Fatality,train
+url2254,Relevant claim content,Possible Fatality,val
+url2255,Relevant claim content,Possible Fatality,train
+url2256,N/A: No relevant content.,N/A: No relevant content.,train
+url2257,Relevant claim content,Possible Fatality,train
+url2258,Relevant claim content,Possible Fatality,train
+url2259,N/A: No relevant content.,N/A: No relevant content.,train
+url226,N/A: No relevant content.,N/A: No relevant content.,test
+url2260,Relevant claim content,Possible Fatality,train
+url2261,Relevant claim content,Possible Fatality,train
+url2262,Relevant claim content,Possible Fatality,train
+url2263,N/A: No relevant content.,N/A: No relevant content.,train
+url2264,N/A: No relevant content.,N/A: No relevant content.,train
+url2265,N/A: No relevant content.,N/A: No relevant content.,train
+url2266,N/A: No relevant content.,N/A: No relevant content.,train
+url2267,N/A: No relevant content.,N/A: No relevant content.,test
+url2268,Relevant claim content,Possible Fatality,train
+url2269,N/A: No relevant content.,N/A: No relevant content.,val
+url2270,Relevant claim content,Possible Fatality,train
+url2271,N/A: No relevant content.,N/A: No relevant content.,train
+url2272,N/A: No relevant content.,N/A: No relevant content.,train
+url2275,N/A: No relevant content.,N/A: No relevant content.,train
+url2277,Relevant claim content,Physical Activity,train
+url2279,Relevant claim content,Possible Fatality,train
+url228,Relevant claim content,Possible Fatality,train
+url2281,N/A: No relevant content.,N/A: No relevant content.,train
+url2282,Relevant claim content,Possible Fatality,train
+url2285,N/A: No relevant content.,N/A: No relevant content.,test
+url2286,N/A: No relevant content.,N/A: No relevant content.,val
+url2287,Relevant claim content,Possible Fatality,test
+url2288,Relevant claim content,Potentially unlawful activity,train
+url2290,N/A: No relevant content.,N/A: No relevant content.,train
+url2292,Relevant claim content,Other claim content,train
+url2293,N/A: No relevant content.,N/A: No relevant content.,train
+url2294,Relevant claim content,Possible Fatality,val
+url2295,N/A: No relevant content.,N/A: No relevant content.,train
+url2296,Relevant claim content,Potentially unlawful activity,test
+url2298,Relevant claim content,Potentially unlawful activity,train
+url230,Relevant claim content,Physical Activity,test
+url2301,N/A: No relevant content.,N/A: No relevant content.,train
+url2302,N/A: No relevant content.,N/A: No relevant content.,val
+url2303,N/A: No relevant content.,N/A: No relevant content.,train
+url2306,Relevant claim content,Physical Activity,val
+url231,Relevant claim content,Physical Activity,train
+url2310,N/A: No relevant content.,N/A: No relevant content.,train
+url2312,N/A: No relevant content.,N/A: No relevant content.,train
+url2313,N/A: No relevant content.,N/A: No relevant content.,train
+url2314,Relevant claim content,Possible Fatality,train
+url2315,Relevant claim content,Possible Fatality,train
+url2316,N/A: No relevant content.,N/A: No relevant content.,train
+url2318,N/A: No relevant content.,N/A: No relevant content.,train
+url2319,N/A: No relevant content.,N/A: No relevant content.,train
+url232,Relevant claim content,Physical Activity,train
+url2321,Relevant claim content,Potentially unlawful activity,train
+url2323,N/A: No relevant content.,N/A: No relevant content.,train
+url2326,Relevant claim content,Potentially unlawful activity,train
+url2328,Relevant claim content,Possible Fatality,train
+url233,Relevant claim content,Possible Fatality,train
+url2330,N/A: No relevant content.,N/A: No relevant content.,test
+url2331,Relevant claim content,Physical Activity,train
+url2332,Relevant claim content,Physical Activity,train
+url2333,N/A: No relevant content.,N/A: No relevant content.,train
+url2334,Relevant claim content,Potentially unlawful activity,val
+url2335,Relevant claim content,Potentially unlawful activity,test
+url2336,Relevant claim content,Potentially unlawful activity,train
+url2337,Relevant claim content,Potentially unlawful activity,train
+url2338,Relevant claim content,Potentially unlawful activity,test
+url2342,Relevant claim content,Physical Activity,train
+url2346,Relevant claim content,Possible Fatality,val
+url2347,N/A: No relevant content.,N/A: No relevant content.,test
+url2348,N/A: No relevant content.,N/A: No relevant content.,train
+url2349,Relevant claim content,Physical Activity,train
+url235,Relevant claim content,Physical Activity,train
+url2350,N/A: No relevant content.,N/A: No relevant content.,train
+url2352,Relevant claim content,Physical Activity,train
+url2354,Relevant claim content,Physical Activity,train
+url2355,N/A: No relevant content.,N/A: No relevant content.,train
+url2356,N/A: No relevant content.,N/A: No relevant content.,test
+url2357,Relevant claim content,Physical Activity,val
+url2358,Relevant claim content,Physical Activity,train
+url2359,N/A: No relevant content.,N/A: No relevant content.,test
+url236,N/A: No relevant content.,N/A: No relevant content.,train
+url2360,Relevant claim content,Physical Activity,train
+url2361,N/A: No relevant content.,N/A: No relevant content.,train
+url2362,Relevant claim content,Other claim content,train
+url2364,N/A: No relevant content.,N/A: No relevant content.,test
+url2365,Relevant claim content,Possible Fatality,train
+url2366,N/A: No relevant content.,N/A: No relevant content.,test
+url2367,Relevant claim content,Other claim content,train
+url2369,Relevant claim content,Potentially unlawful activity,train
+url237,N/A: No relevant content.,N/A: No relevant content.,train
+url2372,N/A: No relevant content.,N/A: No relevant content.,train
+url2373,N/A: No relevant content.,N/A: No relevant content.,test
+url2374,N/A: No relevant content.,N/A: No relevant content.,train
+url2377,N/A: No relevant content.,N/A: No relevant content.,train
+url2378,N/A: No relevant content.,N/A: No relevant content.,train
+url2379,N/A: No relevant content.,N/A: No relevant content.,train
+url2380,N/A: No relevant content.,N/A: No relevant content.,train
+url2382,N/A: No relevant content.,N/A: No relevant content.,train
+url2385,Relevant claim content,Physical Activity,train
+url2387,N/A: No relevant content.,N/A: No relevant content.,train
+url2391,Relevant claim content,Possible Fatality,train
+url2392,N/A: No relevant content.,N/A: No relevant content.,val
+url2394,N/A: No relevant content.,N/A: No relevant content.,train
+url2395,N/A: No relevant content.,N/A: No relevant content.,train
+url2397,N/A: No relevant content.,N/A: No relevant content.,val
+url24,N/A: No relevant content.,N/A: No relevant content.,train
+url240,N/A: No relevant content.,N/A: No relevant content.,train
+url2400,N/A: No relevant content.,N/A: No relevant content.,train
+url2402,N/A: No relevant content.,N/A: No relevant content.,train
+url2403,N/A: No relevant content.,N/A: No relevant content.,train
+url2405,N/A: No relevant content.,N/A: No relevant content.,train
+url2406,N/A: No relevant content.,N/A: No relevant content.,train
+url2408,Relevant claim content,Physical Activity,test
+url2409,N/A: No relevant content.,N/A: No relevant content.,train
+url241,N/A: No relevant content.,N/A: No relevant content.,train
+url2410,Relevant claim content,Physical Activity,train
+url2411,Relevant claim content,Potentially unlawful activity,train
+url2413,Relevant claim content,Possible Fatality,test
+url2414,Relevant claim content,Potentially unlawful activity,val
+url2415,Relevant claim content,Possible Fatality,train
+url2416,Relevant claim content,Possible Fatality,test
+url2417,Relevant claim content,Possible Fatality,test
+url2418,N/A: No relevant content.,N/A: No relevant content.,train
+url2419,N/A: No relevant content.,N/A: No relevant content.,train
+url242,N/A: No relevant content.,N/A: No relevant content.,train
+url2420,Relevant claim content,Possible Fatality,train
+url2421,N/A: No relevant content.,N/A: No relevant content.,train
+url2422,N/A: No relevant content.,N/A: No relevant content.,train
+url2423,Relevant claim content,Possible Fatality,train
+url2424,Relevant claim content,Physical Activity,test
+url2425,Relevant claim content,Physical Activity,train
+url2426,Relevant claim content,Physical Activity,train
+url2427,Relevant claim content,Physical Activity,test
+url2429,Relevant claim content,Potentially unlawful activity,train
+url243,Relevant claim content,Potentially unlawful activity,train
+url2430,Relevant claim content,Potentially unlawful activity,train
+url2432,Relevant claim content,Physical Activity,train
+url2433,Relevant claim content,Physical Activity,val
+url2434,Relevant claim content,Possible Fatality,train
+url2435,N/A: No relevant content.,N/A: No relevant content.,train
+url2438,N/A: No relevant content.,N/A: No relevant content.,train
+url2439,N/A: No relevant content.,N/A: No relevant content.,train
+url244,Relevant claim content,Potentially unlawful activity,train
+url2440,N/A: No relevant content.,N/A: No relevant content.,train
+url2441,N/A: No relevant content.,N/A: No relevant content.,train
+url2443,N/A: No relevant content.,N/A: No relevant content.,train
+url2445,Relevant claim content,Potentially unlawful activity,train
+url2446,Relevant claim content,Potentially unlawful activity,train
+url2448,N/A: No relevant content.,N/A: No relevant content.,train
+url2449,Relevant claim content,Possible Fatality,test
+url245,N/A: No relevant content.,N/A: No relevant content.,test
+url2454,Relevant claim content,Potentially unlawful activity,test
+url2455,Relevant claim content,Possible Fatality,train
+url2458,Relevant claim content,Possible Fatality,train
+url246,Relevant claim content,Potentially unlawful activity,train
+url2461,N/A: No relevant content.,N/A: No relevant content.,train
+url2464,N/A: No relevant content.,N/A: No relevant content.,test
+url2465,N/A: No relevant content.,N/A: No relevant content.,test
+url2466,Relevant claim content,Other claim content,test
+url2468,N/A: No relevant content.,N/A: No relevant content.,test
+url2469,Relevant claim content,Possible Fatality,train
+url247,Relevant claim content,Potentially unlawful activity,train
+url2470,N/A: No relevant content.,N/A: No relevant content.,train
+url2471,N/A: No relevant content.,N/A: No relevant content.,test
+url2472,N/A: No relevant content.,N/A: No relevant content.,train
+url2473,N/A: No relevant content.,N/A: No relevant content.,train
+url2474,Relevant claim content,Physical Activity,train
+url2476,N/A: No relevant content.,N/A: No relevant content.,test
+url2478,N/A: No relevant content.,N/A: No relevant content.,train
+url248,Relevant claim content,Potentially unlawful activity,train
+url2480,N/A: No relevant content.,N/A: No relevant content.,train
+url2482,N/A: No relevant content.,N/A: No relevant content.,test
+url2485,N/A: No relevant content.,N/A: No relevant content.,train
+url2487,N/A: No relevant content.,N/A: No relevant content.,test
+url2488,N/A: No relevant content.,N/A: No relevant content.,train
+url2489,N/A: No relevant content.,N/A: No relevant content.,train
+url249,N/A: No relevant content.,N/A: No relevant content.,train
+url2490,N/A: No relevant content.,N/A: No relevant content.,train
+url2491,N/A: No relevant content.,N/A: No relevant content.,train
+url2492,N/A: No relevant content.,N/A: No relevant content.,train
+url2493,N/A: No relevant content.,N/A: No relevant content.,val
+url2494,N/A: No relevant content.,N/A: No relevant content.,test
+url2495,N/A: No relevant content.,N/A: No relevant content.,train
+url2496,N/A: No relevant content.,N/A: No relevant content.,test
+url2497,N/A: No relevant content.,N/A: No relevant content.,train
+url2499,N/A: No relevant content.,N/A: No relevant content.,train
+url250,N/A: No relevant content.,N/A: No relevant content.,train
+url2500,Relevant claim content,Possible Fatality,train
+url2501,N/A: No relevant content.,N/A: No relevant content.,train
+url2502,N/A: No relevant content.,N/A: No relevant content.,train
+url2503,N/A: No relevant content.,N/A: No relevant content.,train
+url2505,Relevant claim content,Potentially unlawful activity,test
+url2506,N/A: No relevant content.,N/A: No relevant content.,test
+url2508,N/A: No relevant content.,N/A: No relevant content.,train
+url2509,N/A: No relevant content.,N/A: No relevant content.,test
+url2510,N/A: No relevant content.,N/A: No relevant content.,test
+url2511,N/A: No relevant content.,N/A: No relevant content.,train
+url2512,N/A: No relevant content.,N/A: No relevant content.,train
+url2513,Relevant claim content,Potentially unlawful activity,train
+url2516,N/A: No relevant content.,N/A: No relevant content.,test
+url2518,N/A: No relevant content.,N/A: No relevant content.,test
+url2519,N/A: No relevant content.,N/A: No relevant content.,train
+url252,Relevant claim content,Potentially unlawful activity,train
+url2520,N/A: No relevant content.,N/A: No relevant content.,train
+url2521,N/A: No relevant content.,N/A: No relevant content.,train
+url2522,N/A: No relevant content.,N/A: No relevant content.,train
+url2523,Relevant claim content,Potentially unlawful activity,train
+url2525,Relevant claim content,Potentially unlawful activity,train
+url2527,Relevant claim content,Potentially unlawful activity,train
+url2529,Relevant claim content,Possible Fatality,val
+url2530,N/A: No relevant content.,N/A: No relevant content.,train
+url2531,N/A: No relevant content.,N/A: No relevant content.,train
+url2532,N/A: No relevant content.,N/A: No relevant content.,test
+url2533,N/A: No relevant content.,N/A: No relevant content.,train
+url2534,Relevant claim content,Physical Activity,val
+url2536,N/A: No relevant content.,N/A: No relevant content.,test
+url2537,Relevant claim content,Potentially unlawful activity,train
+url2538,Relevant claim content,Potentially unlawful activity,train
+url2539,N/A: No relevant content.,N/A: No relevant content.,val
+url2541,N/A: No relevant content.,N/A: No relevant content.,train
+url2542,N/A: No relevant content.,N/A: No relevant content.,train
+url2544,Relevant claim content,Potentially unlawful activity,train
+url2545,Relevant claim content,Potentially unlawful activity,train
+url2546,Relevant claim content,Potentially unlawful activity,train
+url2548,Relevant claim content,Potentially unlawful activity,train
+url2549,N/A: No relevant content.,N/A: No relevant content.,train
+url255,Relevant claim content,Potentially unlawful activity,train
+url2551,N/A: No relevant content.,N/A: No relevant content.,train
+url2553,N/A: No relevant content.,N/A: No relevant content.,test
+url2554,N/A: No relevant content.,N/A: No relevant content.,train
+url2555,N/A: No relevant content.,N/A: No relevant content.,train
+url2556,N/A: No relevant content.,N/A: No relevant content.,train
+url2557,N/A: No relevant content.,N/A: No relevant content.,train
+url2558,N/A: No relevant content.,N/A: No relevant content.,test
+url2559,N/A: No relevant content.,N/A: No relevant content.,train
+url256,Relevant claim content,Potentially unlawful activity,test
+url2562,N/A: No relevant content.,N/A: No relevant content.,train
+url2563,N/A: No relevant content.,N/A: No relevant content.,train
+url2565,N/A: No relevant content.,N/A: No relevant content.,train
+url2566,Relevant claim content,Potentially unlawful activity,train
+url2567,Relevant claim content,Potentially unlawful activity,train
+url2568,N/A: No relevant content.,N/A: No relevant content.,train
+url2569,Relevant claim content,Potentially unlawful activity,train
+url2570,Relevant claim content,Potentially unlawful activity,train
+url2571,N/A: No relevant content.,N/A: No relevant content.,train
+url2572,N/A: No relevant content.,N/A: No relevant content.,test
+url2573,Relevant claim content,Potentially unlawful activity,test
+url2574,N/A: No relevant content.,N/A: No relevant content.,train
+url2575,N/A: No relevant content.,N/A: No relevant content.,train
+url2576,Relevant claim content,Possible Fatality,test
+url2577,Relevant claim content,Physical Activity,train
+url2578,N/A: No relevant content.,N/A: No relevant content.,train
+url258,N/A: No relevant content.,N/A: No relevant content.,test
+url2580,N/A: No relevant content.,N/A: No relevant content.,val
+url2581,N/A: No relevant content.,N/A: No relevant content.,val
+url2582,N/A: No relevant content.,N/A: No relevant content.,train
+url2583,N/A: No relevant content.,N/A: No relevant content.,train
+url2584,N/A: No relevant content.,N/A: No relevant content.,train
+url2588,N/A: No relevant content.,N/A: No relevant content.,test
+url2589,N/A: No relevant content.,N/A: No relevant content.,train
+url259,Relevant claim content,Potentially unlawful activity,train
+url2590,N/A: No relevant content.,N/A: No relevant content.,val
+url2591,N/A: No relevant content.,N/A: No relevant content.,val
+url2592,N/A: No relevant content.,N/A: No relevant content.,test
+url2593,Relevant claim content,Other claim content,train
+url2595,N/A: No relevant content.,N/A: No relevant content.,train
+url2596,N/A: No relevant content.,N/A: No relevant content.,train
+url2598,Relevant claim content,Potentially unlawful activity,train
+url2599,Relevant claim content,Other claim content,train
+url26,Relevant claim content,Potentially unlawful activity,train
+url260,N/A: No relevant content.,N/A: No relevant content.,train
+url2600,Relevant claim content,Potentially unlawful activity,test
+url2601,N/A: No relevant content.,N/A: No relevant content.,train
+url2602,Relevant claim content,Potentially unlawful activity,train
+url2603,N/A: No relevant content.,N/A: No relevant content.,train
+url2604,N/A: No relevant content.,N/A: No relevant content.,test
+url2605,N/A: No relevant content.,N/A: No relevant content.,train
+url2606,Relevant claim content,Potentially unlawful activity,val
+url2607,N/A: No relevant content.,N/A: No relevant content.,train
+url2608,Relevant claim content,Other claim content,train
+url2609,Relevant claim content,Other claim content,val
+url2610,Relevant claim content,Other claim content,train
+url2612,N/A: No relevant content.,N/A: No relevant content.,train
+url2614,N/A: No relevant content.,N/A: No relevant content.,train
+url2615,Relevant claim content,Potentially unlawful activity,test
+url2617,N/A: No relevant content.,N/A: No relevant content.,test
+url2618,N/A: No relevant content.,N/A: No relevant content.,train
+url2619,N/A: No relevant content.,N/A: No relevant content.,test
+url2620,N/A: No relevant content.,N/A: No relevant content.,test
+url2622,N/A: No relevant content.,N/A: No relevant content.,train
+url2624,N/A: No relevant content.,N/A: No relevant content.,test
+url2625,N/A: No relevant content.,N/A: No relevant content.,train
+url2627,Relevant claim content,Other claim content,train
+url2628,N/A: No relevant content.,N/A: No relevant content.,val
+url2629,Relevant claim content,Physical Activity,train
+url2630,N/A: No relevant content.,N/A: No relevant content.,train
+url2632,N/A: No relevant content.,N/A: No relevant content.,test
+url2633,N/A: No relevant content.,N/A: No relevant content.,train
+url2634,N/A: No relevant content.,N/A: No relevant content.,train
+url2635,N/A: No relevant content.,N/A: No relevant content.,test
+url2637,N/A: No relevant content.,N/A: No relevant content.,train
+url2638,N/A: No relevant content.,N/A: No relevant content.,val
+url2639,N/A: No relevant content.,N/A: No relevant content.,train
+url264,N/A: No relevant content.,N/A: No relevant content.,train
+url2640,N/A: No relevant content.,N/A: No relevant content.,train
+url2641,N/A: No relevant content.,N/A: No relevant content.,test
+url2643,N/A: No relevant content.,N/A: No relevant content.,test
+url2644,Relevant claim content,Potentially unlawful activity,train
+url2647,N/A: No relevant content.,N/A: No relevant content.,train
+url2648,N/A: No relevant content.,N/A: No relevant content.,train
+url2649,N/A: No relevant content.,N/A: No relevant content.,train
+url265,Relevant claim content,Potentially unlawful activity,train
+url2650,Relevant claim content,Possible Fatality,train
+url2652,Relevant claim content,Potentially unlawful activity,test
+url2653,Relevant claim content,Possible Fatality,train
+url2654,Relevant claim content,Possible Fatality,train
+url2655,N/A: No relevant content.,N/A: No relevant content.,train
+url2656,Relevant claim content,Possible Fatality,train
+url2657,N/A: No relevant content.,N/A: No relevant content.,val
+url2658,N/A: No relevant content.,N/A: No relevant content.,train
+url2659,N/A: No relevant content.,N/A: No relevant content.,train
+url266,Relevant claim content,Other claim content,train
+url2660,N/A: No relevant content.,N/A: No relevant content.,train
+url2661,N/A: No relevant content.,N/A: No relevant content.,train
+url2662,N/A: No relevant content.,N/A: No relevant content.,train
+url2665,N/A: No relevant content.,N/A: No relevant content.,test
+url2666,N/A: No relevant content.,N/A: No relevant content.,train
+url2667,N/A: No relevant content.,N/A: No relevant content.,train
+url2668,N/A: No relevant content.,N/A: No relevant content.,test
+url267,Relevant claim content,Possible Fatality,train
+url2671,N/A: No relevant content.,N/A: No relevant content.,train
+url2672,N/A: No relevant content.,N/A: No relevant content.,train
+url2674,Relevant claim content,Other claim content,train
+url2675,N/A: No relevant content.,N/A: No relevant content.,train
+url2676,N/A: No relevant content.,N/A: No relevant content.,train
+url268,Relevant claim content,Potentially unlawful activity,test
+url2682,Relevant claim content,Possible Fatality,test
+url2683,N/A: No relevant content.,N/A: No relevant content.,train
+url2685,Relevant claim content,Possible Fatality,train
+url2686,N/A: No relevant content.,N/A: No relevant content.,val
+url2687,N/A: No relevant content.,N/A: No relevant content.,train
+url2688,N/A: No relevant content.,N/A: No relevant content.,val
+url2689,Relevant claim content,Potentially unlawful activity,train
+url269,Relevant claim content,Possible Fatality,train
+url2690,N/A: No relevant content.,N/A: No relevant content.,train
+url2692,N/A: No relevant content.,N/A: No relevant content.,train
+url2693,N/A: No relevant content.,N/A: No relevant content.,train
+url2696,N/A: No relevant content.,N/A: No relevant content.,test
+url2697,Relevant claim content,Possible Fatality,train
+url2698,N/A: No relevant content.,N/A: No relevant content.,train
+url2700,Relevant claim content,Physical Activity,train
+url2702,N/A: No relevant content.,N/A: No relevant content.,test
+url2703,N/A: No relevant content.,N/A: No relevant content.,train
+url2704,N/A: No relevant content.,N/A: No relevant content.,train
+url2705,Relevant claim content,Potentially unlawful activity,val
+url2706,N/A: No relevant content.,N/A: No relevant content.,val
+url2707,N/A: No relevant content.,N/A: No relevant content.,train
+url271,N/A: No relevant content.,N/A: No relevant content.,val
+url2710,Relevant claim content,Potentially unlawful activity,test
+url2711,N/A: No relevant content.,N/A: No relevant content.,train
+url2712,N/A: No relevant content.,N/A: No relevant content.,train
+url2713,Relevant claim content,Potentially unlawful activity,train
+url2714,Relevant claim content,Potentially unlawful activity,train
+url2715,N/A: No relevant content.,N/A: No relevant content.,test
+url2716,N/A: No relevant content.,N/A: No relevant content.,train
+url2717,N/A: No relevant content.,N/A: No relevant content.,train
+url2718,Relevant claim content,Possible Fatality,val
+url2719,Relevant claim content,Possible Fatality,train
+url272,N/A: No relevant content.,N/A: No relevant content.,train
+url2721,Relevant claim content,Potentially unlawful activity,train
+url2722,N/A: No relevant content.,N/A: No relevant content.,train
+url2723,Relevant claim content,Potentially unlawful activity,train
+url2724,Relevant claim content,Possible Fatality,test
+url2725,N/A: No relevant content.,N/A: No relevant content.,test
+url2726,N/A: No relevant content.,N/A: No relevant content.,test
+url2729,N/A: No relevant content.,N/A: No relevant content.,val
+url273,N/A: No relevant content.,N/A: No relevant content.,train
+url2730,N/A: No relevant content.,N/A: No relevant content.,train
+url2732,Relevant claim content,Possible Fatality,train
+url2733,N/A: No relevant content.,N/A: No relevant content.,test
+url2735,N/A: No relevant content.,N/A: No relevant content.,train
+url2736,N/A: No relevant content.,N/A: No relevant content.,train
+url2738,N/A: No relevant content.,N/A: No relevant content.,test
+url2739,N/A: No relevant content.,N/A: No relevant content.,train
+url274,N/A: No relevant content.,N/A: No relevant content.,train
+url2740,N/A: No relevant content.,N/A: No relevant content.,test
+url2741,Relevant claim content,Other claim content,train
+url2743,Relevant claim content,Other claim content,train
+url2744,Relevant claim content,Other claim content,train
+url2745,N/A: No relevant content.,N/A: No relevant content.,test
+url2747,Relevant claim content,Possible Fatality,val
+url2748,Relevant claim content,Other claim content,test
+url2749,Relevant claim content,Possible Fatality,train
+url2750,Relevant claim content,Other claim content,test
+url2753,Relevant claim content,Potentially unlawful activity,train
+url2755,Relevant claim content,Potentially unlawful activity,test
+url2756,Relevant claim content,Other claim content,test
+url2757,Relevant claim content,Potentially unlawful activity,train
+url2758,Relevant claim content,Potentially unlawful activity,test
+url2759,Relevant claim content,Potentially unlawful activity,train
+url276,N/A: No relevant content.,N/A: No relevant content.,train
+url2760,Relevant claim content,Potentially unlawful activity,train
+url2763,Relevant claim content,Potentially unlawful activity,test
+url2766,N/A: No relevant content.,N/A: No relevant content.,train
+url2767,N/A: No relevant content.,N/A: No relevant content.,val
+url2768,N/A: No relevant content.,N/A: No relevant content.,train
+url2769,Relevant claim content,Possible Fatality,train
+url2771,Relevant claim content,Possible Fatality,train
+url2772,N/A: No relevant content.,N/A: No relevant content.,train
+url2773,Relevant claim content,Potentially unlawful activity,train
+url2774,N/A: No relevant content.,N/A: No relevant content.,train
+url2775,N/A: No relevant content.,N/A: No relevant content.,train
+url2777,Relevant claim content,Potentially unlawful activity,train
+url2778,N/A: No relevant content.,N/A: No relevant content.,train
+url2779,N/A: No relevant content.,N/A: No relevant content.,train
+url278,Relevant claim content,Physical Activity,train
+url2780,N/A: No relevant content.,N/A: No relevant content.,val
+url2782,N/A: No relevant content.,N/A: No relevant content.,test
+url2783,N/A: No relevant content.,N/A: No relevant content.,train
+url2784,N/A: No relevant content.,N/A: No relevant content.,val
+url2785,Relevant claim content,Possible Fatality,train
+url2786,Relevant claim content,Possible Fatality,train
+url2787,Relevant claim content,Physical Activity,train
+url2788,Relevant claim content,Potentially unlawful activity,train
+url2789,Relevant claim content,Potentially unlawful activity,train
+url279,Relevant claim content,Physical Activity,train
+url2790,N/A: No relevant content.,N/A: No relevant content.,train
+url2792,N/A: No relevant content.,N/A: No relevant content.,test
+url2793,N/A: No relevant content.,N/A: No relevant content.,train
+url2794,Relevant claim content,Potentially unlawful activity,val
+url2795,Relevant claim content,Possible Fatality,train
+url2796,N/A: No relevant content.,N/A: No relevant content.,train
+url2797,N/A: No relevant content.,N/A: No relevant content.,train
+url2799,N/A: No relevant content.,N/A: No relevant content.,train
+url28,Relevant claim content,Other claim content,test
+url2800,N/A: No relevant content.,N/A: No relevant content.,val
+url2801,Relevant claim content,Possible Fatality,train
+url2803,Relevant claim content,Possible Fatality,train
+url2804,N/A: No relevant content.,N/A: No relevant content.,train
+url2805,Relevant claim content,Possible Fatality,train
+url2807,Relevant claim content,Possible Fatality,train
+url2808,N/A: No relevant content.,N/A: No relevant content.,train
+url2809,Relevant claim content,Potentially unlawful activity,test
+url281,N/A: No relevant content.,N/A: No relevant content.,train
+url2810,Relevant claim content,Other claim content,train
+url2812,Relevant claim content,Possible Fatality,val
+url2814,Relevant claim content,Possible Fatality,train
+url2815,Relevant claim content,Potentially unlawful activity,train
+url2816,N/A: No relevant content.,N/A: No relevant content.,val
+url2817,N/A: No relevant content.,N/A: No relevant content.,train
+url2819,N/A: No relevant content.,N/A: No relevant content.,train
+url282,Relevant claim content,Potentially unlawful activity,val
+url2820,N/A: No relevant content.,N/A: No relevant content.,train
+url2822,N/A: No relevant content.,N/A: No relevant content.,train
+url2823,N/A: No relevant content.,N/A: No relevant content.,test
+url2824,N/A: No relevant content.,N/A: No relevant content.,train
+url2825,Relevant claim content,Possible Fatality,train
+url2826,Relevant claim content,Possible Fatality,test
+url2828,N/A: No relevant content.,N/A: No relevant content.,train
+url2829,N/A: No relevant content.,N/A: No relevant content.,train
+url283,Relevant claim content,Physical Activity,val
+url2830,N/A: No relevant content.,N/A: No relevant content.,train
+url2832,Relevant claim content,Potentially unlawful activity,train
+url2833,Relevant claim content,Possible Fatality,train
+url2834,N/A: No relevant content.,N/A: No relevant content.,test
+url2836,N/A: No relevant content.,N/A: No relevant content.,train
+url2837,N/A: No relevant content.,N/A: No relevant content.,val
+url2838,Relevant claim content,Possible Fatality,test
+url2839,Relevant claim content,Potentially unlawful activity,train
+url2840,Relevant claim content,Possible Fatality,train
+url2841,N/A: No relevant content.,N/A: No relevant content.,test
+url2842,Relevant claim content,Possible Fatality,train
+url2844,Relevant claim content,Possible Fatality,train
+url2845,Relevant claim content,Possible Fatality,test
+url2846,Relevant claim content,Physical Activity,train
+url2849,Relevant claim content,Physical Activity,train
+url2851,Relevant claim content,Potentially unlawful activity,train
+url2852,Relevant claim content,Potentially unlawful activity,train
+url2853,N/A: No relevant content.,N/A: No relevant content.,train
+url2856,N/A: No relevant content.,N/A: No relevant content.,train
+url2857,N/A: No relevant content.,N/A: No relevant content.,train
+url2858,N/A: No relevant content.,N/A: No relevant content.,train
+url2859,N/A: No relevant content.,N/A: No relevant content.,test
+url2861,N/A: No relevant content.,N/A: No relevant content.,val
+url2862,Relevant claim content,Possible Fatality,test
+url2864,N/A: No relevant content.,N/A: No relevant content.,train
+url2865,N/A: No relevant content.,N/A: No relevant content.,train
+url2868,Relevant claim content,Physical Activity,train
+url2869,Relevant claim content,Possible Fatality,train
+url287,Relevant claim content,Potentially unlawful activity,train
+url2870,N/A: No relevant content.,N/A: No relevant content.,train
+url2872,Relevant claim content,Possible Fatality,train
+url2874,Relevant claim content,Possible Fatality,test
+url2875,Relevant claim content,Potentially unlawful activity,train
+url2876,N/A: No relevant content.,N/A: No relevant content.,train
+url2877,N/A: No relevant content.,N/A: No relevant content.,train
+url2878,N/A: No relevant content.,N/A: No relevant content.,train
+url288,N/A: No relevant content.,N/A: No relevant content.,train
+url2880,Relevant claim content,Physical Activity,train
+url2881,N/A: No relevant content.,N/A: No relevant content.,train
+url2882,N/A: No relevant content.,N/A: No relevant content.,train
+url2884,Relevant claim content,Physical Activity,train
+url2885,N/A: No relevant content.,N/A: No relevant content.,train
+url2887,Relevant claim content,Potentially unlawful activity,train
+url2889,Relevant claim content,Physical Activity,train
+url2890,Relevant claim content,Physical Activity,train
+url2891,Relevant claim content,Physical Activity,test
+url2892,Relevant claim content,Physical Activity,train
+url2893,N/A: No relevant content.,N/A: No relevant content.,train
+url2894,Relevant claim content,Physical Activity,train
+url2895,Relevant claim content,Possible Fatality,train
+url2896,N/A: No relevant content.,N/A: No relevant content.,test
+url2898,Relevant claim content,Possible Fatality,test
+url2899,Relevant claim content,Possible Fatality,test
+url29,N/A: No relevant content.,N/A: No relevant content.,train
+url290,N/A: No relevant content.,N/A: No relevant content.,train
+url2901,N/A: No relevant content.,N/A: No relevant content.,train
+url2902,N/A: No relevant content.,N/A: No relevant content.,train
+url2904,Relevant claim content,Physical Activity,train
+url2905,N/A: No relevant content.,N/A: No relevant content.,train
+url2907,Relevant claim content,Possible Fatality,test
+url2908,N/A: No relevant content.,N/A: No relevant content.,train
+url2909,N/A: No relevant content.,N/A: No relevant content.,train
+url2911,N/A: No relevant content.,N/A: No relevant content.,test
+url2913,N/A: No relevant content.,N/A: No relevant content.,test
+url2914,Relevant claim content,Potentially unlawful activity,val
+url2915,N/A: No relevant content.,N/A: No relevant content.,train
+url2916,N/A: No relevant content.,N/A: No relevant content.,train
+url2917,Relevant claim content,Potentially unlawful activity,train
+url2918,Relevant claim content,Potentially unlawful activity,test
+url2919,Relevant claim content,Potentially unlawful activity,train
+url292,N/A: No relevant content.,N/A: No relevant content.,test
+url2920,Relevant claim content,Possible Fatality,test
+url2921,N/A: No relevant content.,N/A: No relevant content.,train
+url2922,N/A: No relevant content.,N/A: No relevant content.,val
+url2925,N/A: No relevant content.,N/A: No relevant content.,train
+url2926,Relevant claim content,Potentially unlawful activity,test
+url2928,Relevant claim content,Possible Fatality,train
+url2929,Relevant claim content,Possible Fatality,train
+url293,N/A: No relevant content.,N/A: No relevant content.,train
+url2930,N/A: No relevant content.,N/A: No relevant content.,train
+url2931,Relevant claim content,Possible Fatality,train
+url2932,N/A: No relevant content.,N/A: No relevant content.,train
+url2933,N/A: No relevant content.,N/A: No relevant content.,test
+url2934,N/A: No relevant content.,N/A: No relevant content.,train
+url2936,Relevant claim content,Possible Fatality,train
+url2938,N/A: No relevant content.,N/A: No relevant content.,val
+url2939,Relevant claim content,Possible Fatality,train
+url2940,Relevant claim content,Possible Fatality,test
+url2941,Relevant claim content,Possible Fatality,val
+url2942,N/A: No relevant content.,N/A: No relevant content.,val
+url2943,N/A: No relevant content.,N/A: No relevant content.,train
+url2944,Relevant claim content,Potentially unlawful activity,val
+url2945,N/A: No relevant content.,N/A: No relevant content.,test
+url2946,Relevant claim content,Physical Activity,train
+url2947,Relevant claim content,Physical Activity,train
+url2948,N/A: No relevant content.,N/A: No relevant content.,train
+url2949,N/A: No relevant content.,N/A: No relevant content.,train
+url295,N/A: No relevant content.,N/A: No relevant content.,test
+url2950,N/A: No relevant content.,N/A: No relevant content.,train
+url2953,Relevant claim content,Possible Fatality,train
+url2954,Relevant claim content,Possible Fatality,test
+url2956,Relevant claim content,Possible Fatality,val
+url2957,N/A: No relevant content.,N/A: No relevant content.,val
+url2958,Relevant claim content,Possible Fatality,val
+url2959,Relevant claim content,Potentially unlawful activity,val
+url296,N/A: No relevant content.,N/A: No relevant content.,train
+url2962,Relevant claim content,Potentially unlawful activity,train
+url2963,Relevant claim content,Possible Fatality,test
+url2964,Relevant claim content,Potentially unlawful activity,test
+url2966,Relevant claim content,Physical Activity,train
+url2967,Relevant claim content,Potentially unlawful activity,train
+url2968,Relevant claim content,Possible Fatality,test
+url2969,Relevant claim content,Possible Fatality,train
+url297,N/A: No relevant content.,N/A: No relevant content.,test
+url2971,N/A: No relevant content.,N/A: No relevant content.,test
+url2973,N/A: No relevant content.,N/A: No relevant content.,train
+url2974,Relevant claim content,Possible Fatality,train
+url2975,Relevant claim content,Physical Activity,train
+url2976,N/A: No relevant content.,N/A: No relevant content.,test
+url2977,N/A: No relevant content.,N/A: No relevant content.,train
+url2978,N/A: No relevant content.,N/A: No relevant content.,train
+url298,N/A: No relevant content.,N/A: No relevant content.,train
+url2981,N/A: No relevant content.,N/A: No relevant content.,train
+url2982,N/A: No relevant content.,N/A: No relevant content.,train
+url2983,Relevant claim content,Possible Fatality,train
+url2984,Relevant claim content,Other claim content,train
+url2986,Relevant claim content,Potentially unlawful activity,test
+url2987,N/A: No relevant content.,N/A: No relevant content.,test
+url2988,N/A: No relevant content.,N/A: No relevant content.,train
+url2989,N/A: No relevant content.,N/A: No relevant content.,train
+url2990,N/A: No relevant content.,N/A: No relevant content.,train
+url2991,N/A: No relevant content.,N/A: No relevant content.,train
+url2992,Relevant claim content,Possible Fatality,train
+url2995,Relevant claim content,Possible Fatality,test
+url2996,Relevant claim content,Possible Fatality,train
+url2998,N/A: No relevant content.,N/A: No relevant content.,train
+url2999,N/A: No relevant content.,N/A: No relevant content.,train
+url300,N/A: No relevant content.,N/A: No relevant content.,train
+url3000,N/A: No relevant content.,N/A: No relevant content.,train
+url3001,N/A: No relevant content.,N/A: No relevant content.,test
+url3007,Relevant claim content,Potentially unlawful activity,test
+url3008,Relevant claim content,Physical Activity,val
+url3009,Relevant claim content,Possible Fatality,test
+url301,Relevant claim content,Possible Fatality,train
+url3012,N/A: No relevant content.,N/A: No relevant content.,train
+url3013,Relevant claim content,Potentially unlawful activity,test
+url3014,Relevant claim content,Other claim content,train
+url3016,N/A: No relevant content.,N/A: No relevant content.,train
+url3017,N/A: No relevant content.,N/A: No relevant content.,train
+url3018,N/A: No relevant content.,N/A: No relevant content.,test
+url3020,Relevant claim content,Other claim content,train
+url3021,N/A: No relevant content.,N/A: No relevant content.,train
+url3023,Relevant claim content,Possible Fatality,train
+url3024,Relevant claim content,Possible Fatality,train
+url3028,N/A: No relevant content.,N/A: No relevant content.,train
+url303,N/A: No relevant content.,N/A: No relevant content.,val
+url3030,Relevant claim content,Potentially unlawful activity,test
+url3032,Relevant claim content,Potentially unlawful activity,train
+url3033,Relevant claim content,Potentially unlawful activity,train
+url3037,N/A: No relevant content.,N/A: No relevant content.,train
+url3038,Relevant claim content,Possible Fatality,val
+url3039,N/A: No relevant content.,N/A: No relevant content.,train
+url3040,Relevant claim content,Possible Fatality,train
+url3042,N/A: No relevant content.,N/A: No relevant content.,train
+url3044,N/A: No relevant content.,N/A: No relevant content.,train
+url3045,Relevant claim content,Possible Fatality,train
+url3046,N/A: No relevant content.,N/A: No relevant content.,train
+url3047,N/A: No relevant content.,N/A: No relevant content.,train
+url3048,Relevant claim content,Physical Activity,train
+url3049,N/A: No relevant content.,N/A: No relevant content.,train
+url3050,N/A: No relevant content.,N/A: No relevant content.,train
+url3051,N/A: No relevant content.,N/A: No relevant content.,test
+url3052,N/A: No relevant content.,N/A: No relevant content.,train
+url3054,N/A: No relevant content.,N/A: No relevant content.,train
+url3055,Relevant claim content,Potentially unlawful activity,train
+url3056,Relevant claim content,Other claim content,test
+url3057,Relevant claim content,Other claim content,train
+url3058,N/A: No relevant content.,N/A: No relevant content.,train
+url3059,Relevant claim content,Possible Fatality,train
+url306,N/A: No relevant content.,N/A: No relevant content.,val
+url3062,Relevant claim content,Possible Fatality,test
+url3063,Relevant claim content,Possible Fatality,test
+url3064,N/A: No relevant content.,N/A: No relevant content.,val
+url3065,N/A: No relevant content.,N/A: No relevant content.,train
+url3066,Relevant claim content,Other claim content,val
+url3067,N/A: No relevant content.,N/A: No relevant content.,train
+url3069,N/A: No relevant content.,N/A: No relevant content.,val
+url307,N/A: No relevant content.,N/A: No relevant content.,test
+url3072,Relevant claim content,Possible Fatality,train
+url3073,N/A: No relevant content.,N/A: No relevant content.,test
+url3074,N/A: No relevant content.,N/A: No relevant content.,train
+url3075,Relevant claim content,Physical Activity,train
+url3076,N/A: No relevant content.,N/A: No relevant content.,train
+url3078,Relevant claim content,Other claim content,train
+url3079,N/A: No relevant content.,N/A: No relevant content.,train
+url3080,Relevant claim content,Potentially unlawful activity,train
+url3081,Relevant claim content,Potentially unlawful activity,train
+url3082,Relevant claim content,Other claim content,train
+url3083,Relevant claim content,Potentially unlawful activity,train
+url3084,N/A: No relevant content.,N/A: No relevant content.,train
+url3086,N/A: No relevant content.,N/A: No relevant content.,train
+url3088,N/A: No relevant content.,N/A: No relevant content.,val
+url3089,Relevant claim content,Other claim content,train
+url309,Relevant claim content,Physical Activity,test
+url3090,N/A: No relevant content.,N/A: No relevant content.,train
+url3092,N/A: No relevant content.,N/A: No relevant content.,test
+url31,Relevant claim content,Physical Activity,train
+url310,N/A: No relevant content.,N/A: No relevant content.,train
+url311,N/A: No relevant content.,N/A: No relevant content.,train
+url312,N/A: No relevant content.,N/A: No relevant content.,val
+url315,Relevant claim content,Physical Activity,train
+url316,Relevant claim content,Physical Activity,train
+url317,Relevant claim content,Physical Activity,val
+url318,Relevant claim content,Physical Activity,train
+url32,N/A: No relevant content.,N/A: No relevant content.,train
+url320,Relevant claim content,Physical Activity,train
+url321,Relevant claim content,Other claim content,train
+url322,Relevant claim content,Potentially unlawful activity,train
+url323,N/A: No relevant content.,N/A: No relevant content.,val
+url324,Relevant claim content,Physical Activity,train
+url325,N/A: No relevant content.,N/A: No relevant content.,train
+url326,Relevant claim content,Potentially unlawful activity,test
+url327,Relevant claim content,Other claim content,train
+url329,Relevant claim content,Possible Fatality,test
+url33,Relevant claim content,Potentially unlawful activity,train
+url330,Relevant claim content,Physical Activity,val
+url331,Relevant claim content,Potentially unlawful activity,train
+url332,N/A: No relevant content.,N/A: No relevant content.,train
+url334,Relevant claim content,Possible Fatality,val
+url335,Relevant claim content,Possible Fatality,test
+url336,Relevant claim content,Potentially unlawful activity,train
+url338,Relevant claim content,Possible Fatality,train
+url341,Relevant claim content,Physical Activity,train
+url342,Relevant claim content,Physical Activity,train
+url343,Relevant claim content,Physical Activity,train
+url345,Relevant claim content,Possible Fatality,train
+url346,Relevant claim content,Potentially unlawful activity,train
+url348,Relevant claim content,Physical Activity,train
+url35,Relevant claim content,Other claim content,train
+url350,Relevant claim content,Physical Activity,test
+url351,N/A: No relevant content.,N/A: No relevant content.,train
+url352,N/A: No relevant content.,N/A: No relevant content.,train
+url353,Relevant claim content,Possible Fatality,test
+url354,N/A: No relevant content.,N/A: No relevant content.,train
+url355,Relevant claim content,Potentially unlawful activity,test
+url357,Relevant claim content,Physical Activity,val
+url358,N/A: No relevant content.,N/A: No relevant content.,train
+url36,Relevant claim content,Physical Activity,test
+url360,Relevant claim content,Potentially unlawful activity,test
+url361,Relevant claim content,Possible Fatality,train
+url364,Relevant claim content,Possible Fatality,train
+url365,N/A: No relevant content.,N/A: No relevant content.,test
+url366,N/A: No relevant content.,N/A: No relevant content.,train
+url367,Relevant claim content,Possible Fatality,train
+url37,Relevant claim content,Physical Activity,train
+url370,Relevant claim content,Possible Fatality,train
+url371,Relevant claim content,Possible Fatality,train
+url372,N/A: No relevant content.,N/A: No relevant content.,train
+url376,N/A: No relevant content.,N/A: No relevant content.,train
+url377,N/A: No relevant content.,N/A: No relevant content.,train
+url378,Relevant claim content,Possible Fatality,train
+url379,Relevant claim content,Potentially unlawful activity,val
+url38,Relevant claim content,Physical Activity,train
+url380,Relevant claim content,Potentially unlawful activity,train
+url382,N/A: No relevant content.,N/A: No relevant content.,train
+url383,Relevant claim content,Potentially unlawful activity,test
+url384,Relevant claim content,Potentially unlawful activity,train
+url385,Relevant claim content,Physical Activity,train
+url386,Relevant claim content,Physical Activity,train
+url387,N/A: No relevant content.,N/A: No relevant content.,train
+url388,Relevant claim content,Physical Activity,test
+url389,N/A: No relevant content.,N/A: No relevant content.,val
+url39,Relevant claim content,Physical Activity,train
+url391,Relevant claim content,Potentially unlawful activity,train
+url392,Relevant claim content,Possible Fatality,train
+url394,Relevant claim content,Other claim content,train
+url395,Relevant claim content,Physical Activity,train
+url396,N/A: No relevant content.,N/A: No relevant content.,test
+url397,Relevant claim content,Physical Activity,train
+url398,Relevant claim content,Other claim content,train
+url399,Relevant claim content,Other claim content,test
+url4,Relevant claim content,Possible Fatality,train
+url400,N/A: No relevant content.,N/A: No relevant content.,train
+url401,Relevant claim content,Possible Fatality,train
+url402,Relevant claim content,Potentially unlawful activity,train
+url403,Relevant claim content,Potentially unlawful activity,train
+url405,Relevant claim content,Possible Fatality,train
+url406,N/A: No relevant content.,N/A: No relevant content.,test
+url41,Relevant claim content,Possible Fatality,train
+url411,Relevant claim content,Potentially unlawful activity,train
+url412,N/A: No relevant content.,N/A: No relevant content.,train
+url413,Relevant claim content,Physical Activity,train
+url415,Relevant claim content,Physical Activity,train
+url417,Relevant claim content,Possible Fatality,train
+url418,N/A: No relevant content.,N/A: No relevant content.,train
+url419,N/A: No relevant content.,N/A: No relevant content.,train
+url42,N/A: No relevant content.,N/A: No relevant content.,train
+url421,Relevant claim content,Potentially unlawful activity,train
+url422,Relevant claim content,Potentially unlawful activity,train
+url423,Relevant claim content,Potentially unlawful activity,train
+url424,N/A: No relevant content.,N/A: No relevant content.,val
+url426,Relevant claim content,Possible Fatality,test
+url427,Relevant claim content,Possible Fatality,train
+url428,Relevant claim content,Possible Fatality,train
+url429,Relevant claim content,Possible Fatality,test
+url43,N/A: No relevant content.,N/A: No relevant content.,train
+url430,Relevant claim content,Possible Fatality,train
+url432,N/A: No relevant content.,N/A: No relevant content.,test
+url433,Relevant claim content,Physical Activity,train
+url434,Relevant claim content,Potentially unlawful activity,train
+url435,N/A: No relevant content.,N/A: No relevant content.,test
+url436,N/A: No relevant content.,N/A: No relevant content.,test
+url44,Relevant claim content,Possible Fatality,test
+url440,Relevant claim content,Physical Activity,train
+url442,Relevant claim content,Physical Activity,train
+url443,Relevant claim content,Possible Fatality,train
+url444,Relevant claim content,Physical Activity,val
+url445,N/A: No relevant content.,N/A: No relevant content.,test
+url447,Relevant claim content,Potentially unlawful activity,train
+url449,N/A: No relevant content.,N/A: No relevant content.,test
+url451,Relevant claim content,Physical Activity,train
+url452,N/A: No relevant content.,N/A: No relevant content.,train
+url453,N/A: No relevant content.,N/A: No relevant content.,test
+url454,Relevant claim content,Potentially unlawful activity,test
+url455,N/A: No relevant content.,N/A: No relevant content.,test
+url457,Relevant claim content,Potentially unlawful activity,train
+url458,Relevant claim content,Potentially unlawful activity,val
+url459,Relevant claim content,Potentially unlawful activity,train
+url460,Relevant claim content,Potentially unlawful activity,val
+url461,Relevant claim content,Potentially unlawful activity,train
+url462,N/A: No relevant content.,N/A: No relevant content.,train
+url463,N/A: No relevant content.,N/A: No relevant content.,test
+url466,Relevant claim content,Possible Fatality,train
+url467,Relevant claim content,Potentially unlawful activity,test
+url468,Relevant claim content,Physical Activity,train
+url469,Relevant claim content,Physical Activity,test
+url47,Relevant claim content,Possible Fatality,train
+url471,Relevant claim content,Physical Activity,train
+url472,Relevant claim content,Possible Fatality,test
+url474,Relevant claim content,Potentially unlawful activity,test
+url475,N/A: No relevant content.,N/A: No relevant content.,train
+url476,N/A: No relevant content.,N/A: No relevant content.,train
+url480,Relevant claim content,Potentially unlawful activity,train
+url481,N/A: No relevant content.,N/A: No relevant content.,train
+url482,N/A: No relevant content.,N/A: No relevant content.,train
+url483,Relevant claim content,Potentially unlawful activity,train
+url484,Relevant claim content,Potentially unlawful activity,test
+url485,Relevant claim content,Possible Fatality,train
+url486,N/A: No relevant content.,N/A: No relevant content.,train
+url487,N/A: No relevant content.,N/A: No relevant content.,test
+url49,Relevant claim content,Possible Fatality,val
+url490,N/A: No relevant content.,N/A: No relevant content.,val
+url491,N/A: No relevant content.,N/A: No relevant content.,train
+url493,N/A: No relevant content.,N/A: No relevant content.,test
+url494,N/A: No relevant content.,N/A: No relevant content.,test
+url495,Relevant claim content,Other claim content,test
+url496,N/A: No relevant content.,N/A: No relevant content.,val
+url499,N/A: No relevant content.,N/A: No relevant content.,train
+url5,N/A: No relevant content.,N/A: No relevant content.,test
+url50,Relevant claim content,Possible Fatality,train
+url501,Relevant claim content,Potentially unlawful activity,test
+url502,Relevant claim content,Possible Fatality,test
+url503,N/A: No relevant content.,N/A: No relevant content.,train
+url505,N/A: No relevant content.,N/A: No relevant content.,test
+url507,Relevant claim content,Possible Fatality,train
+url508,N/A: No relevant content.,N/A: No relevant content.,test
+url509,N/A: No relevant content.,N/A: No relevant content.,val
+url51,Relevant claim content,Physical Activity,train
+url511,Relevant claim content,Possible Fatality,train
+url512,Relevant claim content,Possible Fatality,train
+url513,N/A: No relevant content.,N/A: No relevant content.,train
+url514,Relevant claim content,Possible Fatality,train
+url516,Relevant claim content,Possible Fatality,test
+url517,Relevant claim content,Possible Fatality,train
+url518,Relevant claim content,Potentially unlawful activity,train
+url52,N/A: No relevant content.,N/A: No relevant content.,train
+url521,N/A: No relevant content.,N/A: No relevant content.,test
+url522,N/A: No relevant content.,N/A: No relevant content.,train
+url523,Relevant claim content,Potentially unlawful activity,train
+url525,Relevant claim content,Possible Fatality,train
+url526,Relevant claim content,Possible Fatality,train
+url527,Relevant claim content,Possible Fatality,train
+url529,Relevant claim content,Possible Fatality,train
+url53,N/A: No relevant content.,N/A: No relevant content.,val
+url530,Relevant claim content,Potentially unlawful activity,train
+url531,N/A: No relevant content.,N/A: No relevant content.,train
+url532,N/A: No relevant content.,N/A: No relevant content.,test
+url533,Relevant claim content,Possible Fatality,train
+url534,N/A: No relevant content.,N/A: No relevant content.,train
+url535,Relevant claim content,Possible Fatality,train
+url538,Relevant claim content,Possible Fatality,train
+url54,N/A: No relevant content.,N/A: No relevant content.,val
+url540,N/A: No relevant content.,N/A: No relevant content.,test
+url545,Relevant claim content,Possible Fatality,train
+url546,N/A: No relevant content.,N/A: No relevant content.,train
+url547,Relevant claim content,Possible Fatality,val
+url548,Relevant claim content,Possible Fatality,train
+url549,N/A: No relevant content.,N/A: No relevant content.,train
+url550,N/A: No relevant content.,N/A: No relevant content.,val
+url551,Relevant claim content,Possible Fatality,train
+url552,Relevant claim content,Possible Fatality,train
+url553,N/A: No relevant content.,N/A: No relevant content.,train
+url554,Relevant claim content,Possible Fatality,val
+url556,Relevant claim content,Physical Activity,train
+url558,Relevant claim content,Possible Fatality,test
+url56,N/A: No relevant content.,N/A: No relevant content.,test
+url560,N/A: No relevant content.,N/A: No relevant content.,train
+url562,Relevant claim content,Potentially unlawful activity,train
+url563,Relevant claim content,Physical Activity,train
+url565,Relevant claim content,Potentially unlawful activity,train
+url566,N/A: No relevant content.,N/A: No relevant content.,train
+url57,N/A: No relevant content.,N/A: No relevant content.,val
+url573,N/A: No relevant content.,N/A: No relevant content.,test
+url575,Relevant claim content,Potentially unlawful activity,train
+url576,Relevant claim content,Other claim content,train
+url577,N/A: No relevant content.,N/A: No relevant content.,test
+url578,N/A: No relevant content.,N/A: No relevant content.,train
+url579,N/A: No relevant content.,N/A: No relevant content.,train
+url581,N/A: No relevant content.,N/A: No relevant content.,test
+url582,Relevant claim content,Possible Fatality,train
+url583,Relevant claim content,Potentially unlawful activity,train
+url584,Relevant claim content,Possible Fatality,train
+url585,Relevant claim content,Physical Activity,test
+url586,Relevant claim content,Possible Fatality,train
+url587,Relevant claim content,Potentially unlawful activity,train
+url588,Relevant claim content,Physical Activity,test
+url589,Relevant claim content,Possible Fatality,train
+url592,Relevant claim content,Possible Fatality,train
+url593,N/A: No relevant content.,N/A: No relevant content.,test
+url598,N/A: No relevant content.,N/A: No relevant content.,test
+url60,Relevant claim content,Possible Fatality,train
+url600,Relevant claim content,Potentially unlawful activity,train
+url601,N/A: No relevant content.,N/A: No relevant content.,train
+url602,N/A: No relevant content.,N/A: No relevant content.,test
+url603,N/A: No relevant content.,N/A: No relevant content.,train
+url605,Relevant claim content,Other claim content,train
+url606,N/A: No relevant content.,N/A: No relevant content.,val
+url608,Relevant claim content,Other claim content,train
+url61,Relevant claim content,Possible Fatality,train
+url611,Relevant claim content,Other claim content,train
+url612,Relevant claim content,Other claim content,val
+url613,Relevant claim content,Other claim content,train
+url614,Relevant claim content,Other claim content,train
+url615,Relevant claim content,Potentially unlawful activity,train
+url616,Relevant claim content,Other claim content,val
+url619,Relevant claim content,Potentially unlawful activity,train
+url62,Relevant claim content,Possible Fatality,test
+url620,Relevant claim content,Potentially unlawful activity,test
+url622,N/A: No relevant content.,N/A: No relevant content.,train
+url624,N/A: No relevant content.,N/A: No relevant content.,train
+url625,Relevant claim content,Potentially unlawful activity,train
+url626,Relevant claim content,Potentially unlawful activity,train
+url627,N/A: No relevant content.,N/A: No relevant content.,train
+url628,Relevant claim content,Potentially unlawful activity,train
+url63,N/A: No relevant content.,N/A: No relevant content.,train
+url630,N/A: No relevant content.,N/A: No relevant content.,train
+url631,Relevant claim content,Other claim content,train
+url632,N/A: No relevant content.,N/A: No relevant content.,train
+url633,N/A: No relevant content.,N/A: No relevant content.,val
+url634,N/A: No relevant content.,N/A: No relevant content.,train
+url635,N/A: No relevant content.,N/A: No relevant content.,train
+url636,N/A: No relevant content.,N/A: No relevant content.,train
+url638,Relevant claim content,Possible Fatality,train
+url639,N/A: No relevant content.,N/A: No relevant content.,test
+url64,N/A: No relevant content.,N/A: No relevant content.,train
+url642,Relevant claim content,Other claim content,test
+url644,N/A: No relevant content.,N/A: No relevant content.,val
+url645,Relevant claim content,Physical Activity,val
+url646,Relevant claim content,Physical Activity,train
+url647,N/A: No relevant content.,N/A: No relevant content.,train
+url648,N/A: No relevant content.,N/A: No relevant content.,train
+url649,N/A: No relevant content.,N/A: No relevant content.,train
+url652,Relevant claim content,Potentially unlawful activity,train
+url653,Relevant claim content,Potentially unlawful activity,train
+url654,Relevant claim content,Physical Activity,train
+url655,Relevant claim content,Potentially unlawful activity,train
+url656,N/A: No relevant content.,N/A: No relevant content.,train
+url657,N/A: No relevant content.,N/A: No relevant content.,train
+url658,N/A: No relevant content.,N/A: No relevant content.,val
+url659,Relevant claim content,Potentially unlawful activity,test
+url66,Relevant claim content,Possible Fatality,train
+url661,N/A: No relevant content.,N/A: No relevant content.,train
+url662,Relevant claim content,Potentially unlawful activity,train
+url663,Relevant claim content,Physical Activity,train
+url664,N/A: No relevant content.,N/A: No relevant content.,train
+url666,N/A: No relevant content.,N/A: No relevant content.,train
+url667,Relevant claim content,Possible Fatality,train
+url669,N/A: No relevant content.,N/A: No relevant content.,train
+url67,Relevant claim content,Possible Fatality,test
+url670,Relevant claim content,Potentially unlawful activity,train
+url672,N/A: No relevant content.,N/A: No relevant content.,test
+url673,Relevant claim content,Potentially unlawful activity,train
+url675,N/A: No relevant content.,N/A: No relevant content.,train
+url678,N/A: No relevant content.,N/A: No relevant content.,train
+url680,Relevant claim content,Possible Fatality,train
+url681,N/A: No relevant content.,N/A: No relevant content.,val
+url683,Relevant claim content,Potentially unlawful activity,train
+url685,Relevant claim content,Potentially unlawful activity,val
+url686,N/A: No relevant content.,N/A: No relevant content.,val
+url687,N/A: No relevant content.,N/A: No relevant content.,train
+url688,Relevant claim content,Possible Fatality,val
+url689,N/A: No relevant content.,N/A: No relevant content.,test
+url69,N/A: No relevant content.,N/A: No relevant content.,train
+url690,N/A: No relevant content.,N/A: No relevant content.,train
+url692,N/A: No relevant content.,N/A: No relevant content.,train
+url693,Relevant claim content,Possible Fatality,test
+url694,Relevant claim content,Possible Fatality,train
+url695,Relevant claim content,Possible Fatality,train
+url696,Relevant claim content,Other claim content,val
+url697,Relevant claim content,Other claim content,test
+url698,Relevant claim content,Other claim content,train
+url7,N/A: No relevant content.,N/A: No relevant content.,train
+url70,Relevant claim content,Other claim content,train
+url700,Relevant claim content,Possible Fatality,train
+url701,N/A: No relevant content.,N/A: No relevant content.,val
+url702,N/A: No relevant content.,N/A: No relevant content.,train
+url703,N/A: No relevant content.,N/A: No relevant content.,train
+url704,Relevant claim content,Potentially unlawful activity,train
+url707,N/A: No relevant content.,N/A: No relevant content.,val
+url711,Relevant claim content,Other claim content,val
+url713,Relevant claim content,Other claim content,train
+url714,N/A: No relevant content.,N/A: No relevant content.,test
+url715,N/A: No relevant content.,N/A: No relevant content.,train
+url716,Relevant claim content,Possible Fatality,train
+url718,Relevant claim content,Potentially unlawful activity,train
+url719,Relevant claim content,Possible Fatality,train
+url720,Relevant claim content,Possible Fatality,train
+url721,Relevant claim content,Possible Fatality,train
+url723,Relevant claim content,Possible Fatality,test
+url724,N/A: No relevant content.,N/A: No relevant content.,train
+url725,N/A: No relevant content.,N/A: No relevant content.,train
+url726,N/A: No relevant content.,N/A: No relevant content.,train
+url727,N/A: No relevant content.,N/A: No relevant content.,train
+url729,N/A: No relevant content.,N/A: No relevant content.,train
+url73,Relevant claim content,Potentially unlawful activity,test
+url731,N/A: No relevant content.,N/A: No relevant content.,train
+url732,Relevant claim content,Possible Fatality,train
+url733,Relevant claim content,Possible Fatality,train
+url734,Relevant claim content,Possible Fatality,test
+url737,Relevant claim content,Possible Fatality,train
+url739,Relevant claim content,Possible Fatality,train
+url740,N/A: No relevant content.,N/A: No relevant content.,train
+url741,N/A: No relevant content.,N/A: No relevant content.,train
+url742,N/A: No relevant content.,N/A: No relevant content.,test
+url743,Relevant claim content,Possible Fatality,train
+url744,Relevant claim content,Potentially unlawful activity,train
+url745,Relevant claim content,Possible Fatality,val
+url746,Relevant claim content,Possible Fatality,train
+url749,N/A: No relevant content.,N/A: No relevant content.,test
+url75,Relevant claim content,Physical Activity,train
+url750,N/A: No relevant content.,N/A: No relevant content.,train
+url751,N/A: No relevant content.,N/A: No relevant content.,train
+url752,N/A: No relevant content.,N/A: No relevant content.,test
+url753,Relevant claim content,Possible Fatality,train
+url754,N/A: No relevant content.,N/A: No relevant content.,train
+url756,Relevant claim content,Potentially unlawful activity,train
+url757,Relevant claim content,Potentially unlawful activity,train
+url759,Relevant claim content,Physical Activity,train
+url76,Relevant claim content,Possible Fatality,train
+url760,Relevant claim content,Possible Fatality,test
+url762,Relevant claim content,Possible Fatality,train
+url763,N/A: No relevant content.,N/A: No relevant content.,train
+url764,Relevant claim content,Possible Fatality,train
+url765,Relevant claim content,Possible Fatality,train
+url766,Relevant claim content,Possible Fatality,test
+url767,N/A: No relevant content.,N/A: No relevant content.,train
+url769,N/A: No relevant content.,N/A: No relevant content.,train
+url77,N/A: No relevant content.,N/A: No relevant content.,train
+url770,Relevant claim content,Possible Fatality,train
+url772,N/A: No relevant content.,N/A: No relevant content.,train
+url773,N/A: No relevant content.,N/A: No relevant content.,train
+url774,Relevant claim content,Possible Fatality,train
+url775,Relevant claim content,Possible Fatality,train
+url776,N/A: No relevant content.,N/A: No relevant content.,train
+url777,N/A: No relevant content.,N/A: No relevant content.,train
+url779,Relevant claim content,Possible Fatality,test
+url78,N/A: No relevant content.,N/A: No relevant content.,train
+url780,Relevant claim content,Possible Fatality,train
+url781,Relevant claim content,Possible Fatality,train
+url784,N/A: No relevant content.,N/A: No relevant content.,train
+url786,Relevant claim content,Potentially unlawful activity,test
+url787,Relevant claim content,Possible Fatality,train
+url788,Relevant claim content,Possible Fatality,train
+url789,Relevant claim content,Potentially unlawful activity,train
+url79,N/A: No relevant content.,N/A: No relevant content.,test
+url790,Relevant claim content,Possible Fatality,val
+url793,Relevant claim content,Possible Fatality,train
+url794,N/A: No relevant content.,N/A: No relevant content.,test
+url797,Relevant claim content,Possible Fatality,val
+url798,Relevant claim content,Possible Fatality,train
+url80,N/A: No relevant content.,N/A: No relevant content.,train
+url800,N/A: No relevant content.,N/A: No relevant content.,train
+url804,Relevant claim content,Physical Activity,train
+url805,Relevant claim content,Physical Activity,train
+url807,Relevant claim content,Possible Fatality,train
+url808,Relevant claim content,Potentially unlawful activity,train
+url81,N/A: No relevant content.,N/A: No relevant content.,test
+url810,N/A: No relevant content.,N/A: No relevant content.,train
+url812,Relevant claim content,Possible Fatality,val
+url813,N/A: No relevant content.,N/A: No relevant content.,train
+url814,N/A: No relevant content.,N/A: No relevant content.,train
+url815,N/A: No relevant content.,N/A: No relevant content.,train
+url816,N/A: No relevant content.,N/A: No relevant content.,train
+url818,Relevant claim content,Physical Activity,test
+url819,N/A: No relevant content.,N/A: No relevant content.,train
+url822,N/A: No relevant content.,N/A: No relevant content.,test
+url823,N/A: No relevant content.,N/A: No relevant content.,test
+url824,N/A: No relevant content.,N/A: No relevant content.,train
+url827,Relevant claim content,Possible Fatality,train
+url829,Relevant claim content,Physical Activity,test
+url83,Relevant claim content,Potentially unlawful activity,train
+url830,Relevant claim content,Possible Fatality,val
+url831,Relevant claim content,Possible Fatality,val
+url832,Relevant claim content,Possible Fatality,train
+url833,Relevant claim content,Possible Fatality,train
+url834,Relevant claim content,Possible Fatality,train
+url835,N/A: No relevant content.,N/A: No relevant content.,train
+url836,Relevant claim content,Possible Fatality,train
+url837,N/A: No relevant content.,N/A: No relevant content.,test
+url838,N/A: No relevant content.,N/A: No relevant content.,train
+url839,N/A: No relevant content.,N/A: No relevant content.,train
+url84,N/A: No relevant content.,N/A: No relevant content.,train
+url840,Relevant claim content,Possible Fatality,train
+url841,Relevant claim content,Possible Fatality,train
+url843,N/A: No relevant content.,N/A: No relevant content.,train
+url844,N/A: No relevant content.,N/A: No relevant content.,train
+url846,N/A: No relevant content.,N/A: No relevant content.,train
+url85,N/A: No relevant content.,N/A: No relevant content.,train
+url850,Relevant claim content,Potentially unlawful activity,train
+url851,Relevant claim content,Possible Fatality,train
+url852,Relevant claim content,Possible Fatality,val
+url853,N/A: No relevant content.,N/A: No relevant content.,train
+url854,N/A: No relevant content.,N/A: No relevant content.,test
+url855,Relevant claim content,Possible Fatality,train
+url857,Relevant claim content,Possible Fatality,train
+url858,Relevant claim content,Possible Fatality,test
+url86,N/A: No relevant content.,N/A: No relevant content.,train
+url860,N/A: No relevant content.,N/A: No relevant content.,train
+url861,Relevant claim content,Possible Fatality,val
+url864,Relevant claim content,Possible Fatality,train
+url865,Relevant claim content,Potentially unlawful activity,train
+url866,N/A: No relevant content.,N/A: No relevant content.,train
+url868,N/A: No relevant content.,N/A: No relevant content.,train
+url869,N/A: No relevant content.,N/A: No relevant content.,train
+url870,N/A: No relevant content.,N/A: No relevant content.,train
+url871,Relevant claim content,Potentially unlawful activity,train
+url872,N/A: No relevant content.,N/A: No relevant content.,test
+url877,Relevant claim content,Possible Fatality,train
+url878,Relevant claim content,Possible Fatality,train
+url879,N/A: No relevant content.,N/A: No relevant content.,train
+url88,Relevant claim content,Other claim content,val
+url881,N/A: No relevant content.,N/A: No relevant content.,train
+url882,Relevant claim content,Possible Fatality,train
+url885,Relevant claim content,Physical Activity,train
+url886,Relevant claim content,Physical Activity,test
+url888,N/A: No relevant content.,N/A: No relevant content.,train
+url889,N/A: No relevant content.,N/A: No relevant content.,train
+url89,Relevant claim content,Possible Fatality,train
+url892,N/A: No relevant content.,N/A: No relevant content.,train
+url893,Relevant claim content,Physical Activity,test
+url897,Relevant claim content,Potentially unlawful activity,val
+url898,Relevant claim content,Possible Fatality,test
+url90,Relevant claim content,Potentially unlawful activity,train
+url900,Relevant claim content,Potentially unlawful activity,train
+url901,Relevant claim content,Potentially unlawful activity,train
+url902,Relevant claim content,Potentially unlawful activity,train
+url903,Relevant claim content,Potentially unlawful activity,train
+url904,N/A: No relevant content.,N/A: No relevant content.,val
+url906,N/A: No relevant content.,N/A: No relevant content.,train
+url907,N/A: No relevant content.,N/A: No relevant content.,val
+url908,N/A: No relevant content.,N/A: No relevant content.,train
+url91,Relevant claim content,Possible Fatality,test
+url910,N/A: No relevant content.,N/A: No relevant content.,train
+url911,N/A: No relevant content.,N/A: No relevant content.,train
+url913,N/A: No relevant content.,N/A: No relevant content.,train
+url914,N/A: No relevant content.,N/A: No relevant content.,train
+url915,N/A: No relevant content.,N/A: No relevant content.,train
+url916,N/A: No relevant content.,N/A: No relevant content.,test
+url917,Relevant claim content,Possible Fatality,train
+url918,Relevant claim content,Possible Fatality,train
+url919,Relevant claim content,Possible Fatality,train
+url92,Relevant claim content,Possible Fatality,test
+url920,N/A: No relevant content.,N/A: No relevant content.,test
+url922,Relevant claim content,Potentially unlawful activity,train
+url924,Relevant claim content,Possible Fatality,train
+url925,Relevant claim content,Possible Fatality,train
+url926,Relevant claim content,Possible Fatality,train
+url927,N/A: No relevant content.,N/A: No relevant content.,train
+url928,Relevant claim content,Possible Fatality,test
+url929,Relevant claim content,Possible Fatality,train
+url93,N/A: No relevant content.,N/A: No relevant content.,train
+url931,Relevant claim content,Physical Activity,train
+url932,N/A: No relevant content.,N/A: No relevant content.,train
+url933,N/A: No relevant content.,N/A: No relevant content.,train
+url934,N/A: No relevant content.,N/A: No relevant content.,train
+url935,Relevant claim content,Possible Fatality,train
+url936,Relevant claim content,Physical Activity,test
+url938,N/A: No relevant content.,N/A: No relevant content.,val
+url939,N/A: No relevant content.,N/A: No relevant content.,train
+url94,Relevant claim content,Potentially unlawful activity,val
+url941,N/A: No relevant content.,N/A: No relevant content.,train
+url946,Relevant claim content,Possible Fatality,test
+url947,Relevant claim content,Potentially unlawful activity,val
+url949,Relevant claim content,Possible Fatality,val
+url950,Relevant claim content,Potentially unlawful activity,test
+url951,N/A: No relevant content.,N/A: No relevant content.,train
+url952,Relevant claim content,Potentially unlawful activity,train
+url953,N/A: No relevant content.,N/A: No relevant content.,train
+url954,N/A: No relevant content.,N/A: No relevant content.,train
+url957,N/A: No relevant content.,N/A: No relevant content.,train
+url958,Relevant claim content,Other claim content,val
+url959,N/A: No relevant content.,N/A: No relevant content.,train
+url96,Relevant claim content,Physical Activity,test
+url960,N/A: No relevant content.,N/A: No relevant content.,train
+url961,Relevant claim content,Other claim content,train
+url964,N/A: No relevant content.,N/A: No relevant content.,train
+url965,N/A: No relevant content.,N/A: No relevant content.,train
+url967,Relevant claim content,Potentially unlawful activity,train
+url968,Relevant claim content,Potentially unlawful activity,train
+url969,Relevant claim content,Possible Fatality,test
+url97,Relevant claim content,Physical Activity,test
+url970,N/A: No relevant content.,N/A: No relevant content.,test
+url971,N/A: No relevant content.,N/A: No relevant content.,train
+url973,Relevant claim content,Other claim content,train
+url975,N/A: No relevant content.,N/A: No relevant content.,train
+url976,N/A: No relevant content.,N/A: No relevant content.,train
+url977,N/A: No relevant content.,N/A: No relevant content.,val
+url978,Relevant claim content,Possible Fatality,test
+url979,Relevant claim content,Possible Fatality,val
+url98,Relevant claim content,Possible Fatality,train
+url980,Relevant claim content,Possible Fatality,train
+url982,Relevant claim content,Possible Fatality,val
+url983,N/A: No relevant content.,N/A: No relevant content.,train
+url985,N/A: No relevant content.,N/A: No relevant content.,train
+url986,Relevant claim content,Possible Fatality,test
+url988,Relevant claim content,Potentially unlawful activity,train
+url99,N/A: No relevant content.,N/A: No relevant content.,train
+url990,N/A: No relevant content.,N/A: No relevant content.,train
+url991,Relevant claim content,Physical Activity,val
+url992,Relevant claim content,Physical Activity,test
+url993,N/A: No relevant content.,N/A: No relevant content.,test
+url994,Relevant claim content,Potentially unlawful activity,train
+url998,N/A: No relevant content.,N/A: No relevant content.,train
+url999,N/A: No relevant content.,N/A: No relevant content.,train

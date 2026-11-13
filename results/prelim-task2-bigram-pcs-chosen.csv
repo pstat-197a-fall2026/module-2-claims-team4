@@ -1,4 +1,5 @@
 split,bigram_pcs_chosen
+<<<<<<< HEAD
 1,1
 2,0
 3,0
@@ -6,6 +7,15 @@ split,bigram_pcs_chosen
 5,0
 6,1
 7,1
+=======
+1,0
+2,0
+3,0
+4,0
+5,1
+6,0
+7,0
+>>>>>>> 2005beff21d569e51b76e22ee5da21fb473c8d38
 8,0
 9,0
 10,0

@@ -1,6 +1,6 @@
 ---
 title: "Summary of exploratory tasks"
-author: 'YOUR NAMES HERE'
+author: 'Alison Gu, Jocelyn Lee, Clark Enge, Elijah Gabriel Ret, Nic Chan'
 date: today
 ---
 
@@ -8,9 +8,16 @@ date: today
 
 Does including header content improve predictions? Answer the question and provide quantitative evidence supporting your answer.
 
+Yes, including header content with paragraph text improves classification performance greatly across all evaluation metric. Comparing work-level principal component logistic regression (PCR) on the shared 7/10/20 split, adding header content increases test accuracy from 0.5518987341772152 to 0.7772151898734178, increases ROC AUC from 0.5435520655159902 to 0.8416653708598973, and decreases test log-loss from 0.6855753178259671 to 0.5270137766128913. (These results can all be seen in '/results/prelim-task1-shared-split.csv').
+
+Additionally, these improvements are consistent across all 10 stratified random splits. The accuracy mean increased from 0.6278481012658228 to 0.7032911392405063, accuracy standard decreased from 0.10370480581399515 to 0.09902442102500272. The ROC AUC mean increased from 0.6186954196697451 to 0.7774225374998114, ROC AUC standard deviation decreased from 0.17511459827826414 to 0.07413431592071157. Finally, the log-loss mean decreased from 0.671562542722538 to 0.5844861550369151, and the log-loss standard deviation stayed around the same from 0.05683764575001967 to 0.05877664357475228. All these three pairs of results show that since the means are increasing, classification performance is improving, and since the standard deviations are decreasing, the classification performance is more precise and reliable. (These results can all be seen in '/results/prelim-task1-summary.csv')
+
+
 ### Bigrams
 
 Do bigrams capture additional information relevant to the classification of interest? Answer the question, **briefly** describe what analysis you conducted to arrive at your answer, and provide quantitative evidence supporting your answer.
+
+No, bigrams do not capture meaningful, additional information beyond 
 
 ### Neural net
 

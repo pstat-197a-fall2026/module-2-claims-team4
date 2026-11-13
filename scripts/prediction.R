@@ -5,6 +5,17 @@ load('data/claims-raw.RData')
 source('scripts/preprocessing.R')
 tf_model <- load_model('results/example-model.keras')
 
+list.files("results")
+list.files("results/example-model", recursive = TRUE)
+library(reticulate)
+
+tf <- import("tensorflow")
+keras <- import("keras")
+
+saved_model <- tf$saved_model$load("results/example-model")
+
+names(saved_model$signatures)
+
 # apply preprocessing pipeline
 clean_df <- claims_test %>%
   slice(1:100) %>%
