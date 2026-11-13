@@ -21,12 +21,12 @@ No, bigrams do not capture meaningful, additional information beyond
 
 ### Neural net
 
-Summarize the neural network model you trained by desribing:
+We evaluated five feedforward neural network configurations on the header-and-paragraph (ph) text using the shared 70/10/20 split, selecting the final model (2_relu_32_reg) based on lowest validation log-loss.
 
--   architecture
+Architecture: A sequential feedforward network starting with a TF-IDF text vectorization layer (capped at the top 5,000 unigram tokens, adapted strictly on the training split), followed by a dropout layer (rate = 0.3), a single hidden dense layer of 32 units with ReLU activation and L2 weight regularization, a second dropout layer (rate = 0.3), and a 1-unit output layer with a sigmoid activation function for binary probability estimation.
 
--   optimization and loss
+Optimization and loss: Compiled with the Adam optimizer (learning_rate = 0.001) and trained to minimize binary cross-entropy loss, tracking binary accuracy (threshold = 0.5).
 
--   training epochs
+Training epochs: Configured for a maximum of 40 epochs (batch_size = 32) using early stopping on the 10% validation set (patience = 5 monitoring validation loss). Our best model stopped after 8 epochs and restored weights from its optimal validation epoch (Epoch 3).
 
--   predictive accuracy
+Predictive accuracy: Achieved 84.8% test accuracy and 0.882 AUC (with 0.560 test log-loss and 76.9% validation accuracy), outperforming Task 1's ph logistic principal component regression benchmark (77.7% test accuracy, 0.842 AUC, 0.527 log-loss) by 7.1 percentage points in classification accuracy.
