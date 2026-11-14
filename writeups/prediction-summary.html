@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alison Gu, Jocelyn Lee, Clark Enge, Elijah Gabriel Ret, Nic Chan">
-<meta name="dcterms.date" content="2026-11-13">
+<meta name="dcterms.date" content="2026-11-14">
 
 <title>Predictive modeling of claims status</title>
 <style>
@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 13, 2026</p>
+      <p class="date">November 14, 2026</p>
     </div>
   </div>
   
@@ -82,53 +82,83 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="abstract" class="level3">
 <h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
-<p>Provide a 3-5 sentence summary of your work on the primary task. Indicate what input data was used, what method was used for binary class predictions, what method was used for multiclass predictions, and what estimated accuracies were achieved.</p>
-<blockquote class="blockquote">
-<p><em>We used 2,165 labeled webpages to train our models and then made predictions on 929 unlabelled test webpages. We pulled text from the HTML titles, meta descriptions, headers, and paragraphs, and turned those words and two-word phrases into TF-IDF numbers. For the binary task, we used a linear support vector machine (SVM) and got about 81.4% accuracy. For the multiclass classification, we paired that binary SVM with a second linear SVM trained only on relevant pages, which got about 78% accuracy.</em></p>
-</blockquote>
+<p>We trained our models on 2,165 labeled webpages and used them to classify 929 unlabeled test pages. Text was taken from each page’s title, meta description, headers and paragraphs, and represented as TF-IDF scores for words and two-word phrases (bigrams). For binary classification we used a linear support vector machine (SVM), which reached 84.3% accuracy in 5-fold cross-validation. For multiclass classification we paired that binary SVM with a second linear SVM trained only on relevant pages, which reached 83.4% accuracy.</p>
 </section>
 <section id="preprocessing" class="level3">
 <h3 class="anchored" data-anchor-id="preprocessing">Preprocessing</h3>
-<p>In one paragraph lay out your preprocessing pipeline. No need to provide exact step-by-step detail; just give an overview of the main components:</p>
-<ul>
-<li><p>what text content was extracted from HTML</p></li>
-<li><p>how text was cleaned</p></li>
-<li><p>how cleaned text was represented quantitatively</p></li>
-</ul>
-<blockquote class="blockquote">
-<p><em>First, we parsed every raw webpage so that no pages got dropped, even if they were missing standard HTML tags. We removed background code like <code>&lt;script&gt;</code> and <code>&lt;style&gt;</code> tags, and then pulled out the readable text into two separate groups: page metadata (titles and meta descriptions) and main page content (headers and paragraphs). Next, we cleaned the text by removing links, emails, apostrophes, numbers, and punctuation, splitting camelCase words, and making all text lowercase. Then, we split the text into individual words, dropped common stopwords, stemmed words down to their roots, and added adjacent two-word pairs/bigrams. Finally, we kept terms that showed up in at least 3 pages (and no more than 95% of pages) and converted each page into a row of normalized TF-IDF scores.</em></p>
-</blockquote>
+<p>We parsed every raw page, including pages missing standard HTML tags, so that no page was dropped and all 929 test pages receive a prediction. After removing <code>&lt;script&gt;</code> and <code>&lt;style&gt;</code> content, we extracted two groups of text: page metadata (title and meta descriptions) and main content (headers and paragraphs). Text was cleaned by removing links, emails, numbers and punctuation, splitting camelCase words and lowercasing. We then tokenized into words, dropped stopwords, stemmed each word to its root and added adjacent-word bigrams. Terms appearing in at least 3 pages and at most 95% of pages were kept, giving a vocabulary of about 31,600 terms. Each page became a row of L2-normalized TF-IDF scores, with metadata terms kept as separate features from content terms.</p>
 </section>
 <section id="methods" class="level3">
 <h3 class="anchored" data-anchor-id="methods">Methods</h3>
-<p>Describe your final predictive models. Include one paragraph with details on the binary classification approach, and one on the multiclass approach. Include for each:</p>
-<ul>
-<li><p>what ML/statistical method was used</p></li>
-<li><p>model specification and hyperparameter selection</p></li>
-<li><p>training method</p></li>
-</ul>
-<blockquote class="blockquote">
-<p><em>For binary classification, we used a linear support vector machine (e1071, cost = 1) with Platt-scaled probability scaling to predict whether a page had relevant claim content or was <code>N/A</code>. Pages with a predicted probability over 0.5 were labeled as relevant, and everything else was labeled as <code>N/A</code>. We checked the model’s accuracy using 5-fold cross-validation—rebuilding the TF-IDF vocabulary inside each fold so there was no data leakage—before training the final model on all 2,165 labeled pages.</em></p>
-</blockquote>
-<blockquote class="blockquote">
-<p><em>For multiclass classification, we used a two-step linear SVM setup (e1071, linear kernel, cost = 1) so that our binary and multiclass predictions would always match up. First, the binary SVM decides if a page is relevant or <code>N/A</code>, and if it is <code>N/A</code>, the multiclass prediction is automatically set to <code>N/A</code> too. If the page is predicted to be relevant, it gets passed to a second linear SVM—trained only on the relevant training pages—which picks whichever of the four claim categories has the highest probability. Just like the binary model, we evaluated this setup with 5-fold cross-validation and then fit the final version on all labeled pages.</em></p>
-</blockquote>
+<p><strong>Binary.</strong> A linear SVM (e1071, cost = 1) with Platt-scaled probabilities predicts whether a page has relevant claim content. Pages with predicted probability above 0.5 are labeled relevant, and all others are labeled <code>N/A</code>. Accuracy was estimated with stratified 5-fold cross-validation, refitting the TF-IDF vocabulary inside each fold to avoid leakage. The final model was then trained on all 2,165 labeled pages.</p>
+<p><strong>Multiclass.</strong> We used a two-step design so that the binary and multiclass predictions always agree. Pages the binary SVM labels <code>N/A</code> also get <code>N/A</code> as their multiclass label. Pages labeled relevant are passed to a second linear SVM (cost = 1), trained only on relevant pages, which assigns whichever of the four claim categories has the highest probability. This model was evaluated with the same 5-fold cross-validation and refit on all labeled pages.</p>
 </section>
 <section id="results" class="level3">
 <h3 class="anchored" data-anchor-id="results">Results</h3>
-<p>Indicate the predictive accuracy of the binary classifications and the multiclass classifications. Provide a table for each, and report sensitivity, specificity, and accuracy.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-<blockquote class="blockquote">
-<p><em>Using 5-fold cross-validation on the 2,165 labeled webpages, our binary SVM reached 81.4% accuracy and our two-step multiclass SVM reached 78% accuracy.</em></p>
-</blockquote>
+<p>All estimates come from 5-fold cross-validation on the 2,165 labeled pages (± one standard error across folds).</p>
+<p><strong>Binary</strong> (positive class = relevant claim content)</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Accuracy</th>
+<th>Sensitivity</th>
+<th>Specificity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0.843 ± 0.013</td>
+<td>0.855</td>
+<td>0.830</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Multiclass</strong> (overall accuracy 0.834 ± 0.013; per-class values are one-vs-rest)</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>Sensitivity</th>
+<th>Specificity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>N/A: No relevant content</td>
+<td>0.830</td>
+<td>0.855</td>
+</tr>
+<tr class="even">
+<td>Physical Activity</td>
+<td>0.746</td>
+<td>0.976</td>
+</tr>
+<tr class="odd">
+<td>Possible Fatality</td>
+<td>0.921</td>
+<td>0.964</td>
+</tr>
+<tr class="even">
+<td>Potentially unlawful activity</td>
+<td>0.898</td>
+<td>0.975</td>
+</tr>
+<tr class="odd">
+<td>Other claim content</td>
+<td>0.465</td>
+<td>0.980</td>
+</tr>
+<tr class="even">
+<td><strong>Macro average</strong></td>
+<td><strong>0.772</strong></td>
+<td><strong>0.950</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Most multiclass errors come from confusing relevant pages with <code>N/A</code>, not from confusing one claim category with another. The exception is “Other claim content”, the smallest and least specific class, which is often predicted as <code>N/A</code>.</p>
 </section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Read <a href="https://yardstick.tidymodels.org/articles/multiclass.html">this article</a> on multiclass averaging.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main>
+</main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

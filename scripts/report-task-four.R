@@ -45,8 +45,8 @@
 ##   2. Check accuracy with 5-fold cross-validation: hide 1/5 of the pages,
 ##      train on the rest, see how many hidden pages the model gets right;
 ##      repeat 5 times.
-##        -> binary accuracy     ~84.5%
-##        -> multiclass accuracy ~83.6%
+##        -> binary accuracy     ~84.3%
+##        -> multiclass accuracy ~83.4%
 ##   3. Train the final models on all 2,165 pages:
 ##        * binary SVM: relevant or N/A?
 ##        * 4-class SVM (trained on relevant pages only): which kind of claim?

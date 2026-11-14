@@ -58,4 +58,4 @@ Due: Friday, Nov 13
 
 ## Open questions
 
-- The cleaning step drops some test pages. Check whether the instructor wants predictions for all 929 test pages.
+- ~~The cleaning step drops some test pages.~~ Resolved: the final pipeline parses every page, so `preds-group4.RData` has a prediction for all 929 test pages.

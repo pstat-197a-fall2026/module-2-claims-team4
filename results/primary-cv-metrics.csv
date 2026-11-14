@@ -1,0 +1,17 @@
+task,class,.metric,.estimator,.estimate
+binary,overall,accuracy,binary,0.8434180138568129
+binary,overall,sensitivity,binary,0.855251544571933
+binary,overall,specificity,binary,0.8304263565891473
+multiclass,macro average,accuracy,multiclass,0.8337182448036952
+multiclass,macro average,sensitivity,macro,0.7721091656530258
+multiclass,macro average,specificity,macro,0.9499262576648834
+multiclass,N/A: No relevant content.,sensitivity,one-vs-rest,0.8304263565891473
+multiclass,N/A: No relevant content.,specificity,one-vs-rest,0.855251544571933
+multiclass,Physical Activity,sensitivity,one-vs-rest,0.7457627118644068
+multiclass,Physical Activity,specificity,one-vs-rest,0.975635044064282
+multiclass,Possible Fatality,sensitivity,one-vs-rest,0.9209932279909706
+multiclass,Possible Fatality,specificity,one-vs-rest,0.9639953542392566
+multiclass,Potentially unlawful activity,sensitivity,one-vs-rest,0.8980169971671388
+multiclass,Potentially unlawful activity,specificity,one-vs-rest,0.9746136865342163
+multiclass,Other claim content,sensitivity,one-vs-rest,0.46534653465346537
+multiclass,Other claim content,specificity,one-vs-rest,0.9801356589147286

@@ -41,3 +41,8 @@ vignettes/*.pdf
 
 # testing data
 private
+
+# regenerated parse caches
+data/claims-parsed-primary.RData
+data/parsed-train.rds
+.RDataTmp

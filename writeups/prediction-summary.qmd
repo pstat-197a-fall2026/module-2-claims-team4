@@ -6,43 +6,37 @@ date: today
 
 ### Abstract
 
-Provide a 3-5 sentence summary of your work on the primary task. Indicate what input data was used, what method was used for binary class predictions, what method was used for multiclass predictions, and what estimated accuracies were achieved.
-
-
-> *We used 2,165 labeled webpages to train our models and then made predictions on 929 unlabelled test webpages. We pulled text from the HTML titles, meta descriptions, headers, and paragraphs, and turned those words and two-word phrases into TF-IDF numbers. For the binary task, we used a linear support vector machine (SVM) and got about 81.4% accuracy. For the multiclass classification, we paired that binary SVM with a second linear SVM trained only on relevant pages, which got about 78% accuracy.*
+We trained our models on 2,165 labeled webpages and used them to classify 929 unlabeled test pages. Text was taken from each page's title, meta description, headers and paragraphs, and represented as TF-IDF scores for words and two-word phrases (bigrams). For binary classification we used a linear support vector machine (SVM), which reached 84.3% accuracy in 5-fold cross-validation. For multiclass classification we paired that binary SVM with a second linear SVM trained only on relevant pages, which reached 83.4% accuracy.
 
 ### Preprocessing
 
-In one paragraph lay out your preprocessing pipeline. No need to provide exact step-by-step detail; just give an overview of the main components:
-
--   what text content was extracted from HTML
-
--   how text was cleaned
-
--   how cleaned text was represented quantitatively
-
-> *First, we parsed every raw webpage so that no pages got dropped, even if they were missing standard HTML tags. We removed background code like `<script>` and `<style>` tags, and then pulled out the readable text into two separate groups: page metadata (titles and meta descriptions) and main page content (headers and paragraphs). Next, we cleaned the text by removing links, emails, apostrophes, numbers, and punctuation, splitting camelCase words, and making all text lowercase. Then, we split the text into individual words, dropped common stopwords, stemmed words down to their roots, and added adjacent two-word pairs/bigrams. Finally, we kept terms that showed up in at least 3 pages (and no more than 95% of pages) and converted each page into a row of normalized TF-IDF scores.*
-
+We parsed every raw page, including pages missing standard HTML tags, so that no page was dropped and all 929 test pages receive a prediction. After removing `<script>` and `<style>` content, we extracted two groups of text: page metadata (title and meta descriptions) and main content (headers and paragraphs). Text was cleaned by removing links, emails, numbers and punctuation, splitting camelCase words and lowercasing. We then tokenized into words, dropped stopwords, stemmed each word to its root and added adjacent-word bigrams. Terms appearing in at least 3 pages and at most 95% of pages were kept, giving a vocabulary of about 31,600 terms. Each page became a row of L2-normalized TF-IDF scores, with metadata terms kept as separate features from content terms.
 
 ### Methods
 
-Describe your final predictive models. Include one paragraph with details on the binary classification approach, and one on the multiclass approach. Include for each:
+**Binary.** A linear SVM (e1071, cost = 1) with Platt-scaled probabilities predicts whether a page has relevant claim content. Pages with predicted probability above 0.5 are labeled relevant, and all others are labeled `N/A`. Accuracy was estimated with stratified 5-fold cross-validation, refitting the TF-IDF vocabulary inside each fold to avoid leakage. The final model was then trained on all 2,165 labeled pages.
 
--   what ML/statistical method was used
-
--   model specification and hyperparameter selection
-
--   training method
-
-> *For binary classification, we used a linear support vector machine (e1071, cost = 1) with Platt-scaled probability  scaling to predict whether a page had relevant claim content or was `N/A`. Pages with a predicted probability over 0.5 were labeled as relevant, and everything else was labeled as `N/A`. We checked the model's accuracy using 5-fold cross-validation—rebuilding the TF-IDF vocabulary inside each fold so there was no data leakage—before training the final model on all 2,165 labeled pages.*
-
-> *For multiclass classification, we used a two-step linear SVM setup (e1071, linear kernel, cost = 1) so that our binary and multiclass predictions would always match up. First, the binary SVM decides if a page is relevant or `N/A`, and if it is `N/A`, the multiclass prediction is automatically set to `N/A` too. If the page is predicted to be relevant, it gets passed to a second linear SVM—trained only on the relevant training pages—which picks whichever of the four claim categories has the highest probability. Just like the binary model, we evaluated this setup with 5-fold cross-validation and then fit the final version on all labeled pages.*
+**Multiclass.** We used a two-step design so that the binary and multiclass predictions always agree. Pages the binary SVM labels `N/A` also get `N/A` as their multiclass label. Pages labeled relevant are passed to a second linear SVM (cost = 1), trained only on relevant pages, which assigns whichever of the four claim categories has the highest probability. This model was evaluated with the same 5-fold cross-validation and refit on all labeled pages.
 
 ### Results
 
-Indicate the predictive accuracy of the binary classifications and the multiclass classifications. Provide a table for each, and report sensitivity, specificity, and accuracy.[^1]
+All estimates come from 5-fold cross-validation on the 2,165 labeled pages (± one standard error across folds).
 
-[^1]: Read [this article](https://yardstick.tidymodels.org/articles/multiclass.html) on multiclass averaging.
+**Binary** (positive class = relevant claim content)
 
+| Accuracy      | Sensitivity | Specificity |
+|---------------|-------------|-------------|
+| 0.843 ± 0.013 | 0.855       | 0.830       |
 
-> *Using 5-fold cross-validation on the 2,165 labeled webpages, our binary SVM reached 81.4% accuracy and our two-step multiclass SVM reached 78% accuracy.*
+**Multiclass** (overall accuracy 0.834 ± 0.013; per-class values are one-vs-rest)
+
+| Class                         | Sensitivity | Specificity |
+|-------------------------------|-------------|-------------|
+| N/A: No relevant content      | 0.830       | 0.855       |
+| Physical Activity             | 0.746       | 0.976       |
+| Possible Fatality             | 0.921       | 0.964       |
+| Potentially unlawful activity | 0.898       | 0.975       |
+| Other claim content           | 0.465       | 0.980       |
+| **Macro average**             | **0.772**   | **0.950**   |
+
+Most multiclass errors come from confusing relevant pages with `N/A`, not from confusing one claim category with another. The exception is "Other claim content", the smallest and least specific class, which is often predicted as `N/A`.

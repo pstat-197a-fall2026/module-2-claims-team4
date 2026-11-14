@@ -1,5 +1,25 @@
 # module2-claims
 
+## Team 4: where to find our deliverables
+
+| Deliverable | File |
+|---|---|
+| 1. Summary of preliminary tasks 1–3 | `writeups/tasks-summary.html` |
+| 2. Summary of the primary task | `writeups/prediction-summary.html` |
+| 3. Test-set predictions (`pred_df`: `.id`, `bclass.pred`, `mclass.pred`) | `results/preds-group4.RData` |
+| 4. Saved models | `results/primary-models.rds` (binary + multiclass linear SVMs) |
+| 4. Script that uses them | `scripts/prediction.R` |
+
+**To regenerate the predictions**, run this from the repository root (about 5 minutes; needs tidyverse, rvest, xml2, Matrix, SnowballC, tidytext and e1071):
+
+```
+Rscript scripts/prediction.R
+```
+
+To retrain the models and re-estimate cross-validated accuracy, run `scripts/train-primary-jocelyn.R` (about 15 minutes). `scripts/report-task-four.R` explains how the primary-task scripts fit together. Cross-validation results are in `results/primary-cv-summary.csv` and `results/primary-cv-metrics.csv`.
+
+*The rest of this README is the original assignment template.*
+
 This is a template repository for the module 2 group assignment for PSTAT197A. The assignment objective is to develop a predictive model for webpage classification based on scraping text content.
 
 ## Repository content
