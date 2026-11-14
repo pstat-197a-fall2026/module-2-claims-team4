@@ -1,5 +1,5 @@
 ## PRIMARY TASK: generate binary + multiclass predictions on the test pages
-## Run from the repository root after scripts/train-primary-models.R.
+## Run from the repository root after scripts/train-primary-jocelyn.R.
 ## Output: results/preds-group4.RData containing pred_df with columns
 ##   .id, bclass.pred, mclass.pred   (one row for every test page)
 

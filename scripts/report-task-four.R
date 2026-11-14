@@ -2,7 +2,7 @@
 ## PRIMARY TASK OVERVIEW: how the scripts fit together
 ## PSTAT 197A, Module 2 (claims classification)
 ##
-## Put this file in scripts/ and run it from the repository root (the folder
+## Run this file from the repository root (the folder
 ## that contains data/, scripts/ and results/). By default it only prints a
 ## summary; set the switches in STEP 0 to TRUE to actually train or predict.
 ##############################################################################
@@ -20,13 +20,13 @@
 ##       New observations. The finished model CATEGORIZES these.
 ##
 ## Three scripts handle this:
-##   1. scripts/preprocessing-primary.R   shared toolbox (turns pages into numbers)
-##   2. scripts/train-primary-models.R    builds + checks the model
-##   3. scripts/predict-primary.R         uses the finished model on new pages
+##   1. scripts/preprocessing-primary-jocelyn.R   shared toolbox (turns pages into numbers)
+##   2. scripts/train-primary-jocelyn.R    builds + checks the model
+##   3. scripts/prediction.R         uses the finished model on new pages
 
 
 ## ---------------------------------------------------------------------------
-## SCRIPT 1: preprocessing-primary.R  (the shared toolbox)
+## SCRIPT 1: preprocessing-primary-jocelyn.R  (the shared toolbox)
 ## ---------------------------------------------------------------------------
 ## Never run directly; the other two scripts load it with source().
 ## It turns messy HTML into numbers a model can use:
@@ -38,7 +38,7 @@
 
 
 ## ---------------------------------------------------------------------------
-## SCRIPT 2: train-primary-models.R  (building and checking the model)
+## SCRIPT 2: train-primary-jocelyn.R  (building and checking the model)
 ## ---------------------------------------------------------------------------
 ## Uses only the 2,165 labelled pages:
 ##   1. Preprocess them with the toolbox
@@ -55,7 +55,7 @@
 
 
 ## ---------------------------------------------------------------------------
-## SCRIPT 3: predict-primary.R  (using the finished model)
+## SCRIPT 3: prediction.R  (using the finished model)
 ## ---------------------------------------------------------------------------
 ## Uses the 929 new pages:
 ##   1. Load the finished model (no learning happens here)
@@ -73,10 +73,10 @@
 ## ---------------------------------------------------------------------------
 ## IN ONE LINE EACH
 ## ---------------------------------------------------------------------------
-##   preprocessing-primary.R   turns web pages into numbers
-##   train-primary-models.R    learns from labelled pages, measures accuracy,
+##   preprocessing-primary-jocelyn.R   turns web pages into numbers
+##   train-primary-jocelyn.R    learns from labelled pages, measures accuracy,
 ##                             saves the model
-##   predict-primary.R         uses the saved model to label new pages,
+##   prediction.R         uses the saved model to label new pages,
 ##                             saves the answers
 
 
@@ -91,7 +91,7 @@ run_prediction <- FALSE   # ~2-5 min; needs results/primary-models.rds
 ## STEP 1: train the models (Script 2)
 ## ---------------------------------------------------------------------------
 if(run_training){
-  source('scripts/train-primary-models.R')
+  source('scripts/train-primary-jocelyn.R')
 }
 
 
@@ -99,7 +99,7 @@ if(run_training){
 ## STEP 2: predict on the test pages (Script 3)
 ## ---------------------------------------------------------------------------
 if(run_prediction){
-  source('scripts/predict-primary.R')
+  source('scripts/prediction.R')
 }
 
 
