@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -35,13 +38,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="tasks-summary_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="tasks-summary_files/libs/quarto-html/anchor.min.js"></script>
 <link href="tasks-summary_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="tasks-summary_files/libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="tasks-summary_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="tasks-summary_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="tasks-summary_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="tasks-summary_files/libs/bootstrap/bootstrap-efbb37e9afcc02144ebbc7afd12a776f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="tasks-summary_files/libs/bootstrap/bootstrap-917079515d91bccb85b543faf8aa8bb6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -125,11 +128,7 @@ window.Quarto = {
 </section>
 <section id="neural-net" class="level3">
 <h3 class="anchored" data-anchor-id="neural-net">Neural net</h3>
-<p>We evaluated five feedforward neural network configurations on the header-and-paragraph (ph) text using the shared 70/10/20 split, selecting the final model (2_relu_32_reg) based on lowest validation log-loss.</p>
-<p>Architecture: A sequential feedforward network starting with a TF-IDF text vectorization layer (capped at the top 5,000 unigram tokens, adapted strictly on the training split), followed by a dropout layer (rate = 0.3), a single hidden dense layer of 32 units with ReLU activation and L2 weight regularization, a second dropout layer (rate = 0.3), and a 1-unit output layer with a sigmoid activation function for binary probability estimation.</p>
-<p>Optimization and loss: Compiled with the Adam optimizer (learning_rate = 0.001) and trained to minimize binary cross-entropy loss, tracking binary accuracy (threshold = 0.5).</p>
-<p>Training epochs: Configured for a maximum of 40 epochs (batch_size = 32) using early stopping on the 10% validation set (patience = 5 monitoring validation loss). Our best model stopped after 8 epochs and restored weights from its optimal validation epoch (Epoch 3).</p>
-<p>Predictive accuracy: Achieved 84.8% test accuracy and 0.882 AUC (with 0.560 test log-loss and 76.9% validation accuracy), outperforming Task 1’s ph logistic principal component regression benchmark (77.7% test accuracy, 0.842 AUC, 0.527 log-loss) by 7.1 percentage points in classification accuracy.</p>
+<p>We developed and compared five neural network configurations on the combined header-and-paragraph text using our shared 70/10/20 data split to identify an optimal architecture for webpage classification. Our best-performing design converts each page into its 5,000 most informative single-word features, passes them through a single 32-unit non-linear (ReLU) hidden layer paired with dropout and weight penalties to prevent memorizing noise, and outputs a final class probability through a sigmoid layer. For optimization and loss, the network was trained using the Adam optimization algorithm to minimize binary cross-entropy loss, which directly penalizes inaccurate probability estimates. Across training epochs, we set a maximum limit of 40 passes through the training data with an automated early-stopping rule monitoring our validation set and our winning model converged and stopped after 8 epochs, automatically restoring the weights from its best validation pass. In terms of predictive accuracy, this compact network achieved 84.8% test accuracy (and 0.882 AUC), outperforming Task 1’s principal component regression benchmark (77.7% accuracy) by 7.1 percentage points. While expanding the architecture to a wider 64-unit layer (80.0% accuracy, 10 epochs) or a deeper two-layer network (60.3% accuracy, 6 epochs) reduced performance due to overfitting on single words, feeding two-word phrases (bigrams) into the 64-unit architecture (13 epochs) rebounded test accuracy to 84.6%</p>
 </section>
 
 </main>
