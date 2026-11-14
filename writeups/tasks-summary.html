@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alison Gu, Jocelyn Lee, Clark Enge, Elijah Gabriel Ret, Nic Chan">
-<meta name="dcterms.date" content="2026-11-12">
+<meta name="dcterms.date" content="2026-11-13">
 
 <title>Summary of exploratory tasks</title>
 <style>
@@ -40,6 +40,35 @@ ul.task-list li input[type="checkbox"] {
 <link href="tasks-summary_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="tasks-summary_files/libs/bootstrap/bootstrap-efbb37e9afcc02144ebbc7afd12a776f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -68,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 12, 2026</p>
+      <p class="date">November 13, 2026</p>
     </div>
   </div>
   
@@ -83,22 +112,24 @@ ul.task-list li input[type="checkbox"] {
 <section id="html-scraping" class="level3">
 <h3 class="anchored" data-anchor-id="html-scraping">HTML scraping</h3>
 <p>Does including header content improve predictions? Answer the question and provide quantitative evidence supporting your answer.</p>
-<p>Yes, including header content with paragraph text improves classification performance greatly across all evaluation metric. Comparing work-level principal component logistic regression (PCR) on the shared 7/10/20 split, adding header content increases test accuracy from 0.5518987341772152 to 0.7772151898734178, increases ROC AUC from 0.5435520655159902 to 0.8416653708598973, and decreases test log-loss from 0.6855753178259671 to 0.5270137766128913. (These results can all be seen in ‘/results/prelim-task1-shared-split.csv’)</p>
-<p>Additionally, these improvements are consistent across all 10 stratified random splits. The accuracy mean increased from 0.6278481012658228 to 0.7032911392405063, accuracy standard decreased from 0.10370480581399515 to 0.09902442102500272. The ROC AUC mean increased from 0.6186954196697451 to 0.7774225374998114, ROC AUC standard deviation decreased from 0.17511459827826414 to 0.07413431592071157. Finally, the log-loss mean decreased from 0.671562542722538 to 0.5844861550369151, and the log-loss standard deviation stayed around the same from 0.05683764575001967 to 0.05877664357475228. All these three pairs of results show that since the means are increasing, classification performance is improving, and since the standard deviations are decreasing, the classification performance is more precise and reliable.</p>
+<p>Yes, including header content with paragraph text improves classification performance greatly across all evaluation metric. Comparing work-level principal component logistic regression (PCR) on the shared 7/10/20 split, adding header content increases test accuracy from 0.551899 to 0.77722, increases ROC AUC from 0.543552 to 0.84167, and decreases test log-loss from 0.685575 to 0.52701. (These results can all be seen in ‘/results/prelim-task1-shared-split.csv’).</p>
+<p>Additionally, these improvements are consistent across all 10 stratified random splits. The accuracy mean increased from 0.627848 to 0.70329, accuracy standard decreased from 0.10370 to 0.09902. The ROC AUC mean increased from 0.618695 to 0.77742, ROC AUC standard deviation decreased from 0.17511 to 0.074134. Finally, the log-loss mean decreased from 0.67156 to 0.584486, and the log-loss standard deviation stayed around the same from 0.0568376 to 0.0587766. All these three pairs of results show that since the means are increasing, classification performance is improving, and since the standard deviations are decreasing, the classification performance is more precise and reliable. (These results can all be seen in ‘/results/prelim-task1-summary.csv’)</p>
 </section>
 <section id="bigrams" class="level3">
 <h3 class="anchored" data-anchor-id="bigrams">Bigrams</h3>
 <p>Do bigrams capture additional information relevant to the classification of interest? Answer the question, <strong>briefly</strong> describe what analysis you conducted to arrive at your answer, and provide quantitative evidence supporting your answer.</p>
+<p>No, bigrams do not capture meaningful, additional information beyond unigram work features.</p>
+<p>We tested whether bigrams added meaningful information using a two-stage stacked logistic regression on the combined paragraph and header text (“ph”). In Stage 1, we fit a world-level TF-IDF PCR model to general out-of-fold predicted log-odds on the training set, and a full-fit log-odds on the test set.</p>
+<p>In Stage 2, we fit a logistic regression combining Stage 1 word log-odds with the top <span class="math inline">\(m\)</span> principle components from a bigram TF-IDF matrix, which was filtered to bigrams appearing in at least 5 documents, selecting <span class="math inline">\(m \in \{0, 1, 2, 5, 10, 20, 35, 50, 75, 100\}\)</span> via 5-fold cross-validated log-loss and comparing against word-only PCR, recalibrating word-only PCR (<span class="math inline">\(m = 0\)</span>), and bigrams-only PCR baselines across the shared split and 9 additional random splits.</p>
+<p>On the shared split, cross-validation selected <span class="math inline">\(m = 0\)</span> bigram PCs, showing that the stacked model reduced identically to recalibrated word-only PCR (test accuracy = 0.7949, AUC = 0.8417, log-loss = 0.5680), while a bigram-only PCR performed substantially worse (test accuracy = 0.7949, AUC = 0.8417, log-loss = 0.5680). Across all 10 splits, adding bigram PCs produced basically no change over recalibrated word-only PCR.</p>
 </section>
 <section id="neural-net" class="level3">
 <h3 class="anchored" data-anchor-id="neural-net">Neural net</h3>
-<p>Summarize the neural network model you trained by desribing:</p>
-<ul>
-<li><p>architecture</p></li>
-<li><p>optimization and loss</p></li>
-<li><p>training epochs</p></li>
-<li><p>predictive accuracy</p></li>
-</ul>
+<p>We evaluated five feedforward neural network configurations on the header-and-paragraph (ph) text using the shared 70/10/20 split, selecting the final model (2_relu_32_reg) based on lowest validation log-loss.</p>
+<p>Architecture: A sequential feedforward network starting with a TF-IDF text vectorization layer (capped at the top 5,000 unigram tokens, adapted strictly on the training split), followed by a dropout layer (rate = 0.3), a single hidden dense layer of 32 units with ReLU activation and L2 weight regularization, a second dropout layer (rate = 0.3), and a 1-unit output layer with a sigmoid activation function for binary probability estimation.</p>
+<p>Optimization and loss: Compiled with the Adam optimizer (learning_rate = 0.001) and trained to minimize binary cross-entropy loss, tracking binary accuracy (threshold = 0.5).</p>
+<p>Training epochs: Configured for a maximum of 40 epochs (batch_size = 32) using early stopping on the 10% validation set (patience = 5 monitoring validation loss). Our best model stopped after 8 epochs and restored weights from its optimal validation epoch (Epoch 3).</p>
+<p>Predictive accuracy: Achieved 84.8% test accuracy and 0.882 AUC (with 0.560 test log-loss and 76.9% validation accuracy), outperforming Task 1’s ph logistic principal component regression benchmark (77.7% test accuracy, 0.842 AUC, 0.527 log-loss) by 7.1 percentage points in classification accuracy.</p>
 </section>
 
 </main>

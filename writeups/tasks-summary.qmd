@@ -8,16 +8,22 @@ date: today
 
 Does including header content improve predictions? Answer the question and provide quantitative evidence supporting your answer.
 
-Yes, including header content with paragraph text improves classification performance greatly across all evaluation metric. Comparing work-level principal component logistic regression (PCR) on the shared 7/10/20 split, adding header content increases test accuracy from 0.5518987341772152 to 0.7772151898734178, increases ROC AUC from 0.5435520655159902 to 0.8416653708598973, and decreases test log-loss from 0.6855753178259671 to 0.5270137766128913. (These results can all be seen in '/results/prelim-task1-shared-split.csv').
+Yes, including header content with paragraph text improves classification performance greatly across all evaluation metric. Comparing work-level principal component logistic regression (PCR) on the shared 7/10/20 split, adding header content increases test accuracy from 0.551899 to 0.77722, increases ROC AUC from 0.543552 to 0.84167, and decreases test log-loss from 0.685575 to 0.52701. (These results can all be seen in '/results/prelim-task1-shared-split.csv').
 
-Additionally, these improvements are consistent across all 10 stratified random splits. The accuracy mean increased from 0.6278481012658228 to 0.7032911392405063, accuracy standard decreased from 0.10370480581399515 to 0.09902442102500272. The ROC AUC mean increased from 0.6186954196697451 to 0.7774225374998114, ROC AUC standard deviation decreased from 0.17511459827826414 to 0.07413431592071157. Finally, the log-loss mean decreased from 0.671562542722538 to 0.5844861550369151, and the log-loss standard deviation stayed around the same from 0.05683764575001967 to 0.05877664357475228. All these three pairs of results show that since the means are increasing, classification performance is improving, and since the standard deviations are decreasing, the classification performance is more precise and reliable. (These results can all be seen in '/results/prelim-task1-summary.csv')
+Additionally, these improvements are consistent across all 10 stratified random splits. The accuracy mean increased from 0.627848 to 0.70329, accuracy standard decreased from 0.10370 to 0.09902. The ROC AUC mean increased from 0.618695 to 0.77742, ROC AUC standard deviation decreased from 0.17511 to 0.074134. Finally, the log-loss mean decreased from 0.67156 to 0.584486, and the log-loss standard deviation stayed around the same from 0.0568376 to 0.0587766. All these three pairs of results show that since the means are increasing, classification performance is improving, and since the standard deviations are decreasing, the classification performance is more precise and reliable. (These results can all be seen in '/results/prelim-task1-summary.csv')
 
 
 ### Bigrams
 
 Do bigrams capture additional information relevant to the classification of interest? Answer the question, **briefly** describe what analysis you conducted to arrive at your answer, and provide quantitative evidence supporting your answer.
 
-No, bigrams do not capture meaningful, additional information beyond 
+No, bigrams do not capture meaningful, additional information beyond unigram work features.
+
+We tested whether bigrams added meaningful information using a two-stage stacked logistic regression on the combined paragraph and header text ("ph"). In Stage 1, we fit a world-level TF-IDF PCR model to general out-of-fold predicted log-odds on the training set, and a full-fit log-odds on the test set.
+
+In Stage 2, we fit a logistic regression combining Stage 1 word log-odds with the top $m$ principle components from a bigram TF-IDF matrix, which was filtered to bigrams appearing in at least 5 documents, selecting $m \in \{0, 1, 2, 5, 10, 20, 35, 50, 75, 100\}$ via 5-fold cross-validated log-loss and comparing against word-only PCR, recalibrating word-only PCR ($m = 0$), and bigrams-only PCR baselines across the shared split and 9 additional random splits.
+
+On the shared split, cross-validation selected $m = 0$ bigram PCs, showing that the stacked model reduced identically to recalibrated word-only PCR (test accuracy = 0.7949, AUC = 0.8417, log-loss = 0.5680), while a bigram-only PCR performed substantially worse (test accuracy = 0.7949, AUC = 0.8417, log-loss = 0.5680). Across all 10 splits, adding bigram PCs produced basically no change over recalibrated word-only PCR.
 
 ### Neural net
 
