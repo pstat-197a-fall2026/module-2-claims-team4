@@ -1,0 +1,5 @@
+model,n_test,.metric,.estimator,.estimate
+NN (small),434,accuracy,binary,0.8317972350230415
+NN (small),434,sensitivity,binary,0.8281938325991189
+NN (small),434,specificity,binary,0.8357487922705314
+NN (small),434,roc_auc,binary,0.8756304667049735

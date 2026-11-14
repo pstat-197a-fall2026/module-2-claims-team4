@@ -1,0 +1,435 @@
+.id,truth,prob_relevant,estimate
+url355,Relevant claim content,0.6523309350013733,Relevant claim content
+url585,Relevant claim content,0.6563128232955933,Relevant claim content
+url742,N/A: No relevant content.,0.4060923159122467,N/A: No relevant content.
+url212,Relevant claim content,0.28391602635383606,N/A: No relevant content.
+url426,Relevant claim content,0.8639367818832397,Relevant claim content
+url1618,N/A: No relevant content.,0.3307744562625885,N/A: No relevant content.
+url1363,N/A: No relevant content.,0.40723681449890137,N/A: No relevant content.
+url1031,Relevant claim content,0.8774332404136658,Relevant claim content
+url2896,N/A: No relevant content.,0.5414111614227295,Relevant claim content
+url435,N/A: No relevant content.,0.483832448720932,N/A: No relevant content.
+url1286,N/A: No relevant content.,0.09530578553676605,N/A: No relevant content.
+url127,N/A: No relevant content.,0.04840496554970741,N/A: No relevant content.
+url723,Relevant claim content,0.887982189655304,Relevant claim content
+url1460,Relevant claim content,0.6680986881256104,Relevant claim content
+url2408,Relevant claim content,0.8990857601165771,Relevant claim content
+url2604,N/A: No relevant content.,0.4289260804653168,N/A: No relevant content.
+url2600,Relevant claim content,0.8928967714309692,Relevant claim content
+url1680,Relevant claim content,0.7809509038925171,Relevant claim content
+url689,N/A: No relevant content.,0.0017578143160790205,N/A: No relevant content.
+url1743,Relevant claim content,1.8233271839562804e-4,N/A: No relevant content.
+url2665,N/A: No relevant content.,0.0067406934686005116,N/A: No relevant content.
+url993,N/A: No relevant content.,0.010206636972725391,N/A: No relevant content.
+url752,N/A: No relevant content.,0.09572335332632065,N/A: No relevant content.
+url2898,Relevant claim content,0.9164729714393616,Relevant claim content
+url2963,Relevant claim content,0.9822573661804199,Relevant claim content
+url1889,N/A: No relevant content.,1.527179632754283e-10,N/A: No relevant content.
+url258,N/A: No relevant content.,1.6340574802597985e-5,N/A: No relevant content.
+url2745,N/A: No relevant content.,0.12611030042171478,N/A: No relevant content.
+url1821,N/A: No relevant content.,0.47904157638549805,N/A: No relevant content.
+url453,N/A: No relevant content.,0.018054785206913948,N/A: No relevant content.
+url829,Relevant claim content,0.8772294521331787,Relevant claim content
+url108,Relevant claim content,0.2171916663646698,N/A: No relevant content.
+url164,Relevant claim content,0.6058777570724487,Relevant claim content
+url1394,Relevant claim content,0.5449866652488708,Relevant claim content
+url2573,Relevant claim content,0.7643226981163025,Relevant claim content
+url2940,Relevant claim content,0.900973916053772,Relevant claim content
+url1719,N/A: No relevant content.,0.07629454880952835,N/A: No relevant content.
+url2899,Relevant claim content,0.9998040795326233,Relevant claim content
+url3056,Relevant claim content,0.9995691776275635,Relevant claim content
+url1064,Relevant claim content,0.6024448275566101,Relevant claim content
+url1865,Relevant claim content,0.8416447043418884,Relevant claim content
+url1779,Relevant claim content,0.5234248638153076,Relevant claim content
+url2098,N/A: No relevant content.,0.4521099328994751,N/A: No relevant content.
+url2911,N/A: No relevant content.,0.023878080770373344,N/A: No relevant content.
+url365,N/A: No relevant content.,0.0628652349114418,N/A: No relevant content.
+url2177,Relevant claim content,0.43284106254577637,N/A: No relevant content.
+url62,Relevant claim content,0.9444602727890015,Relevant claim content
+url73,Relevant claim content,0.9318245053291321,Relevant claim content
+url2588,N/A: No relevant content.,0.2886705696582794,N/A: No relevant content.
+url2987,N/A: No relevant content.,0.4274195730686188,N/A: No relevant content.
+url309,Relevant claim content,0.003332490101456642,N/A: No relevant content.
+url2296,Relevant claim content,0.9966755509376526,Relevant claim content
+url3051,N/A: No relevant content.,0.38567274808883667,N/A: No relevant content.
+url1853,Relevant claim content,0.8452551960945129,Relevant claim content
+url1175,N/A: No relevant content.,0.1438184380531311,N/A: No relevant content.
+url455,N/A: No relevant content.,0.247172549366951,N/A: No relevant content.
+url2035,Relevant claim content,0.7257956266403198,Relevant claim content
+url1076,Relevant claim content,0.9949731230735779,Relevant claim content
+url1772,Relevant claim content,0.49194130301475525,N/A: No relevant content.
+url2838,Relevant claim content,0.9120045304298401,Relevant claim content
+url749,N/A: No relevant content.,0.001076843705959618,N/A: No relevant content.
+url1764,Relevant claim content,0.6527523994445801,Relevant claim content
+url2933,N/A: No relevant content.,3.096199725405313e-5,N/A: No relevant content.
+url1252,N/A: No relevant content.,0.16483189165592194,N/A: No relevant content.
+url2763,Relevant claim content,0.8266049027442932,Relevant claim content
+url3009,Relevant claim content,0.9018299579620361,Relevant claim content
+url3018,N/A: No relevant content.,0.4676819443702698,N/A: No relevant content.
+url1907,N/A: No relevant content.,0.10196363180875778,N/A: No relevant content.
+url2506,N/A: No relevant content.,4.260833084117621e-4,N/A: No relevant content.
+url493,N/A: No relevant content.,9.410371421836317e-4,N/A: No relevant content.
+url2189,Relevant claim content,0.5093199014663696,Relevant claim content
+url1931,Relevant claim content,0.857666015625,Relevant claim content
+url2424,Relevant claim content,0.8398662805557251,Relevant claim content
+url445,N/A: No relevant content.,0.36147341132164,N/A: No relevant content.
+url1728,N/A: No relevant content.,0.0200726967304945,N/A: No relevant content.
+url1187,N/A: No relevant content.,0.4599361717700958,N/A: No relevant content.
+url2738,N/A: No relevant content.,0.0036179793532937765,N/A: No relevant content.
+url659,Relevant claim content,0.45917990803718567,N/A: No relevant content.
+url1300,Relevant claim content,0.49269887804985046,N/A: No relevant content.
+url2926,Relevant claim content,0.9997537136077881,Relevant claim content
+url1108,Relevant claim content,0.9260041117668152,Relevant claim content
+url1788,Relevant claim content,0.9722146391868591,Relevant claim content
+url2364,N/A: No relevant content.,0.2663646638393402,N/A: No relevant content.
+url1823,Relevant claim content,0.973609447479248,Relevant claim content
+url1372,N/A: No relevant content.,0.27712276577949524,N/A: No relevant content.
+url2553,N/A: No relevant content.,6.365555454976857e-4,N/A: No relevant content.
+url3007,Relevant claim content,0.999110996723175,Relevant claim content
+url2826,Relevant claim content,0.9999352693557739,Relevant claim content
+url2092,N/A: No relevant content.,0.987296998500824,Relevant claim content
+url823,N/A: No relevant content.,0.03972122445702553,N/A: No relevant content.
+url1683,Relevant claim content,0.985456645488739,Relevant claim content
+url2576,Relevant claim content,0.9811822772026062,Relevant claim content
+url1403,N/A: No relevant content.,8.998305020213593e-6,N/A: No relevant content.
+url2632,N/A: No relevant content.,0.48622480034828186,N/A: No relevant content.
+url484,Relevant claim content,0.900395393371582,Relevant claim content
+url1935,N/A: No relevant content.,0.6840243339538574,Relevant claim content
+url132,Relevant claim content,0.7645224928855896,Relevant claim content
+url1066,Relevant claim content,0.9794273972511292,Relevant claim content
+url1847,Relevant claim content,0.610417366027832,Relevant claim content
+url436,N/A: No relevant content.,0.4705721437931061,N/A: No relevant content.
+url1699,N/A: No relevant content.,0.39174312353134155,N/A: No relevant content.
+url1171,Relevant claim content,0.9912709593772888,Relevant claim content
+url2748,Relevant claim content,0.49887970089912415,N/A: No relevant content.
+url886,Relevant claim content,0.9993334412574768,Relevant claim content
+url96,Relevant claim content,0.8906704187393188,Relevant claim content
+url1462,Relevant claim content,0.992005467414856,Relevant claim content
+url2510,N/A: No relevant content.,1.332500954021043e-8,N/A: No relevant content.
+url353,Relevant claim content,0.9421933889389038,Relevant claim content
+url642,Relevant claim content,0.46872004866600037,N/A: No relevant content.
+url1876,Relevant claim content,0.9996395111083984,Relevant claim content
+url1225,N/A: No relevant content.,0.11296260356903076,N/A: No relevant content.
+url2859,N/A: No relevant content.,0.0054853446781635284,N/A: No relevant content.
+url2971,N/A: No relevant content.,0.9318245053291321,Relevant claim content
+url639,N/A: No relevant content.,0.1299152672290802,N/A: No relevant content.
+url3030,Relevant claim content,0.43897485733032227,N/A: No relevant content.
+url2710,Relevant claim content,0.9926676750183105,Relevant claim content
+url1540,Relevant claim content,0.9772921800613403,Relevant claim content
+url1501,Relevant claim content,0.8742148876190186,Relevant claim content
+url2874,Relevant claim content,0.9792868494987488,Relevant claim content
+url1592,N/A: No relevant content.,0.9594444632530212,Relevant claim content
+url1579,Relevant claim content,0.9705191254615784,Relevant claim content
+url101,Relevant claim content,0.6454408168792725,Relevant claim content
+url1834,N/A: No relevant content.,0.1321001946926117,N/A: No relevant content.
+url2620,N/A: No relevant content.,0.0021033978555351496,N/A: No relevant content.
+url2135,N/A: No relevant content.,0.5165980458259583,Relevant claim content
+url1825,N/A: No relevant content.,0.050791796296834946,N/A: No relevant content.
+url936,Relevant claim content,2.0943010167684406e-4,N/A: No relevant content.
+url1419,N/A: No relevant content.,0.08381467312574387,N/A: No relevant content.
+url1180,N/A: No relevant content.,0.17352601885795593,N/A: No relevant content.
+url1168,N/A: No relevant content.,3.778367681661621e-5,N/A: No relevant content.
+url2285,N/A: No relevant content.,0.08841200917959213,N/A: No relevant content.
+url494,N/A: No relevant content.,1.2941475148464665e-12,N/A: No relevant content.
+url1086,Relevant claim content,0.9865383505821228,Relevant claim content
+url1971,Relevant claim content,0.8732022643089294,Relevant claim content
+url2465,N/A: No relevant content.,0.29244524240493774,N/A: No relevant content.
+url1298,N/A: No relevant content.,0.08724165707826614,N/A: No relevant content.
+url558,Relevant claim content,0.9918112754821777,Relevant claim content
+url3062,Relevant claim content,0.7142984867095947,Relevant claim content
+url1561,N/A: No relevant content.,0.4815216362476349,N/A: No relevant content.
+url2427,Relevant claim content,0.5547454357147217,Relevant claim content
+url1568,Relevant claim content,0.9546899795532227,Relevant claim content
+url893,Relevant claim content,0.35393717885017395,N/A: No relevant content.
+url67,Relevant claim content,0.9415481090545654,Relevant claim content
+url2702,N/A: No relevant content.,0.10185786336660385,N/A: No relevant content.
+url472,Relevant claim content,0.9205472469329834,Relevant claim content
+url454,Relevant claim content,0.47949594259262085,N/A: No relevant content.
+url2782,N/A: No relevant content.,0.4048633277416229,N/A: No relevant content.
+url2359,N/A: No relevant content.,0.12794561684131622,N/A: No relevant content.
+url1710,Relevant claim content,0.9970059394836426,Relevant claim content
+url2518,N/A: No relevant content.,0.2515740394592285,N/A: No relevant content.
+url2454,Relevant claim content,0.8444982767105103,Relevant claim content
+url36,Relevant claim content,0.8201024532318115,Relevant claim content
+url577,N/A: No relevant content.,0.3592687249183655,N/A: No relevant content.
+url463,N/A: No relevant content.,2.7270130598111564e-10,N/A: No relevant content.
+url2696,N/A: No relevant content.,0.24308648705482483,N/A: No relevant content.
+url2536,N/A: No relevant content.,0.4826123118400574,N/A: No relevant content.
+url1773,Relevant claim content,0.254489004611969,N/A: No relevant content.
+url986,Relevant claim content,0.8889966607093811,Relevant claim content
+url779,Relevant claim content,0.9970665574073792,Relevant claim content
+url2267,N/A: No relevant content.,0.12093976140022278,N/A: No relevant content.
+url2976,N/A: No relevant content.,0.7703558802604675,Relevant claim content
+url2335,Relevant claim content,0.9234699606895447,Relevant claim content
+url1721,Relevant claim content,0.9938503503799438,Relevant claim content
+url1923,Relevant claim content,0.9724832773208618,Relevant claim content
+url1520,Relevant claim content,0.46856945753097534,N/A: No relevant content.
+url1319,N/A: No relevant content.,0.0010989230358973145,N/A: No relevant content.
+url2482,N/A: No relevant content.,0.05028378963470459,N/A: No relevant content.
+url794,N/A: No relevant content.,0.7298294305801392,Relevant claim content
+url946,Relevant claim content,0.9852712154388428,Relevant claim content
+url307,N/A: No relevant content.,0.022642042487859726,N/A: No relevant content.
+url2920,Relevant claim content,0.9862767457962036,Relevant claim content
+url1767,Relevant claim content,0.836730420589447,Relevant claim content
+url335,Relevant claim content,0.5006170272827148,Relevant claim content
+url598,N/A: No relevant content.,0.8918210864067078,Relevant claim content
+url268,Relevant claim content,0.8655222654342651,Relevant claim content
+url1516,Relevant claim content,1,Relevant claim content
+url1138,N/A: No relevant content.,0.19240862131118774,N/A: No relevant content.
+url1651,Relevant claim content,0.9999338388442993,Relevant claim content
+url2845,Relevant claim content,0.8715938329696655,Relevant claim content
+url2913,N/A: No relevant content.,7.87725639384007e-6,N/A: No relevant content.
+url1660,Relevant claim content,0.9867537021636963,Relevant claim content
+url2085,Relevant claim content,0.6969826221466064,Relevant claim content
+url1869,Relevant claim content,0.8000885844230652,Relevant claim content
+url1519,Relevant claim content,0.9761187434196472,Relevant claim content
+url2725,N/A: No relevant content.,8.803620943353963e-8,N/A: No relevant content.
+url2476,N/A: No relevant content.,0.461516797542572,N/A: No relevant content.
+url1042,Relevant claim content,0.9282826781272888,Relevant claim content
+url474,Relevant claim content,0.9997379183769226,Relevant claim content
+url1527,Relevant claim content,0.8987079858779907,Relevant claim content
+url2416,Relevant claim content,0.9885469675064087,Relevant claim content
+url2131,Relevant claim content,0.9920985698699951,Relevant claim content
+url21,N/A: No relevant content.,0.008370726369321346,N/A: No relevant content.
+url1857,N/A: No relevant content.,0.5036138296127319,Relevant claim content
+url1030,Relevant claim content,0.8939914703369141,Relevant claim content
+url406,N/A: No relevant content.,0.4681512117385864,N/A: No relevant content.
+url467,Relevant claim content,0.9982836842536926,Relevant claim content
+url540,N/A: No relevant content.,0.9363898634910583,Relevant claim content
+url501,Relevant claim content,2.843626361936913e-6,N/A: No relevant content.
+url766,Relevant claim content,0.9959715604782104,Relevant claim content
+url3013,Relevant claim content,0.4589633047580719,N/A: No relevant content.
+url1194,N/A: No relevant content.,2.647552755661309e-4,N/A: No relevant content.
+url2247,Relevant claim content,0.6502798199653625,Relevant claim content
+url2494,N/A: No relevant content.,0.15993407368659973,N/A: No relevant content.
+url2464,N/A: No relevant content.,0.4003445506095886,N/A: No relevant content.
+url210,Relevant claim content,0.2776145040988922,N/A: No relevant content.
+url2000,Relevant claim content,0.678497850894928,Relevant claim content
+url970,N/A: No relevant content.,0.47915440797805786,N/A: No relevant content.
+url2338,Relevant claim content,0.9262378811836243,Relevant claim content
+url1896,N/A: No relevant content.,0.21380700170993805,N/A: No relevant content.
+url1311,N/A: No relevant content.,0.12422171980142593,N/A: No relevant content.
+url978,Relevant claim content,0.48060861229896545,N/A: No relevant content.
+url760,Relevant claim content,0.3170543611049652,N/A: No relevant content.
+url1193,N/A: No relevant content.,0.006426756735891104,N/A: No relevant content.
+url2954,Relevant claim content,0.8244619965553284,Relevant claim content
+url2756,Relevant claim content,0.9815373420715332,Relevant claim content
+url2755,Relevant claim content,0.9963966012001038,Relevant claim content
+url245,N/A: No relevant content.,0.3011201024055481,N/A: No relevant content.
+url148,Relevant claim content,0.923784613609314,Relevant claim content
+url1815,N/A: No relevant content.,2.7584235795075074e-5,N/A: No relevant content.
+url2487,N/A: No relevant content.,4.0025185444392264e-4,N/A: No relevant content.
+url1102,Relevant claim content,0.9891014695167542,Relevant claim content
+url2034,Relevant claim content,0.9269640445709229,Relevant claim content
+url1885,N/A: No relevant content.,0.7614057660102844,Relevant claim content
+url91,Relevant claim content,0.9926563501358032,Relevant claim content
+url2125,N/A: No relevant content.,0.9943956136703491,Relevant claim content
+url2715,N/A: No relevant content.,0.007014514412730932,N/A: No relevant content.
+url2726,N/A: No relevant content.,0.3182530701160431,N/A: No relevant content.
+url383,Relevant claim content,0.9431860446929932,Relevant claim content
+url2619,N/A: No relevant content.,0.004063908476382494,N/A: No relevant content.
+url1591,Relevant claim content,0.9902612566947937,Relevant claim content
+url1673,Relevant claim content,0.9991924166679382,Relevant claim content
+url2758,Relevant claim content,0.9977124929428101,Relevant claim content
+url1160,N/A: No relevant content.,0.25578463077545166,N/A: No relevant content.
+url1887,Relevant claim content,0.7328454256057739,Relevant claim content
+url2496,N/A: No relevant content.,0.04999722167849541,N/A: No relevant content.
+url1149,Relevant claim content,0.48929792642593384,N/A: No relevant content.
+url145,N/A: No relevant content.,0.4728998839855194,N/A: No relevant content.
+url97,Relevant claim content,0.9125654697418213,Relevant claim content
+url226,N/A: No relevant content.,0.15923438966274261,N/A: No relevant content.
+url950,Relevant claim content,0.3507300019264221,N/A: No relevant content.
+url123,N/A: No relevant content.,0.4691111147403717,N/A: No relevant content.
+url1008,Relevant claim content,0.7505494356155396,Relevant claim content
+url2053,Relevant claim content,0.9999271631240845,Relevant claim content
+url2750,Relevant claim content,0.6818714141845703,Relevant claim content
+url1709,Relevant claim content,0.9919043183326721,Relevant claim content
+url1084,Relevant claim content,0.8054437041282654,Relevant claim content
+url2891,Relevant claim content,0.7971168160438538,Relevant claim content
+url1357,N/A: No relevant content.,0.02245255745947361,N/A: No relevant content.
+url1664,Relevant claim content,0.9997112154960632,Relevant claim content
+url207,Relevant claim content,0.9809848666191101,Relevant claim content
+url2862,Relevant claim content,0.999252200126648,Relevant claim content
+url360,Relevant claim content,0.9936267137527466,Relevant claim content
+url2592,N/A: No relevant content.,0.3640819489955902,N/A: No relevant content.
+url2652,Relevant claim content,0.7258731126785278,Relevant claim content
+url2945,N/A: No relevant content.,0.7974759340286255,Relevant claim content
+url113,Relevant claim content,0.9976223111152649,Relevant claim content
+url734,Relevant claim content,0.8285082578659058,Relevant claim content
+url2995,Relevant claim content,0.9012861251831055,Relevant claim content
+url449,N/A: No relevant content.,0.1200023666024208,N/A: No relevant content.
+url1441,N/A: No relevant content.,0.21223410964012146,N/A: No relevant content.
+url44,Relevant claim content,0.974726140499115,Relevant claim content
+url1960,N/A: No relevant content.,0.03135937079787254,N/A: No relevant content.
+url2417,Relevant claim content,0.994520366191864,Relevant claim content
+url581,N/A: No relevant content.,0.4682437479496002,N/A: No relevant content.
+url1233,N/A: No relevant content.,0.5397435426712036,Relevant claim content
+url2841,N/A: No relevant content.,2.448497689329088e-4,N/A: No relevant content.
+url2986,Relevant claim content,0.5536116361618042,Relevant claim content
+url1449,N/A: No relevant content.,0.3662698566913605,N/A: No relevant content.
+url2471,N/A: No relevant content.,0.7111635208129883,Relevant claim content
+url1418,N/A: No relevant content.,0.009631291031837463,N/A: No relevant content.
+url2740,N/A: No relevant content.,0.00271393358707428,N/A: No relevant content.
+url1044,Relevant claim content,0.9580129981040955,Relevant claim content
+url2964,Relevant claim content,0.8253300189971924,Relevant claim content
+url399,Relevant claim content,0.11445164680480957,N/A: No relevant content.
+url1003,Relevant claim content,0.9808469414710999,Relevant claim content
+url1116,N/A: No relevant content.,0.8055170774459839,Relevant claim content
+url2057,Relevant claim content,0.002816717838868499,N/A: No relevant content.
+url697,Relevant claim content,0.3219583332538605,N/A: No relevant content.
+url2792,N/A: No relevant content.,0.08973386883735657,N/A: No relevant content.
+url2373,N/A: No relevant content.,0.09724072366952896,N/A: No relevant content.
+url872,N/A: No relevant content.,0.003470875322818756,N/A: No relevant content.
+url2144,N/A: No relevant content.,0.5978363156318665,Relevant claim content
+url18,N/A: No relevant content.,0.0010319268330931664,N/A: No relevant content.
+url521,N/A: No relevant content.,3.165151065331884e-5,N/A: No relevant content.
+url2624,N/A: No relevant content.,0.16731877624988556,N/A: No relevant content.
+url2356,N/A: No relevant content.,0.1414462924003601,N/A: No relevant content.
+url2668,N/A: No relevant content.,0.2343192845582962,N/A: No relevant content.
+url125,Relevant claim content,0.7193117141723633,Relevant claim content
+url2834,N/A: No relevant content.,0.0979040339589119,N/A: No relevant content.
+url1615,N/A: No relevant content.,0.0032827656250447035,N/A: No relevant content.
+url1220,N/A: No relevant content.,0.3422538638114929,N/A: No relevant content.
+url854,N/A: No relevant content.,0.12254170328378677,N/A: No relevant content.
+url1678,Relevant claim content,0.5707912445068359,Relevant claim content
+url2509,N/A: No relevant content.,0.22800156474113464,N/A: No relevant content.
+url1588,Relevant claim content,0.0016541719669476151,N/A: No relevant content.
+url2733,N/A: No relevant content.,0.9322222471237183,Relevant claim content
+url256,Relevant claim content,0.9012972116470337,Relevant claim content
+url969,Relevant claim content,0.9573404788970947,Relevant claim content
+url1425,N/A: No relevant content.,0.0944073498249054,N/A: No relevant content.
+url2809,Relevant claim content,0.9908347725868225,Relevant claim content
+url329,Relevant claim content,0.5157912969589233,Relevant claim content
+url1512,Relevant claim content,0.7609809041023254,Relevant claim content
+url992,Relevant claim content,0.026579083874821663,N/A: No relevant content.
+url2532,N/A: No relevant content.,0.16071197390556335,N/A: No relevant content.
+url502,Relevant claim content,0.9980006217956543,Relevant claim content
+url2237,N/A: No relevant content.,0.15102313458919525,N/A: No relevant content.
+url92,Relevant claim content,0.27716779708862305,N/A: No relevant content.
+url295,N/A: No relevant content.,0.13374930620193481,N/A: No relevant content.
+url3073,N/A: No relevant content.,0.03512900322675705,N/A: No relevant content.
+url1581,N/A: No relevant content.,0.32557758688926697,N/A: No relevant content.
+url1235,N/A: No relevant content.,0.9907371997833252,Relevant claim content
+url495,Relevant claim content,0.20689137279987335,N/A: No relevant content.
+url818,Relevant claim content,0.9497743248939514,Relevant claim content
+url1379,N/A: No relevant content.,0.07048212736845016,N/A: No relevant content.
+url620,Relevant claim content,0.9309499263763428,Relevant claim content
+url2142,Relevant claim content,0.9961779117584229,Relevant claim content
+url1537,N/A: No relevant content.,0.020509090274572372,N/A: No relevant content.
+url2643,N/A: No relevant content.,0.38422152400016785,N/A: No relevant content.
+url1407,Relevant claim content,1.3376293645706028e-4,N/A: No relevant content.
+url573,N/A: No relevant content.,0.028104273602366447,N/A: No relevant content.
+url2225,N/A: No relevant content.,0.008993498980998993,N/A: No relevant content.
+url1452,Relevant claim content,0.8053210973739624,Relevant claim content
+url192,Relevant claim content,0.41741541028022766,N/A: No relevant content.
+url2572,N/A: No relevant content.,1.561710814712569e-4,N/A: No relevant content.
+url1630,Relevant claim content,0.8971225023269653,Relevant claim content
+url205,Relevant claim content,0.580803632736206,Relevant claim content
+url714,N/A: No relevant content.,0.09115331619977951,N/A: No relevant content.
+url297,N/A: No relevant content.,0.4220488667488098,N/A: No relevant content.
+url2449,Relevant claim content,0.7826035618782043,Relevant claim content
+url2615,Relevant claim content,0.9758196473121643,Relevant claim content
+url1543,N/A: No relevant content.,1.304190107020986e-7,N/A: No relevant content.
+url1945,Relevant claim content,0.6102249622344971,Relevant claim content
+url920,N/A: No relevant content.,0.4936221241950989,N/A: No relevant content.
+url505,N/A: No relevant content.,0.9972761273384094,Relevant claim content
+url2918,Relevant claim content,0.5755524039268494,Relevant claim content
+url1427,N/A: No relevant content.,0.03197970613837242,N/A: No relevant content.
+url1364,N/A: No relevant content.,0.10707256942987442,N/A: No relevant content.
+url429,Relevant claim content,0.9598709940910339,Relevant claim content
+url2558,N/A: No relevant content.,0.3990829885005951,N/A: No relevant content.
+url2062,N/A: No relevant content.,0.21680153906345367,N/A: No relevant content.
+url1681,Relevant claim content,0.9681143760681152,Relevant claim content
+url1221,N/A: No relevant content.,0.9999491572380066,Relevant claim content
+url388,Relevant claim content,0.8263227343559265,Relevant claim content
+url2682,Relevant claim content,0.8006094694137573,Relevant claim content
+url1433,N/A: No relevant content.,0.5006170272827148,Relevant claim content
+url1145,N/A: No relevant content.,0.2631123960018158,N/A: No relevant content.
+url822,N/A: No relevant content.,0.5725756883621216,Relevant claim content
+url2347,N/A: No relevant content.,0.816525399684906,Relevant claim content
+url602,N/A: No relevant content.,0.6832835078239441,Relevant claim content
+url1106,N/A: No relevant content.,0.5501530170440674,Relevant claim content
+url588,Relevant claim content,0.42297518253326416,N/A: No relevant content.
+url1442,N/A: No relevant content.,0.18359793722629547,N/A: No relevant content.
+url2724,Relevant claim content,0.6283982992172241,Relevant claim content
+url2823,N/A: No relevant content.,0.9846948385238647,Relevant claim content
+url508,N/A: No relevant content.,0.11649138480424881,N/A: No relevant content.
+url1054,Relevant claim content,0.9261072278022766,Relevant claim content
+url3092,N/A: No relevant content.,0.9751157760620117,Relevant claim content
+url1314,Relevant claim content,0.07206380367279053,N/A: No relevant content.
+url2617,N/A: No relevant content.,0.23711784183979034,N/A: No relevant content.
+url2079,N/A: No relevant content.,0.10964552313089371,N/A: No relevant content.
+url2287,Relevant claim content,0.9150434732437134,Relevant claim content
+url1688,Relevant claim content,0.7270767688751221,Relevant claim content
+url1607,N/A: No relevant content.,0.0015919964062049985,N/A: No relevant content.
+url5,N/A: No relevant content.,0.041186172515153885,N/A: No relevant content.
+url1469,Relevant claim content,0.7076712846755981,Relevant claim content
+url2466,Relevant claim content,0.4921235144138336,N/A: No relevant content.
+url2115,N/A: No relevant content.,0.3944976031780243,N/A: No relevant content.
+url837,N/A: No relevant content.,0.14720973372459412,N/A: No relevant content.
+url1358,N/A: No relevant content.,0.38903212547302246,N/A: No relevant content.
+url2199,Relevant claim content,0.9383313059806824,Relevant claim content
+url693,Relevant claim content,0.9959214329719543,Relevant claim content
+url1244,N/A: No relevant content.,0.02711540274322033,N/A: No relevant content.
+url487,N/A: No relevant content.,0.30177417397499084,N/A: No relevant content.
+url2236,Relevant claim content,0.8824554681777954,Relevant claim content
+url1741,Relevant claim content,0.9085328578948975,Relevant claim content
+url1556,N/A: No relevant content.,0.04765086621046066,N/A: No relevant content.
+url3063,Relevant claim content,0.9678967595100403,Relevant claim content
+url2413,Relevant claim content,0.8591128587722778,Relevant claim content
+url56,N/A: No relevant content.,0.4477037489414215,N/A: No relevant content.
+url593,N/A: No relevant content.,1.2024994066450745e-4,N/A: No relevant content.
+url1652,Relevant claim content,0.9107679128646851,Relevant claim content
+url1049,Relevant claim content,0.9963433146476746,Relevant claim content
+url928,Relevant claim content,0.8917797803878784,Relevant claim content
+url1809,Relevant claim content,1,Relevant claim content
+url1839,Relevant claim content,0.9265092611312866,Relevant claim content
+url2246,Relevant claim content,0.9980164766311646,Relevant claim content
+url326,Relevant claim content,0.5970470309257507,Relevant claim content
+url2243,Relevant claim content,0.6214785575866699,Relevant claim content
+url898,Relevant claim content,0.9768418073654175,Relevant claim content
+url469,Relevant claim content,7.183795332821319e-6,N/A: No relevant content.
+url2516,N/A: No relevant content.,0.002737443195655942,N/A: No relevant content.
+url1062,Relevant claim content,0.896638035774231,Relevant claim content
+url1890,N/A: No relevant content.,4.284494148354412e-10,N/A: No relevant content.
+url292,N/A: No relevant content.,0.13652600347995758,N/A: No relevant content.
+url786,Relevant claim content,0.771355390548706,Relevant claim content
+url1060,Relevant claim content,0.3989133834838867,N/A: No relevant content.
+url432,N/A: No relevant content.,0.3371545672416687,N/A: No relevant content.
+url1316,Relevant claim content,0.42333656549453735,N/A: No relevant content.
+url187,Relevant claim content,0.9978347420692444,Relevant claim content
+url1158,N/A: No relevant content.,1.4100577391218394e-4,N/A: No relevant content.
+url2104,N/A: No relevant content.,0.00657670758664608,N/A: No relevant content.
+url2014,N/A: No relevant content.,0.417434424161911,N/A: No relevant content.
+url858,Relevant claim content,0.9540819525718689,Relevant claim content
+url2033,N/A: No relevant content.,0.049215976148843765,N/A: No relevant content.
+url28,Relevant claim content,0.3596385717391968,N/A: No relevant content.
+url1715,Relevant claim content,0.8391318321228027,Relevant claim content
+url2468,N/A: No relevant content.,0.6957194209098816,Relevant claim content
+url516,Relevant claim content,0.6287227272987366,Relevant claim content
+url2968,Relevant claim content,0.9846577048301697,Relevant claim content
+url2505,Relevant claim content,0.9982060790061951,Relevant claim content
+url2046,N/A: No relevant content.,0.0026042580138891935,N/A: No relevant content.
+url2641,N/A: No relevant content.,0.7796046733856201,Relevant claim content
+url1411,N/A: No relevant content.,0.015680089592933655,N/A: No relevant content.
+url396,N/A: No relevant content.,0.9983127117156982,Relevant claim content
+url1826,Relevant claim content,0.530358076095581,Relevant claim content
+url532,N/A: No relevant content.,0.19185461103916168,N/A: No relevant content.
+url2907,Relevant claim content,0.9996858835220337,Relevant claim content
+url2330,N/A: No relevant content.,0.9312176704406738,Relevant claim content
+url230,Relevant claim content,0.6977007389068604,Relevant claim content
+url120,Relevant claim content,0.9983968138694763,Relevant claim content
+url350,Relevant claim content,1,Relevant claim content
+url2635,N/A: No relevant content.,0.4712250530719757,N/A: No relevant content.
+url1051,Relevant claim content,0.94631195068359375,Relevant claim content
+url81,N/A: No relevant content.,0.20585167407989502,N/A: No relevant content.
+url672,N/A: No relevant content.,0.3326352834701538,N/A: No relevant content.
+url3001,N/A: No relevant content.,0.0480281263589859,N/A: No relevant content.
+url2366,N/A: No relevant content.,0.12723347544670105,N/A: No relevant content.
+url916,N/A: No relevant content.,0.5143510103225708,Relevant claim content
+url1946,Relevant claim content,0.9899346828460693,Relevant claim content
+url79,N/A: No relevant content.,0.09306363016366959,N/A: No relevant content.
+url2100,N/A: No relevant content.,0.3980037569999695,N/A: No relevant content.
+url17,N/A: No relevant content.,0.022385351359844208,N/A: No relevant content.
+url1153,N/A: No relevant content.,0.4190411865711212,N/A: No relevant content.
+url1017,Relevant claim content,0.6004812121391296,Relevant claim content
