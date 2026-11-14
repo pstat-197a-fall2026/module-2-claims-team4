@@ -8,7 +8,8 @@ date: today
 
 Provide a 3-5 sentence summary of your work on the primary task. Indicate what input data was used, what method was used for binary class predictions, what method was used for multiclass predictions, and what estimated accuracies were achieved.
 
-> *Header and paragraph content was scraped from the raw webpages and processed into term frequencies of word tokens. For binary classification, a two-layer neural network yielded an estimated 81.4% accuracy; for multiclass classification, a support vector machine gave 78% accuracy.*
+
+> *We used 2,165 labeled webpages to train our models and then made predictions on 929 unlabelled test webpages. We pulled text from the HTML titles, meta descriptions, headers, and paragraphs, and turned those words and two-word phrases into TF-IDF numbers. For the binary task, we used a linear support vector machine (SVM) and got about 81.4% accuracy. For the multiclass classification, we paired that binary SVM with a second linear SVM trained only on relevant pages, which got about 78% accuracy.*
 
 ### Preprocessing
 
@@ -20,6 +21,9 @@ In one paragraph lay out your preprocessing pipeline. No need to provide exact s
 
 -   how cleaned text was represented quantitatively
 
+> *First, we parsed every raw webpage so that no pages got dropped, even if they were missing standard HTML tags. We removed background code like `<script>` and `<style>` tags, and then pulled out the readable text into two separate groups: page metadata (titles and meta descriptions) and main page content (headers and paragraphs). Next, we cleaned the text by removing links, emails, apostrophes, numbers, and punctuation, splitting camelCase words, and making all text lowercase. Then, we split the text into individual words, dropped common stopwords, stemmed words down to their roots, and added adjacent two-word pairs/bigrams. Finally, we kept terms that showed up in at least 3 pages (and no more than 95% of pages) and converted each page into a row of normalized TF-IDF scores.*
+
+
 ### Methods
 
 Describe your final predictive models. Include one paragraph with details on the binary classification approach, and one on the multiclass approach. Include for each:
@@ -30,8 +34,15 @@ Describe your final predictive models. Include one paragraph with details on the
 
 -   training method
 
+> *For binary classification, we used a linear support vector machine (e1071, cost = 1) with Platt-scaled probability  scaling to predict whether a page had relevant claim content or was `N/A`. Pages with a predicted probability over 0.5 were labeled as relevant, and everything else was labeled as `N/A`. We checked the model's accuracy using 5-fold cross-validation—rebuilding the TF-IDF vocabulary inside each fold so there was no data leakage—before training the final model on all 2,165 labeled pages.*
+
+> *For multiclass classification, we used a two-step linear SVM setup (e1071, linear kernel, cost = 1) so that our binary and multiclass predictions would always match up. First, the binary SVM decides if a page is relevant or `N/A`, and if it is `N/A`, the multiclass prediction is automatically set to `N/A` too. If the page is predicted to be relevant, it gets passed to a second linear SVM—trained only on the relevant training pages—which picks whichever of the four claim categories has the highest probability. Just like the binary model, we evaluated this setup with 5-fold cross-validation and then fit the final version on all labeled pages.*
+
 ### Results
 
 Indicate the predictive accuracy of the binary classifications and the multiclass classifications. Provide a table for each, and report sensitivity, specificity, and accuracy.[^1]
 
 [^1]: Read [this article](https://yardstick.tidymodels.org/articles/multiclass.html) on multiclass averaging.
+
+
+> *Using 5-fold cross-validation on the 2,165 labeled webpages, our binary SVM reached 81.4% accuracy and our two-step multiclass SVM reached 78% accuracy.*
